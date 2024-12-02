@@ -1,0 +1,28 @@
+2024-10-24 10:57:20:5465 info: Database connected successfully! 
+2024-10-24 10:57:20:8889 debug: EmployeeService:constructor 
+2024-10-24 11:00:13:3463 http: [2024-10-24T16:00:13.345Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 195.799 ms
+ 
+2024-10-24 11:00:14:0230 http: [2024-10-24T16:00:14.023Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 48.414 ms
+ 
+2024-10-24 11:00:14:3684 http: [2024-10-24T16:00:14.367Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 34.069 ms
+ 
+2024-10-24 11:00:16:1752 http: [2024-10-24T16:00:16.175Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 55.441 ms
+ 
+2024-10-24 11:01:02:2042 http: [2024-10-24T16:01:02.204Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 94.314 ms
+ 
+2024-10-24 11:01:04:3393 http: [2024-10-24T16:01:04.338Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 41.119 ms
+ 
+2024-10-24 11:01:43:1872 http: [2024-10-24T16:01:43.187Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 111.122 ms
+ 
+2024-10-24 11:01:44:8829 http: [2024-10-24T16:01:44.881Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 31.755 ms
+ 
+2024-10-24 11:03:55:4364 http: [2024-10-24T16:03:55.436Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 99.274 ms
+ 
+2024-10-24 11:03:55:7347 http: [2024-10-24T16:03:55.734Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 32.258 ms
+ 
+2024-10-24 11:03:57:2432 http: [2024-10-24T16:03:57.243Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 30.008 ms
+ 
+2024-10-24 11:04:04:6326 http: [2024-10-24T16:04:04.632Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 30.554 ms
+ 
+2024-10-24 11:04:07:3934 http: [2024-10-24T16:04:07.393Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 24.966 ms
+ 

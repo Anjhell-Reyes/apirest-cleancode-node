@@ -1,0 +1,74 @@
+2024-07-09 09:29:25:0981 info: Database connected successfully! 
+2024-07-09 09:29:25:5475 debug: EmployeeService:constructor 
+2024-07-09 09:30:28:9089 http: [2024-07-09T14:30:28.907Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 479.423 ms
+ 
+2024-07-09 09:30:57:6927 http: [2024-07-09T14:30:57.692Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 166.143 ms
+ 
+2024-07-09 09:30:58:3644 http: [2024-07-09T14:30:58.364Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 65.926 ms
+ 
+2024-07-09 09:31:00:2052 http: [2024-07-09T14:31:00.205Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 33.706 ms
+ 
+2024-07-09 09:31:58:6727 http: [2024-07-09T14:31:58.672Z] ::1 "GET /api/v1/employee?page=2&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 141.602 ms
+ 
+2024-07-09 09:32:00:3143 http: [2024-07-09T14:32:00.313Z] ::1 "GET /api/v1/employee?page=3&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 58.005 ms
+ 
+2024-07-09 09:32:01:8889 http: [2024-07-09T14:32:01.888Z] ::1 "GET /api/v1/employee?page=4&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 43.620 ms
+ 
+2024-07-09 09:32:02:97210 http: [2024-07-09T14:32:02.971Z] ::1 "GET /api/v1/employee?page=5&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 44.137 ms
+ 
+2024-07-09 09:32:03:99210 http: [2024-07-09T14:32:03.992Z] ::1 "GET /api/v1/employee?page=6&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 47.295 ms
+ 
+2024-07-09 09:32:06:2432 http: [2024-07-09T14:32:06.242Z] ::1 "GET /api/v1/employee?page=5&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 68.095 ms
+ 
+2024-07-09 09:32:07:1391 http: [2024-07-09T14:32:07.139Z] ::1 "GET /api/v1/employee?page=4&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 36.985 ms
+ 
+2024-07-09 09:32:09:2492 http: [2024-07-09T14:32:09.246Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 36.080 ms
+ 
+2024-07-09 09:34:46:8318 info: Database connected successfully! 
+2024-07-09 09:34:47:1502 debug: EmployeeService:constructor 
+2024-07-09 09:35:26:4254 http: [2024-07-09T14:35:26.424Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 330.374 ms
+ 
+2024-07-09 09:35:26:4294 http: [2024-07-09T14:35:26.429Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 318.343 ms
+ 
+2024-07-09 09:35:29:8959 http: [2024-07-09T14:35:29.894Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 57.277 ms
+ 
+2024-07-09 09:36:01:7297 debug: Finding data of 'EmployeeEntity' by id: 810 
+2024-07-09 09:36:02:0821 http: [2024-07-09T14:36:02.082Z] ::1 "GET /api/v1/employee/810 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 336.921 ms
+ 
+2024-07-09 09:36:08:96710 http: [2024-07-09T14:36:08.966Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 71.544 ms
+ 
+2024-07-09 09:36:09:3504 http: [2024-07-09T14:36:09.350Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 66.772 ms
+ 
+2024-07-09 09:36:28:8739 http: [2024-07-09T14:36:28.873Z] ::1 "GET /api/v1/employee?page=2&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 165.555 ms
+ 
+2024-07-09 09:36:30:2893 http: [2024-07-09T14:36:30.289Z] ::1 "GET /api/v1/employee?page=3&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 53.014 ms
+ 
+2024-07-09 16:25:15:5185 info: Database connected successfully! 
+2024-07-09 16:25:15:7778 debug: EmployeeService:constructor 
+2024-07-09 16:26:04:5516 http: [2024-07-09T21:26:04.551Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 210.333 ms
+ 
+2024-07-09 16:26:27:0120 http: [2024-07-09T21:26:27.012Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 117.477 ms
+ 
+2024-07-09 16:26:27:3944 http: [2024-07-09T21:26:27.394Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 35.366 ms
+ 
+2024-07-09 16:26:28:6356 http: [2024-07-09T21:26:28.635Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 34.610 ms
+ 
+2024-07-09 16:27:06:2543 http: [2024-07-09T21:27:06.254Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=inactive&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 97.450 ms
+ 
+2024-07-09 16:27:11:5876 http: [2024-07-09T21:27:11.587Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 43.718 ms
+ 
+2024-07-09 16:27:47:3483 debug: Finding data of 'EmployeeEntity' by id: 804 
+2024-07-09 16:27:47:5686 http: [2024-07-09T21:27:47.568Z] ::1 "GET /api/v1/employee/804 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 217.760 ms
+ 
+2024-07-09 16:27:51:0040 http: [2024-07-09T21:27:51.004Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 31.878 ms
+ 
+2024-07-09 16:27:51:3063 http: [2024-07-09T21:27:51.305Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 31.285 ms
+ 
+2024-07-09 16:52:52:1391 http: [2024-07-09T21:52:52.138Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 8.835 ms
+ 
+2024-07-09 16:52:52:1502 http: [2024-07-09T21:52:52.150Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 14.207 ms
+ 
+2024-07-09 16:52:52:1532 http: [2024-07-09T21:52:52.153Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 3.804 ms
+ 
+2024-07-09 16:52:52:1562 http: [2024-07-09T21:52:52.156Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.373 ms
+ 

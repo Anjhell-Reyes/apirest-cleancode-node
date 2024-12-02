@@ -1,0 +1,29 @@
+2024-05-29 08:25:17:3403 info: Database connected successfully! 
+2024-05-29 08:25:17:7978 debug: EmployeeService:constructor 
+2024-05-29 08:26:23:7127 http: [2024-05-29T13:26:23.711Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 270.214 ms
+ 
+2024-05-29 08:35:19:4865 http: [2024-05-29T13:35:19.486Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 279.997 ms
+ 
+2024-05-29 08:35:21:8448 http: [2024-05-29T13:35:21.844Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 57.358 ms
+ 
+2024-05-29 08:35:22:2883 http: [2024-05-29T13:35:22.288Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 55.626 ms
+ 
+2024-05-29 08:35:54:7668 http: [2024-05-29T13:35:54.765Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 133.375 ms
+ 
+2024-05-29 08:35:58:7578 debug: Finding data of 'EmployeeEntity' by id: 12 
+2024-05-29 08:35:58:8218 http: [2024-05-29T13:35:58.821Z] ::1 "GET /api/v1/employee/12 HTTP/1.1" 200 844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 64.482 ms
+ 
+2024-05-29 08:36:09:6877 http: [2024-05-29T13:36:09.687Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 134.219 ms
+ 
+2024-05-29 08:57:33:6717 http: [2024-05-29T13:57:33.670Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 123.504 ms
+ 
+2024-05-29 09:20:16:5876 http: [2024-05-29T14:20:16.586Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 168.424 ms
+ 
+2024-05-29 09:24:15:1171 http: [2024-05-29T14:24:15.116Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 683.645 ms
+ 
+2024-05-29 09:26:14:98110 http: [2024-05-29T14:26:14.980Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 249.006 ms
+ 
+2024-05-29 09:27:12:4925 http: [2024-05-29T14:27:12.492Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 191.561 ms
+ 
+2024-05-29 09:27:12:5075 http: [2024-05-29T14:27:12.507Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 214.191 ms
+ 

@@ -1,0 +1,10 @@
+2024-05-19 19:58:17:7628 info: Database connected successfully! 
+2024-05-19 19:58:18:0961 debug: EmployeeService:constructor 
+2024-05-19 20:00:36:0551 http: [2024-05-20T01:00:36.054Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 393.187 ms
+ 
+2024-05-19 20:00:50:7998 http: [2024-05-20T01:00:50.799Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 82.363 ms
+ 
+2024-05-19 20:00:50:98510 http: [2024-05-20T01:00:50.985Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 20.580 ms
+ 
+2024-05-19 20:45:37:6777 http: [2024-05-20T01:45:37.677Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 84.979 ms
+ 

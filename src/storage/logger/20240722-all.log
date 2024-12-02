@@ -1,0 +1,10 @@
+2024-07-22 15:24:34:3323 info: Database connected successfully! 
+2024-07-22 15:24:34:7467 debug: EmployeeService:constructor 
+2024-07-22 15:25:56:2252 http: [2024-07-22T20:25:56.224Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 298.507 ms
+ 
+2024-07-22 15:25:57:1622 http: [2024-07-22T20:25:57.162Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 99.857 ms
+ 
+2024-07-22 15:25:57:8338 http: [2024-07-22T20:25:57.832Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 62.604 ms
+ 
+2024-07-22 15:26:00:0270 http: [2024-07-22T20:26:00.027Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 43.606 ms
+ 

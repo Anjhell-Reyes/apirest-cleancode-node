@@ -1,0 +1,187 @@
+2024-11-25 08:57:12:6947 info: Database connected successfully! 
+2024-11-25 08:57:13:0811 debug: TaskService:constructor 
+2024-11-25 19:06:09:0901 info: Database connected successfully! 
+2024-11-25 19:06:09:4605 debug: TaskService:constructor 
+2024-11-25 19:07:17:7217 debug: Creating data of 'TaskEntity' 
+2024-11-25 19:07:17:7778 http: [2024-11-26T00:07:17.776Z] ::1 "POST /api/v1/tasks HTTP/1.1" 201 232 "-" "PostmanRuntime/7.42.0" {"title":"Revision","description":"Revisar todos los proyectos","completed":false,"startDate":"2024-11-24","endDate":"2024-11-29"} 53.027 ms
+ 
+2024-11-25 19:08:49:5145 info: Database connected successfully! 
+2024-11-25 19:08:49:7257 debug: TaskService:constructor 
+2024-11-25 20:05:33:7367 info: Database connected successfully! 
+2024-11-25 20:05:33:8969 debug: TaskService:constructor 
+2024-11-25 20:06:31:8939 error: ResponsableEntity is not defined ReferenceError: ResponsableEntity is not defined
+    at Object._g [as type] (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\infrastructure\persistence\entities\taskEntity.ts:50:22)
+    at new RelationMetadata (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata\RelationMetadata.ts:343:29)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:729:24
+    at Array.map (<anonymous>)
+    at EntityMetadataBuilder.computeEntityMetadataStep1 (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:708:14)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:133:22
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:132:14)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-25 20:06:56:5636 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:07:12:5866 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:07:23:9339 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:07:36:9219 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:08:10:6076 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:08:47:0220 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:10:04:1081 error: ResponsableEntity is not defined ReferenceError: ResponsableEntity is not defined
+    at Object._g [as type] (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\infrastructure\persistence\entities\taskEntity.ts:52:22)
+    at new RelationMetadata (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata\RelationMetadata.ts:343:29)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:729:24
+    at Array.map (<anonymous>)
+    at EntityMetadataBuilder.computeEntityMetadataStep1 (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:708:14)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:133:22
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:132:14)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-25 20:10:12:4695 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:23:28:5415 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:23:32:8218 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:23:37:8529 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:26:11:0651 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:26:21:9129 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:27:41:2032 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)
+2024-11-25 20:28:17:7648 error: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options. TypeORMError: Entity metadata for TaskEntity#responsable was not found. Check if you specified a correct entity object and if it's connected in the connection options.
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1121:23
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.computeInverseProperties (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:1111:34)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:158:18
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\metadata-builder\EntityMetadataBuilder.ts:157:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\connection\ConnectionMetadataBuilder.ts:106:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at DataSource.buildMetadatas (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:710:13)
+    at DataSource.initialize (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:263:13)

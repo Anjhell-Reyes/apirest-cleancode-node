@@ -1,0 +1,168 @@
+2024-08-20 10:37:51:9379 error: Ambiguous match found for serviceIdentifier: Symbol(UserController) Error: Ambiguous match found for serviceIdentifier: Symbol(UserController)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:92:23)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:68:5)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:103:26)
+    at plan (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:154:9)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:626:46
+    at Container._get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:596:38)
+    at Container._getButThrowIfAsync (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:599:27)
+    at Container.get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:374:21)
+    at ServiceCollection.get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\bootstrap\ioc\serviceCollection.ts:16:27)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\routes\v1\userRouter.ts:8:24)
+2024-08-20 10:39:12:2382 error: Ambiguous match found for serviceIdentifier: Symbol(UserController) Error: Ambiguous match found for serviceIdentifier: Symbol(UserController)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:92:23)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:68:5)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:103:26)
+    at plan (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:154:9)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:626:46
+    at Container._get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:596:38)
+    at Container._getButThrowIfAsync (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:599:27)
+    at Container.get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:374:21)
+    at ServiceCollection.get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\bootstrap\ioc\serviceCollection.ts:16:27)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\routes\v1\userRouter.ts:8:24)
+2024-08-20 10:43:02:7588 error: Ambiguous match found for serviceIdentifier: Symbol(UserController) Error: Ambiguous match found for serviceIdentifier: Symbol(UserController)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:92:23)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:68:5)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:103:26)
+    at plan (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:154:9)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:626:46
+    at Container._get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:596:38)
+    at Container._getButThrowIfAsync (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:599:27)
+    at Container.get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:374:21)
+    at ServiceCollection.get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\bootstrap\ioc\serviceCollection.ts:16:27)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\routes\v1\userRouter.ts:8:24)
+2024-08-20 10:43:24:3283 error: Ambiguous match found for serviceIdentifier: Symbol(UserController) Error: Ambiguous match found for serviceIdentifier: Symbol(UserController)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:92:23)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:68:5)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:103:26)
+    at plan (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:154:9)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:626:46
+    at Container._get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:596:38)
+    at Container._getButThrowIfAsync (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:599:27)
+    at Container.get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:374:21)
+    at ServiceCollection.get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\bootstrap\ioc\serviceCollection.ts:16:27)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\routes\v1\userRouter.ts:8:24)
+2024-08-20 10:55:30:7347 error: Ambiguous match found for serviceIdentifier: Symbol(UserController) Error: Ambiguous match found for serviceIdentifier: Symbol(UserController)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:92:23)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:68:5)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:103:26)
+    at plan (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\planning\planner.js:154:9)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:626:46
+    at Container._get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:596:38)
+    at Container._getButThrowIfAsync (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:599:27)
+    at Container.get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\inversify\lib\container\container.js:374:21)
+    at ServiceCollection.get (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\bootstrap\ioc\serviceCollection.ts:16:27)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\routes\v1\userRouter.ts:8:24)
+2024-08-20 10:57:59:9399 error: No metadata for "UserEntity" was found. EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\data-source\DataSource.ts:450:30)
+    at Repository.get metadata [as metadata] (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\repository\Repository.ts:53:40)
+    at Repository.find (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\repository\Repository.ts:544:39)
+    at DefaultCrudRepository.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\DefaultCrudRepository.ts:55:29)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\DefaultCrudRepository.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\DefaultCrudRepository.ts:4:12)
+    at DefaultCrudRepository.list (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\DefaultCrudRepository.ts:54:16)
+    at UserRepository.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\userRepository.ts:29:45)
+2024-08-20 11:01:36:2372 error: relation "user" does not exist QueryFailedError: relation "user" does not exist
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getMany (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1760:25)
+2024-08-20 11:06:19:1582 info: Database connected successfully! 
+2024-08-20 11:06:19:5335 debug: EmployeeService:constructor 
+2024-08-20 11:06:37:7197 info: Database connected successfully! 
+2024-08-20 11:06:38:1672 debug: EmployeeService:constructor 
+2024-08-20 11:07:17:1131 info: Database connected successfully! 
+2024-08-20 11:07:17:8028 debug: EmployeeService:constructor 
+2024-08-20 11:07:24:1812 info: Database connected successfully! 
+2024-08-20 11:07:24:6807 debug: EmployeeService:constructor 
+2024-08-20 11:07:37:0070 http: [2024-08-20T16:07:37.006Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 12.138 ms
+ 
+2024-08-20 11:07:37:0130 http: [2024-08-20T16:07:37.013Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 18.905 ms
+ 
+2024-08-20 11:07:37:0440 http: [2024-08-20T16:07:37.044Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 8.097 ms
+ 
+2024-08-20 11:07:37:0511 http: [2024-08-20T16:07:37.051Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 9.933 ms
+ 
+2024-08-20 11:07:44:6046 http: [2024-08-20T16:07:44.604Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 235.823 ms
+ 
+2024-08-20 11:07:59:3493 debug: Listing data of 'UserEntity' 
+2024-08-20 11:07:59:5075 http: [2024-08-20T16:07:59.507Z] ::ffff:127.0.0.1 "GET /api/v1/user HTTP/1.1" 200 413 "-" "insomnia/2023.5.8" {"userName":"wcastrocopy","email":"castrogilwilsoncopy@gmail.com","password":"12345"} 156.427 ms
+ 
+2024-08-20 11:08:14:98710 debug: Creating data of 'UserEntity' 
+2024-08-20 11:08:15:3874 error: llave duplicada viola restricción de unicidad «UQ_2356e187b2a6e1490e4f06f7508» QueryFailedError: llave duplicada viola restricción de unicidad «UQ_2356e187b2a6e1490e4f06f7508»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-08-20 11:08:15:4004 http: [2024-08-20T16:08:15.400Z] ::ffff:127.0.0.1 "POST /api/v1/user HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"userName":"wcastrocopy","email":"castrogilwilsoncopy@gmail.com","password":"12345"} 691.092 ms
+ 
+2024-08-20 11:08:46:8509 debug: Listing data of 'UserEntity' 
+2024-08-20 11:08:47:0420 http: [2024-08-20T16:08:47.041Z] ::ffff:127.0.0.1 "GET /api/v1/user HTTP/1.1" 200 413 "-" "insomnia/2023.5.8" {"userName":"wcastrocopy","email":"castrogilwilsoncopy@gmail.com","password":"12345"} 191.370 ms
+ 
+2024-08-20 11:09:21:8158 debug: Creating data of 'UserEntity' 
+2024-08-20 11:09:21:98510 error: llave duplicada viola restricción de unicidad «UQ_2356e187b2a6e1490e4f06f7508» QueryFailedError: llave duplicada viola restricción de unicidad «UQ_2356e187b2a6e1490e4f06f7508»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-08-20 11:09:21:99410 http: [2024-08-20T16:09:21.993Z] ::ffff:127.0.0.1 "POST /api/v1/user HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"userName":"miguel","email":"miguelang405y@gmail.com","password":"123456"} 365.446 ms
+ 
+2024-08-20 11:13:31:4444 debug: Creating data of 'UserEntity' 
+2024-08-20 11:13:31:5566 error: llave duplicada viola restricción de unicidad «UQ_2356e187b2a6e1490e4f06f7508» QueryFailedError: llave duplicada viola restricción de unicidad «UQ_2356e187b2a6e1490e4f06f7508»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-08-20 11:13:31:5616 http: [2024-08-20T16:13:31.561Z] ::ffff:127.0.0.1 "POST /api/v1/user HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"id":6,"userName":"miguel","email":"miguelang405y@gmail.com","password":"123456"} 216.634 ms
+ 
+2024-08-20 11:14:25:9069 debug: Creating data of 'UserEntity' 
+2024-08-20 11:14:25:98310 error: llave duplicada viola restricción de unicidad «UQ_2356e187b2a6e1490e4f06f7508» QueryFailedError: llave duplicada viola restricción de unicidad «UQ_2356e187b2a6e1490e4f06f7508»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-08-20 11:14:25:98710 http: [2024-08-20T16:14:25.987Z] ::ffff:127.0.0.1 "POST /api/v1/user HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"_id":6,"userName":"miguel","email":"miguelang405y@gmail.com","password":"123456"} 176.181 ms
+ 
+2024-08-20 11:15:28:9139 debug: Deleting data of 'UserEntity' by id: 1 
+2024-08-20 11:15:28:9149 debug: Finding data of 'UserEntity' by id: 1 
+2024-08-20 11:15:28:99910 debug: Affected rows: 1 
+2024-08-20 11:15:29:0010 http: [2024-08-20T16:15:29.001Z] ::ffff:127.0.0.1 "DELETE /api/v1/user/1 HTTP/1.1" 200 159 "-" "insomnia/2023.5.8" {"id":6,"userName":"miguel","email":"miguelang405y@gmail.com","password":"123456"} 88.578 ms
+ 
+2024-08-20 11:15:36:5786 debug: Listing data of 'UserEntity' 
+2024-08-20 11:15:36:5886 http: [2024-08-20T16:15:36.587Z] ::ffff:127.0.0.1 "GET /api/v1/user HTTP/1.1" 200 236 "-" "insomnia/2023.5.8" {"id":6,"userName":"miguel","email":"miguelang405y@gmail.com","password":"123456"} 9.491 ms
+ 
+2024-08-20 11:15:49:1752 debug: Listing data of 'UserEntity' 
+2024-08-20 11:15:49:2482 http: [2024-08-20T16:15:49.248Z] ::ffff:127.0.0.1 "GET /api/v1/user HTTP/1.1" 200 236 "-" "insomnia/2023.5.8" {"userName":"miguel","email":"miguelang405y@gmail.com","password":"123456"} 72.820 ms
+ 
+2024-08-20 11:15:55:2142 debug: Creating data of 'UserEntity' 
+2024-08-20 11:15:55:2302 error: llave duplicada viola restricción de unicidad «UQ_2356e187b2a6e1490e4f06f7508» QueryFailedError: llave duplicada viola restricción de unicidad «UQ_2356e187b2a6e1490e4f06f7508»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-08-20 11:15:55:2342 http: [2024-08-20T16:15:55.234Z] ::ffff:127.0.0.1 "POST /api/v1/user HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"userName":"miguel","email":"miguelang405y@gmail.com","password":"123456"} 115.937 ms
+ 
+2024-08-20 11:16:36:1101 debug: Listing data of 'UserEntity' 
+2024-08-20 11:16:36:1772 http: [2024-08-20T16:16:36.177Z] ::ffff:127.0.0.1 "GET /api/v1/user HTTP/1.1" 200 236 "-" "insomnia/2023.5.8" {"userName":"miguel","email":"miguelang405y@gmail.com","password":"123456"} 66.659 ms
+ 
+2024-08-20 11:16:57:0531 debug: Updating data of 'UserEntity' by id: 5 
+2024-08-20 11:16:57:1461 debug: Affected rows: 1 
+2024-08-20 11:16:57:1461 debug: Finding data of 'UserEntity' by id: 5 
+2024-08-20 11:16:57:1532 http: [2024-08-20T16:16:57.153Z] ::ffff:127.0.0.1 "PUT /api/v1/user/5 HTTP/1.1" 200 228 "-" "insomnia/2023.5.8" {"userName":"wcastroActualizado"} 100.847 ms
+ 
+2024-08-20 11:20:09:5265 error: getaddrinfo ENOTFOUND base Error: getaddrinfo ENOTFOUND base
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)

@@ -1,0 +1,447 @@
+2024-10-20 10:36:06:4074 info: Database connected successfully! 
+2024-10-20 10:36:06:8428 debug: EmployeeService:constructor 
+2024-10-20 10:38:58:1011 http: [2024-10-20T15:38:58.100Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 342.186 ms
+ 
+2024-10-20 10:38:59:5556 http: [2024-10-20T15:38:59.555Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 76.062 ms
+ 
+2024-10-20 10:39:00:4895 http: [2024-10-20T15:39:00.489Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 79.052 ms
+ 
+2024-10-20 10:39:01:2042 http: [2024-10-20T15:39:01.203Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 69.704 ms
+ 
+2024-10-20 10:39:04:2713 http: [2024-10-20T15:39:04.270Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 42.835 ms
+ 
+2024-10-20 10:39:41:5195 http: [2024-10-20T15:39:41.519Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 263.930 ms
+ 
+2024-10-20 10:40:00:1562 http: [2024-10-20T15:40:00.155Z] ::1 "GET /api/v1/employee?page=9&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 195.569 ms
+ 
+2024-10-20 10:40:26:5526 debug: Finding data of 'EmployeeEntity' by id: 15 
+2024-10-20 10:40:27:1251 http: [2024-10-20T15:40:27.125Z] ::1 "GET /api/v1/employee/15 HTTP/1.1" 200 1014 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 573.687 ms
+ 
+2024-10-20 10:42:45:1491 http: [2024-10-20T15:42:45.149Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 141.608 ms
+ 
+2024-10-20 10:42:46:1381 http: [2024-10-20T15:42:46.137Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 45.007 ms
+ 
+2024-10-20 10:42:52:9459 http: [2024-10-20T15:42:52.945Z] ::1 "GET /api/v1/employee?page=83&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 38.912 ms
+ 
+2024-10-20 10:42:54:7888 http: [2024-10-20T15:42:54.788Z] ::1 "GET /api/v1/employee?page=82&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 40.794 ms
+ 
+2024-10-20 10:43:14:3564 debug: Finding data of 'EmployeeEntity' by id: 11 
+2024-10-20 10:43:14:6116 http: [2024-10-20T15:43:14.611Z] ::1 "GET /api/v1/employee/11 HTTP/1.1" 200 982 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 253.601 ms
+ 
+2024-10-20 10:43:27:4595 http: [2024-10-20T15:43:27.458Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 147.055 ms
+ 
+2024-10-20 10:43:28:4434 http: [2024-10-20T15:43:28.443Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 49.423 ms
+ 
+2024-10-20 10:45:27:0120 http: [2024-10-20T15:45:27.012Z] ::1 "GET /api/v1/employee?page=83&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 145.223 ms
+ 
+2024-10-20 10:45:29:5796 http: [2024-10-20T15:45:29.579Z] ::1 "GET /api/v1/employee?page=82&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 44.133 ms
+ 
+2024-10-20 10:51:28:2412 http: [2024-10-20T15:51:28.229Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 200 24820 "-" "insomnia/2023.5.8" {} 149.317 ms
+ 
+2024-10-20 10:51:38:6236 debug: Finding data of 'EmployeeEntity' by id: 11 
+2024-10-20 10:51:38:7768 http: [2024-10-20T15:51:38.775Z] ::ffff:127.0.0.1 "GET /api/v1/employee/11 HTTP/1.1" 200 982 "-" "insomnia/2023.5.8" {} 152.286 ms
+ 
+2024-10-20 10:54:25:6076 debug: Finding data of 'EmployeeEntity' by id: 11 
+2024-10-20 10:54:26:0200 http: [2024-10-20T15:54:26.020Z] ::1 "GET /api/v1/employee/11 HTTP/1.1" 200 982 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 411.862 ms
+ 
+2024-10-20 10:59:54:7377 debug: Finding data of 'EmployeeEntity' by id: 11 
+2024-10-20 10:59:54:9079 debug: Updating data of 'EmployeeEntity' by id: 11 
+2024-10-20 10:59:54:95710 debug: Affected rows: 1 
+2024-10-20 10:59:54:95810 debug: Finding data of 'EmployeeEntity' by id: 11 
+2024-10-20 10:59:54:99210 http: [2024-10-20T15:59:54.992Z] ::1 "PUT /api/v1/employee/11 HTTP/1.1" 200 1017 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"id":11,"name":"ALBEIRO","firstLastName":"HOYOS","secondLastName":"","documentTypeId":1,"documentNumber":"1007698014","email":"oingenieriasuministros@gmail.com","cellPhone":"3053020440","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"VEREDA MINA NUEVA","address":"VEREDA MINA NUEVA","bloodTypeId":7,"dateBirth":"1992-06-08","nationalityId":169,"departmentBirthCode":5,"municipalityBirthCode":5736,"educationLevelId":1,"lastYearStudy":5,"genderId":1,"maritalStatusId":1,"children":0,"ageChildren":"0","userRegister":1,"userUpdate":1,"isActive":true,"workingTypeId":1,"salary":1300000,"epsId":5,"afpId":1,"afcId":1,"arlId":2,"rlId":5,"ccfId":6,"noveltyId":0,"workCenterId":1,"transportationAllowance":162000,"parafiscales":true,"positionId":33,"dateEntry":"2021-01-14","paymentPeriodId":1,"contributorId":2,"subcotizanteId":1,"namesSurnames":"ALBEIRO HOYOS","createdAt":"2024-06-11T03:57:57.789Z","updatedAt":"2024-06-11T03:57:57.789Z"} 254.732 ms
+ 
+2024-10-20 10:59:55:2182 http: [2024-10-20T15:59:55.218Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 106.131 ms
+ 
+2024-10-20 10:59:56:6847 http: [2024-10-20T15:59:56.684Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 40.863 ms
+ 
+2024-10-20 11:03:03:5345 http: [2024-10-20T16:03:03.533Z] ::1 "GET /api/v1/employee?page=83&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 153.407 ms
+ 
+2024-10-20 11:03:06:3233 http: [2024-10-20T16:03:06.323Z] ::1 "GET /api/v1/employee?page=82&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 46.955 ms
+ 
+2024-10-20 11:03:11:4414 debug: Finding data of 'EmployeeEntity' by id: 11 
+2024-10-20 11:03:11:4745 http: [2024-10-20T16:03:11.474Z] ::1 "GET /api/v1/employee/11 HTTP/1.1" 200 1017 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 31.840 ms
+ 
+2024-10-20 11:03:29:0931 http: [2024-10-20T16:03:29.093Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 140.854 ms
+ 
+2024-10-20 11:03:29:96210 http: [2024-10-20T16:03:29.962Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 35.330 ms
+ 
+2024-10-20 11:04:18:1051 debug: Finding data of 'EmployeeEntity' by id: 821 
+2024-10-20 11:04:18:3884 http: [2024-10-20T16:04:18.388Z] ::1 "GET /api/v1/employee/821 HTTP/1.1" 200 996 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 281.518 ms
+ 
+2024-10-20 11:04:31:2643 http: [2024-10-20T16:04:31.264Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 136.916 ms
+ 
+2024-10-20 11:04:32:3063 http: [2024-10-20T16:04:32.306Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 34.672 ms
+ 
+2024-10-20 11:05:45:0110 http: [2024-10-20T16:05:45.011Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 314.355 ms
+ 
+2024-10-20 11:05:51:98610 http: [2024-10-20T16:05:51.986Z] ::1 "GET /api/v1/employee?page=2&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 95.863 ms
+ 
+2024-10-20 11:05:57:4785 http: [2024-10-20T16:05:57.478Z] ::1 "GET /api/v1/employee?page=3&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 74.554 ms
+ 
+2024-10-20 11:06:02:0891 http: [2024-10-20T16:06:02.089Z] ::1 "GET /api/v1/employee?page=4&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 80.675 ms
+ 
+2024-10-20 11:06:06:8859 http: [2024-10-20T16:06:06.885Z] ::1 "GET /api/v1/employee?page=5&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 89.906 ms
+ 
+2024-10-20 11:06:11:5255 http: [2024-10-20T16:06:11.524Z] ::1 "GET /api/v1/employee?page=6&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 81.680 ms
+ 
+2024-10-20 11:06:18:5616 http: [2024-10-20T16:06:18.561Z] ::1 "GET /api/v1/employee?page=7&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 82.800 ms
+ 
+2024-10-20 11:06:45:3253 http: [2024-10-20T16:06:45.325Z] ::1 "GET /api/v1/employee?page=6&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 175.788 ms
+ 
+2024-10-20 11:07:05:7728 debug: Finding data of 'EmployeeEntity' by id: 289 
+2024-10-20 11:07:06:1371 http: [2024-10-20T16:07:06.137Z] ::1 "GET /api/v1/employee/289 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 364.071 ms
+ 
+2024-10-20 11:08:06:1101 http: [2024-10-20T16:08:06.110Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 183.867 ms
+ 
+2024-10-20 11:08:07:2793 http: [2024-10-20T16:08:07.279Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 40.167 ms
+ 
+2024-10-20 11:08:14:5005 http: [2024-10-20T16:08:14.499Z] ::1 "GET /api/v1/employee?page=2&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 45.149 ms
+ 
+2024-10-20 11:08:18:7878 http: [2024-10-20T16:08:18.787Z] ::1 "GET /api/v1/employee?page=3&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 39.714 ms
+ 
+2024-10-20 11:08:45:7508 debug: Finding data of 'EmployeeEntity' by id: 803 
+2024-10-20 11:08:46:0030 http: [2024-10-20T16:08:46.003Z] ::1 "GET /api/v1/employee/803 HTTP/1.1" 200 970 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 252.133 ms
+ 
+2024-10-20 11:09:34:9169 debug: Finding data of 'EmployeeEntity' by id: 803 
+2024-10-20 11:09:35:0611 http: [2024-10-20T16:09:35.060Z] ::ffff:127.0.0.1 "GET /api/v1/employee/803 HTTP/1.1" 200 970 "-" "insomnia/2023.5.8" {} 143.634 ms
+ 
+2024-10-20 12:52:11:3864 http: [2024-10-20T17:52:11.386Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 210.408 ms
+ 
+2024-10-20 12:52:12:5666 http: [2024-10-20T17:52:12.566Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 42.002 ms
+ 
+2024-10-20 12:52:13:4494 http: [2024-10-20T17:52:13.449Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 42.914 ms
+ 
+2024-10-20 12:52:14:0871 http: [2024-10-20T17:52:14.087Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 44.030 ms
+ 
+2024-10-20 12:52:14:6897 http: [2024-10-20T17:52:14.689Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 50.732 ms
+ 
+2024-10-20 12:52:19:1762 http: [2024-10-20T17:52:19.176Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 40.978 ms
+ 
+2024-10-20 12:52:32:0691 http: [2024-10-20T17:52:32.069Z] ::1 "GET /api/v1/employee?page=2&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 151.253 ms
+ 
+2024-10-20 12:52:37:9389 http: [2024-10-20T17:52:37.938Z] ::1 "GET /api/v1/employee?page=3&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 38.411 ms
+ 
+2024-10-20 12:52:53:2713 debug: Finding data of 'EmployeeEntity' by id: 803 
+2024-10-20 12:52:53:6667 http: [2024-10-20T17:52:53.666Z] ::1 "GET /api/v1/employee/803 HTTP/1.1" 200 970 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 394.953 ms
+ 
+2024-10-20 12:53:53:3964 http: [2024-10-20T17:53:53.396Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 197.255 ms
+ 
+2024-10-20 12:53:54:7067 http: [2024-10-20T17:53:54.705Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 33.719 ms
+ 
+2024-10-20 12:54:01:7087 http: [2024-10-20T17:54:01.708Z] ::1 "GET /api/v1/employee?page=2&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 35.818 ms
+ 
+2024-10-20 12:54:03:8869 http: [2024-10-20T17:54:03.886Z] ::1 "GET /api/v1/employee?page=3&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 47.317 ms
+ 
+2024-10-20 12:54:10:8418 debug: Finding data of 'EmployeeEntity' by id: 803 
+2024-10-20 12:54:10:8789 http: [2024-10-20T17:54:10.878Z] ::1 "GET /api/v1/employee/803 HTTP/1.1" 200 970 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 36.195 ms
+ 
+2024-10-20 12:55:26:5325 http: [2024-10-20T17:55:26.531Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 154.693 ms
+ 
+2024-10-20 12:55:27:5105 http: [2024-10-20T17:55:27.509Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 30.835 ms
+ 
+2024-10-20 12:55:34:0681 http: [2024-10-20T17:55:34.068Z] ::1 "GET /api/v1/employee?page=2&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 38.091 ms
+ 
+2024-10-20 12:55:36:3674 http: [2024-10-20T17:55:36.367Z] ::1 "GET /api/v1/employee?page=3&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 45.602 ms
+ 
+2024-10-20 12:55:43:99110 debug: Finding data of 'EmployeeEntity' by id: 803 
+2024-10-20 12:55:44:0180 http: [2024-10-20T17:55:44.018Z] ::1 "GET /api/v1/employee/803 HTTP/1.1" 200 970 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 26.837 ms
+ 
+2024-10-20 12:56:19:6507 http: [2024-10-20T17:56:19.650Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 144.720 ms
+ 
+2024-10-20 12:56:20:5596 http: [2024-10-20T17:56:20.559Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 35.597 ms
+ 
+2024-10-20 19:46:55:6096 info: Database connected successfully! 
+2024-10-20 19:46:55:9289 debug: EmployeeService:constructor 
+2024-10-20 19:53:22:6547 http: [2024-10-21T00:53:22.654Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 539.367 ms
+ 
+2024-10-20 19:53:23:3524 http: [2024-10-21T00:53:23.352Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 50.150 ms
+ 
+2024-10-20 19:53:23:8478 http: [2024-10-21T00:53:23.847Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 42.149 ms
+ 
+2024-10-20 19:53:27:4785 http: [2024-10-21T00:53:27.478Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 42.418 ms
+ 
+2024-10-20 19:54:51:9309 http: [2024-10-21T00:54:51.930Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 135.590 ms
+ 
+2024-10-20 19:55:16:6256 debug: Finding data of 'EmployeeEntity' by id: 822 
+2024-10-20 19:55:16:97010 http: [2024-10-21T00:55:16.970Z] ::1 "GET /api/v1/employee/822 HTTP/1.1" 200 984 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 345.202 ms
+ 
+2024-10-20 19:56:46:7938 debug: Finding data of 'EmployeeEntity' by id: 822 
+2024-10-20 19:56:46:8869 debug: Updating data of 'EmployeeEntity' by id: 822 
+2024-10-20 19:56:46:9229 debug: Affected rows: 1 
+2024-10-20 19:56:46:9239 debug: Finding data of 'EmployeeEntity' by id: 822 
+2024-10-20 19:56:46:95010 http: [2024-10-21T00:56:46.950Z] ::1 "PUT /api/v1/employee/822 HTTP/1.1" 200 991 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"id":822,"name":"VANNESA","firstLastName":"VELEZ","secondLastName":"BARRERA","documentTypeId":1,"documentNumber":"98000114","email":"vb@email.com","cellPhone":"3888888888","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"LA MADRE","address":"CALLE LA MADRE","bloodTypeId":3,"dateBirth":"1997-07-31","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5736,"educationLevelId":2,"lastYearStudy":11,"genderId":1,"maritalStatusId":2,"children":1,"ageChildren":"2","userRegister":1,"userUpdate":1,"isActive":false,"workingTypeId":1,"salary":2000000,"epsId":4,"afpId":3,"afcId":1,"arlId":3,"rlId":2,"ccfId":5,"noveltyId":0,"workCenterId":1,"transportationAllowance":120000,"parafiscales":true,"positionId":3,"dateEntry":"2024-06-12","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"namesSurnames":"VBVBVB VVV BBB","createdAt":"2024-07-22T04:38:20.827Z","updatedAt":"2024-07-22T04:38:20.827Z"} 157.923 ms
+ 
+2024-10-20 19:56:47:5716 http: [2024-10-21T00:56:47.571Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 31.009 ms
+ 
+2024-10-20 19:56:48:3033 http: [2024-10-21T00:56:48.303Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.545 ms
+ 
+2024-10-20 19:57:57:1201 http: [2024-10-21T00:57:57.120Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 90.858 ms
+ 
+2024-10-20 19:57:57:4925 http: [2024-10-21T00:57:57.492Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 24.375 ms
+ 
+2024-10-20 19:58:00:0460 http: [2024-10-21T00:58:00.046Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.136 ms
+ 
+2024-10-20 19:58:21:5425 debug: Finding data of 'EmployeeEntity' by id: 823 
+2024-10-20 19:58:21:7017 http: [2024-10-21T00:58:21.701Z] ::1 "GET /api/v1/employee/823 HTTP/1.1" 200 974 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 158.212 ms
+ 
+2024-10-20 19:59:47:5395 http: [2024-10-21T00:59:47.537Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 92.509 ms
+ 
+2024-10-20 19:59:48:2923 http: [2024-10-21T00:59:48.292Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 30.036 ms
+ 
+2024-10-20 19:59:59:4444 debug: Finding data of 'EmployeeEntity' by id: 822 
+2024-10-20 19:59:59:5756 http: [2024-10-21T00:59:59.575Z] ::1 "GET /api/v1/employee/822 HTTP/1.1" 200 991 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 130.631 ms
+ 
+2024-10-20 20:00:15:5285 http: [2024-10-21T01:00:15.528Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 98.271 ms
+ 
+2024-10-20 20:00:16:3784 http: [2024-10-21T01:00:16.378Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 27.901 ms
+ 
+2024-10-20 20:22:47:7508 info: Database connected successfully! 
+2024-10-20 20:22:47:98510 debug: EmployeeService:constructor 
+2024-10-20 20:23:40:1912 http: [2024-10-21T01:23:40.191Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 132.885 ms
+ 
+2024-10-20 20:23:40:4815 http: [2024-10-21T01:23:40.481Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 45.302 ms
+ 
+2024-10-20 20:23:43:3844 http: [2024-10-21T01:23:43.383Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.537 ms
+ 
+2024-10-20 20:24:08:2693 debug: Finding data of 'EmployeeEntity' by id: 823 
+2024-10-20 20:24:08:4655 http: [2024-10-21T01:24:08.465Z] ::1 "GET /api/v1/employee/823 HTTP/1.1" 200 974 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 196.285 ms
+ 
+2024-10-20 20:24:47:6707 debug: Finding data of 'EmployeeEntity' by id: 823 
+2024-10-20 20:24:47:7688 debug: Updating data of 'EmployeeEntity' by id: 823 
+2024-10-20 20:24:47:7938 debug: Affected rows: 1 
+2024-10-20 20:24:47:7948 debug: Finding data of 'EmployeeEntity' by id: 823 
+2024-10-20 20:24:47:8198 http: [2024-10-21T01:24:47.819Z] ::1 "PUT /api/v1/employee/823 HTTP/1.1" 200 976 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"id":823,"name":"MANUEL","firstLastName":"NAME","secondLastName":"MARIN","documentTypeId":1,"documentNumber":"98000115","email":"nm@correo.com","cellPhone":"3343444444","phone":"","municipalityId":78,"departmentCode":5,"municipalityCode":5604,"district":"LA AVANZADA","address":"CLL 1","bloodTypeId":1,"dateBirth":"1979-02-26","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5604,"educationLevelId":1,"lastYearStudy":5,"genderId":2,"maritalStatusId":1,"children":0,"ageChildren":"0","userRegister":1,"userUpdate":1,"isActive":true,"workingTypeId":1,"salary":1100000,"epsId":5,"afpId":2,"afcId":1,"arlId":2,"rlId":2,"ccfId":2,"noveltyId":0,"workCenterId":1,"transportationAllowance":0,"parafiscales":true,"positionId":8,"dateEntry":"2024-07-12","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"namesSurnames":"NMNMNM NNN MMMM","createdAt":"2024-07-22T04:51:59.486Z","updatedAt":"2024-07-22T04:51:59.486Z"} 148.978 ms
+ 
+2024-10-20 20:24:47:9469 http: [2024-10-21T01:24:47.946Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 40.461 ms
+ 
+2024-10-20 20:24:49:0991 http: [2024-10-21T01:24:49.099Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 31.443 ms
+ 
+2024-10-20 20:34:18:4565 info: Database connected successfully! 
+2024-10-20 20:34:18:7788 debug: EmployeeService:constructor 
+2024-10-20 20:34:33:1992 http: [2024-10-21T01:34:33.199Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 130.420 ms
+ 
+2024-10-20 20:34:33:4765 http: [2024-10-21T01:34:33.476Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 46.736 ms
+ 
+2024-10-20 20:34:36:1672 http: [2024-10-21T01:34:36.166Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 60.980 ms
+ 
+2024-10-20 20:35:04:2793 debug: Finding data of 'EmployeeEntity' by id: 824 
+2024-10-20 20:35:04:4755 http: [2024-10-21T01:35:04.475Z] ::1 "GET /api/v1/employee/824 HTTP/1.1" 200 970 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 195.800 ms
+ 
+2024-10-20 20:35:35:5105 debug: Finding data of 'EmployeeEntity' by id: 824 
+2024-10-20 20:35:35:6086 debug: Updating data of 'EmployeeEntity' by id: 824 
+2024-10-20 20:35:35:6416 debug: Affected rows: 1 
+2024-10-20 20:35:35:6426 debug: Finding data of 'EmployeeEntity' by id: 824 
+2024-10-20 20:35:35:6657 http: [2024-10-21T01:35:35.664Z] ::1 "PUT /api/v1/employee/824 HTTP/1.1" 200 974 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"id":824,"name":"HIM","firstLastName":"HAM","secondLastName":"SULLI","documentTypeId":1,"documentNumber":"98000117","email":"gprr@email.com","cellPhone":"3004866074","phone":"5760000","municipalityId":78,"departmentCode":5,"municipalityCode":5604,"district":"LA AVANZADA","address":"CLL 1","bloodTypeId":1,"dateBirth":"1985-10-31","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5001,"educationLevelId":1,"lastYearStudy":5,"genderId":1,"maritalStatusId":1,"children":0,"ageChildren":"0","userRegister":1,"userUpdate":1,"isActive":true,"workingTypeId":1,"salary":1000000,"epsId":3,"afpId":0,"afcId":1,"arlId":0,"rlId":5,"ccfId":0,"noveltyId":0,"workCenterId":1,"transportationAllowance":0,"parafiscales":true,"positionId":3,"dateEntry":"2024-07-18","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"namesSurnames":"HJHJ HHH ","createdAt":"2024-07-22T05:59:01.061Z","updatedAt":"2024-07-22T05:59:01.061Z"} 153.504 ms
+ 
+2024-10-20 20:35:35:7748 http: [2024-10-21T01:35:35.773Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 45.243 ms
+ 
+2024-10-20 20:35:37:1031 http: [2024-10-21T01:35:37.103Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 30.192 ms
+ 
+2024-10-20 20:39:43:3954 info: Database connected successfully! 
+2024-10-20 20:39:43:6657 debug: EmployeeService:constructor 
+2024-10-20 20:41:06:0490 info: Database connected successfully! 
+2024-10-20 20:41:06:2813 debug: EmployeeService:constructor 
+2024-10-20 20:41:16:3083 http: [2024-10-21T01:41:16.307Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 122.765 ms
+ 
+2024-10-20 20:41:16:6176 http: [2024-10-21T01:41:16.616Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 46.819 ms
+ 
+2024-10-20 20:41:19:6727 http: [2024-10-21T01:41:19.672Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 31.343 ms
+ 
+2024-10-20 20:41:31:7768 debug: Finding data of 'EmployeeEntity' by id: 821 
+2024-10-20 20:41:31:95610 http: [2024-10-21T01:41:31.956Z] ::1 "GET /api/v1/employee/821 HTTP/1.1" 200 996 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 180.582 ms
+ 
+2024-10-20 20:42:19:2793 debug: Finding data of 'EmployeeEntity' by id: 821 
+2024-10-20 20:42:19:3824 debug: Updating data of 'EmployeeEntity' by id: 821 
+2024-10-20 20:42:19:4204 debug: Affected rows: 1 
+2024-10-20 20:42:19:4214 debug: Finding data of 'EmployeeEntity' by id: 821 
+2024-10-20 20:42:19:4444 http: [2024-10-21T01:42:19.444Z] ::1 "PUT /api/v1/employee/821 HTTP/1.1" 200 1003 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"id":821,"name":"MIGUEL","firstLastName":"JARAMILLO","secondLastName":"MENDEZ","documentTypeId":1,"documentNumber":"98000113","email":"mj@correo.com","cellPhone":"3888888888","phone":"5760000","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"LA MADRE","address":"CALLE LA MADRE","bloodTypeId":7,"dateBirth":"2001-12-01","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5736,"educationLevelId":2,"lastYearStudy":11,"genderId":1,"maritalStatusId":2,"children":1,"ageChildren":"14","userRegister":1,"userUpdate":1,"isActive":true,"workingTypeId":1,"salary":1000000,"epsId":5,"afpId":6,"afcId":1,"arlId":2,"rlId":4,"ccfId":2,"noveltyId":0,"workCenterId":1,"transportationAllowance":120000,"parafiscales":true,"positionId":9,"dateEntry":"2024-07-17","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"namesSurnames":"MMMMMJJ JJJJ MMM","createdAt":"2024-07-22T03:57:07.731Z","updatedAt":"2024-07-22T03:57:07.731Z"} 163.981 ms
+ 
+2024-10-20 20:42:19:5485 http: [2024-10-21T01:42:19.548Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 46.390 ms
+ 
+2024-10-20 20:42:20:6677 http: [2024-10-21T01:42:20.667Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 30.029 ms
+ 
+2024-10-20 20:49:58:5355 http: [2024-10-21T01:49:58.535Z] ::1 "GET /api/v1/employee/document/1 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 80.988 ms
+ 
+2024-10-20 20:49:58:9339 http: [2024-10-21T01:49:58.933Z] ::1 "GET /api/v1/employee/document/10 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 51.700 ms
+ 
+2024-10-20 20:49:59:2022 http: [2024-10-21T01:49:59.202Z] ::1 "GET /api/v1/employee/document/100 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.509 ms
+ 
+2024-10-20 20:49:59:4575 http: [2024-10-21T01:49:59.457Z] ::1 "GET /api/v1/employee/document/1000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.271 ms
+ 
+2024-10-20 20:50:00:7788 http: [2024-10-21T01:50:00.778Z] ::1 "GET /api/v1/employee/document/10000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.007 ms
+ 
+2024-10-20 20:50:01:0320 http: [2024-10-21T01:50:01.032Z] ::1 "GET /api/v1/employee/document/100000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.395 ms
+ 
+2024-10-20 20:50:01:2683 http: [2024-10-21T01:50:01.268Z] ::1 "GET /api/v1/employee/document/100000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.830 ms
+ 
+2024-10-20 20:50:03:8809 http: [2024-10-21T01:50:03.880Z] ::1 "GET /api/v1/employee/document/1000000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.119 ms
+ 
+2024-10-20 20:53:07:4094 debug: Creating data of 'EmployeeEntity' 
+2024-10-20 20:53:07:7397 error: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-10-20 20:53:07:7778 http: [2024-10-21T01:53:07.777Z] ::1 "POST /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"documentTypeId":1,"documentNumber":"1000000","name":"NORMA MARIA","firstLastName":"LOPEZ","secondLastName":"MARIN","email":"nm@correo.com","cellPhone":"3148954793","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"VEREDA PANAMA NUEVE","address":"VEREDA PANAMA NUEVE","bloodTypeId":3,"dateBirth":"2000-02-17","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5001,"educationLevelId":3,"lastYearStudy":"5","genderId":2,"maritalStatusId":1,"children":0,"ageChildren":"0","workCenterId":1,"workingTypeId":1,"dateEntry":"2024-10-17","positionId":9,"salary":"1300000","transportationAllowance":"160000","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"epsId":4,"afpId":6,"arlId":2,"ccfId":1,"parafiscales":true,"rlId":5,"isActive":true} 367.556 ms
+ 
+2024-10-20 20:53:28:1181 http: [2024-10-21T01:53:28.118Z] ::1 "GET /api/v1/employee/document/10000002 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 97.054 ms
+ 
+2024-10-20 20:54:04:4985 debug: Creating data of 'EmployeeEntity' 
+2024-10-20 20:54:04:6116 error: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-10-20 20:54:04:6156 http: [2024-10-21T01:54:04.615Z] ::1 "POST /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"documentTypeId":1,"documentNumber":"10000002","name":"NORMA MARIA","firstLastName":"LOPEZ","secondLastName":"MARIN","email":"nmx@correo.com","cellPhone":"3148954791","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"VEREDA PANAMA NUEVA","address":"VEREDA PANAMA NUEVA","bloodTypeId":3,"dateBirth":"2000-02-17","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5001,"educationLevelId":3,"lastYearStudy":"5","genderId":2,"maritalStatusId":1,"children":0,"ageChildren":"0","workCenterId":1,"workingTypeId":1,"dateEntry":"2024-10-17","positionId":9,"salary":"1300000","transportationAllowance":"160000","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"epsId":4,"afpId":6,"arlId":2,"ccfId":1,"parafiscales":true,"rlId":5,"isActive":true} 116.065 ms
+ 
+2024-10-20 20:54:26:4174 http: [2024-10-21T01:54:26.417Z] ::1 "GET /api/v1/employee/document/1000002 HTTP/1.1" 200 970 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 84.929 ms
+ 
+2024-10-20 20:54:35:4354 http: [2024-10-21T01:54:35.435Z] ::1 "GET /api/v1/employee/document/1000000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.519 ms
+ 
+2024-10-20 20:54:35:7027 http: [2024-10-21T01:54:35.702Z] ::1 "GET /api/v1/employee/document/10000007 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.921 ms
+ 
+2024-10-20 20:54:42:6697 debug: Creating data of 'EmployeeEntity' 
+2024-10-20 20:54:42:7087 error: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-10-20 20:54:42:7127 http: [2024-10-21T01:54:42.712Z] ::1 "POST /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"documentTypeId":1,"documentNumber":"10000007","name":"NORMA MARIA","firstLastName":"LOPEZ","secondLastName":"MARIN","email":"nmx@correo.com","cellPhone":"3148954791","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"VEREDA PANAMA NUEVA","address":"VEREDA PANAMA NUEVA","bloodTypeId":3,"dateBirth":"2000-02-17","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5001,"educationLevelId":3,"lastYearStudy":"5","genderId":2,"maritalStatusId":1,"children":0,"ageChildren":"0","workCenterId":1,"workingTypeId":1,"dateEntry":"2024-10-17","positionId":9,"salary":"1300000","transportationAllowance":"160000","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"epsId":4,"afpId":6,"arlId":2,"ccfId":1,"parafiscales":true,"rlId":5,"isActive":true} 42.620 ms
+ 
+2024-10-20 20:55:06:3994 http: [2024-10-21T01:55:06.399Z] ::1 "GET /api/v1/employee/document/1000007 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 81.642 ms
+ 
+2024-10-20 20:55:06:6476 http: [2024-10-21T01:55:06.647Z] ::1 "GET /api/v1/employee/document/10000071 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.907 ms
+ 
+2024-10-20 20:55:10:0961 http: [2024-10-21T01:55:10.096Z] ::1 "GET /api/v1/employee/document/1000071 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.930 ms
+ 
+2024-10-20 20:55:11:5856 http: [2024-10-21T01:55:11.585Z] ::1 "GET /api/v1/employee/document/100007 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 54.304 ms
+ 
+2024-10-20 20:55:11:9329 http: [2024-10-21T01:55:11.932Z] ::1 "GET /api/v1/employee/document/10000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.499 ms
+ 
+2024-10-20 20:55:12:0871 http: [2024-10-21T01:55:12.087Z] ::1 "GET /api/v1/employee/document/10000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 157.907 ms
+ 
+2024-10-20 20:55:12:2442 http: [2024-10-21T01:55:12.243Z] ::1 "GET /api/v1/employee/document/1000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.088 ms
+ 
+2024-10-20 20:55:12:4865 http: [2024-10-21T01:55:12.486Z] ::1 "GET /api/v1/employee/document/1000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.134 ms
+ 
+2024-10-20 20:55:13:1251 http: [2024-10-21T01:55:13.125Z] ::1 "GET /api/v1/employee/document/100 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 47.199 ms
+ 
+2024-10-20 20:55:13:6547 http: [2024-10-21T01:55:13.654Z] ::1 "GET /api/v1/employee/document/10 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 53.280 ms
+ 
+2024-10-20 20:55:14:5666 http: [2024-10-21T01:55:14.566Z] ::1 "GET /api/v1/employee/document/1 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 31.308 ms
+ 
+2024-10-20 20:55:15:2102 http: [2024-10-21T01:55:15.210Z] ::1 "GET /api/v1/employee/document/11 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 41.117 ms
+ 
+2024-10-20 20:55:16:3283 http: [2024-10-21T01:55:16.327Z] ::1 "GET /api/v1/employee/document/110 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.504 ms
+ 
+2024-10-20 20:55:16:8428 http: [2024-10-21T01:55:16.841Z] ::1 "GET /api/v1/employee/document/1100 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.647 ms
+ 
+2024-10-20 20:55:17:1301 http: [2024-10-21T01:55:17.129Z] ::1 "GET /api/v1/employee/document/11000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.008 ms
+ 
+2024-10-20 20:55:18:98210 http: [2024-10-21T01:55:18.981Z] ::1 "GET /api/v1/employee/document/110000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.908 ms
+ 
+2024-10-20 20:55:20:7237 http: [2024-10-21T01:55:20.723Z] ::1 "GET /api/v1/employee/document/1100000 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 14.191 ms
+ 
+2024-10-20 20:55:21:4515 http: [2024-10-21T01:55:21.451Z] ::1 "GET /api/v1/employee/document/11000007 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 53.570 ms
+ 
+2024-10-20 20:56:36:1251 debug: Creating data of 'EmployeeEntity' 
+2024-10-20 20:56:36:2342 error: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-10-20 20:56:36:2402 http: [2024-10-21T01:56:36.240Z] ::1 "POST /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"documentTypeId":1,"documentNumber":"11000007","name":"NORMA MARIA","firstLastName":"LOPEZ","secondLastName":"MARIN","email":"nmx@correo.com","cellPhone":"3148954791","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"VEREDA PANAMA NUEVA","address":"VEREDA PANAMA NUEVA","bloodTypeId":3,"dateBirth":"2000-02-17","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5001,"educationLevelId":3,"lastYearStudy":"5","genderId":2,"maritalStatusId":1,"children":0,"ageChildren":"0","workCenterId":1,"workingTypeId":1,"dateEntry":"2024-10-17","positionId":9,"salary":"1300000","transportationAllowance":"160000","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"epsId":4,"afpId":6,"arlId":2,"ccfId":1,"parafiscales":true,"rlId":5,"isActive":true} 115.422 ms
+ 
+2024-10-20 21:01:07:8178 debug: Creating data of 'EmployeeEntity' 
+2024-10-20 21:01:07:9339 error: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-10-20 21:01:07:9369 http: [2024-10-21T02:01:07.936Z] ::1 "POST /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"documentTypeId":1,"documentNumber":"11000007","name":"NORMA MARIA","firstLastName":"LOPEZ","secondLastName":"MARIN","email":"nmx@correo.com","cellPhone":"3148954791","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"VEREDA PANAMA NUEVA","address":"VEREDA PANAMA NUEVA","bloodTypeId":3,"dateBirth":"2000-02-17","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5001,"educationLevelId":3,"lastYearStudy":"5","genderId":2,"maritalStatusId":1,"children":0,"ageChildren":"0","workCenterId":1,"workingTypeId":1,"dateEntry":"2024-10-17","positionId":9,"salary":"1300000","transportationAllowance":"160000","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"epsId":4,"afpId":6,"arlId":2,"ccfId":1,"parafiscales":true,"rlId":5,"isActive":true} 118.471 ms
+ 
+2024-10-20 21:01:10:1842 debug: Creating data of 'EmployeeEntity' 
+2024-10-20 21:01:10:2152 error: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-10-20 21:01:10:2192 http: [2024-10-21T02:01:10.219Z] ::1 "POST /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"documentTypeId":1,"documentNumber":"11000007","name":"NORMA MARIA","firstLastName":"LOPEZ","secondLastName":"MARIN","email":"nmx@correo.com","cellPhone":"3148954791","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"VEREDA PANAMA NUEVA","address":"VEREDA PANAMA NUEVA","bloodTypeId":3,"dateBirth":"2000-02-17","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5001,"educationLevelId":3,"lastYearStudy":"5","genderId":2,"maritalStatusId":1,"children":0,"ageChildren":"0","workCenterId":1,"workingTypeId":1,"dateEntry":"2024-10-17","positionId":9,"salary":"1300000","transportationAllowance":"160000","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"epsId":4,"afpId":6,"arlId":2,"ccfId":1,"parafiscales":true,"rlId":5,"isActive":true} 35.708 ms
+ 
+2024-10-20 21:01:11:6436 debug: Creating data of 'EmployeeEntity' 
+2024-10-20 21:01:11:6767 error: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-10-20 21:01:11:6837 http: [2024-10-21T02:01:11.683Z] ::1 "POST /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"documentTypeId":1,"documentNumber":"11000007","name":"NORMA MARIA","firstLastName":"LOPEZ","secondLastName":"MARIN","email":"nmx@correo.com","cellPhone":"3148954791","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"VEREDA PANAMA NUEVA","address":"VEREDA PANAMA NUEVA","bloodTypeId":3,"dateBirth":"2000-02-17","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5001,"educationLevelId":3,"lastYearStudy":"5","genderId":2,"maritalStatusId":1,"children":0,"ageChildren":"0","workCenterId":1,"workingTypeId":1,"dateEntry":"2024-10-17","positionId":9,"salary":"1300000","transportationAllowance":"160000","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"epsId":4,"afpId":6,"arlId":2,"ccfId":1,"parafiscales":true,"rlId":5,"isActive":true} 39.539 ms
+ 
+2024-10-20 21:01:12:5946 debug: Creating data of 'EmployeeEntity' 
+2024-10-20 21:01:12:6196 error: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-10-20 21:01:12:6236 http: [2024-10-21T02:01:12.622Z] ::1 "POST /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"documentTypeId":1,"documentNumber":"11000007","name":"NORMA MARIA","firstLastName":"LOPEZ","secondLastName":"MARIN","email":"nmx@correo.com","cellPhone":"3148954791","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"VEREDA PANAMA NUEVA","address":"VEREDA PANAMA NUEVA","bloodTypeId":3,"dateBirth":"2000-02-17","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5001,"educationLevelId":3,"lastYearStudy":"5","genderId":2,"maritalStatusId":1,"children":0,"ageChildren":"0","workCenterId":1,"workingTypeId":1,"dateEntry":"2024-10-17","positionId":9,"salary":"1300000","transportationAllowance":"160000","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"epsId":4,"afpId":6,"arlId":2,"ccfId":1,"parafiscales":true,"rlId":5,"isActive":true} 28.087 ms
+ 
+2024-10-20 21:51:32:5526 debug: Creating data of 'EmployeeEntity' 
+2024-10-20 21:51:32:6547 error: la sintaxis de entrada no es válida para tipo integer: «string» QueryFailedError: la sintaxis de entrada no es válida para tipo integer: «string»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-10-20 21:51:32:6587 http: [2024-10-21T02:51:32.658Z] ::ffff:127.0.0.1 "POST /api/v1/employee HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"name":"NORMA MARIA","firstLastName":"LOPEZ","secondLastName":"MARIN","documentTypeId":"1","documentNumber":"11000007","email":"nmx@correo.com","cellPhone":"3148954791","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"LA MADRE","address":"VEREDA PANAMA NUEVA","bloodTypeId":1,"dateBirth":"2000-02-17","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5736,"educationLevelId":1,"lastYearStudy":5,"genderId":1,"maritalStatusId":1,"children":0,"ageChildren":"0","lastCompany":"string","monthsWorked":0,"workExperience":"string","workIncapacity":"string","userRegister":"string","userUpdate":"string","isActive":true,"workingTypeId":1,"salary":2000000,"epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":5,"ccfId":1,"noveltyId":0,"workCenterId":2,"transportationAllowance":0,"parafiscales":true,"positionId":0,"dateEntry":"2024-07-10","dateExit":null,"paymentPeriodId":1,"subcotizanteId":1} 106.821 ms
+ 
+2024-10-20 21:53:11:5556 debug: Creating data of 'EmployeeEntity' 
+2024-10-20 21:53:11:6687 error: la sintaxis de entrada no es válida para tipo integer: «string» QueryFailedError: la sintaxis de entrada no es válida para tipo integer: «string»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-10-20 21:53:11:6727 http: [2024-10-21T02:53:11.672Z] ::ffff:127.0.0.1 "POST /api/v1/employee HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"name":"NORMA MARIA","firstLastName":"LOPEZ","secondLastName":"MARIN","documentTypeId":1,"documentNumber":"11000007","email":"nmx@correo.com","cellPhone":"3148954791","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"LA MADRE","address":"VEREDA PANAMA NUEVA","bloodTypeId":1,"dateBirth":"2000-02-17","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5736,"educationLevelId":1,"lastYearStudy":5,"genderId":1,"maritalStatusId":1,"children":0,"ageChildren":"0","lastCompany":"string","monthsWorked":0,"workExperience":"string","workIncapacity":"string","userRegister":"string","userUpdate":"string","isActive":true,"workingTypeId":1,"salary":2000000,"epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":5,"ccfId":1,"noveltyId":0,"workCenterId":2,"transportationAllowance":0,"parafiscales":true,"positionId":0,"dateEntry":"2024-07-10","dateExit":null,"paymentPeriodId":1,"subcotizanteId":1} 115.845 ms
+ 
+2024-10-20 21:55:31:99710 debug: Creating data of 'EmployeeEntity' 
+2024-10-20 21:55:32:0821 error: la sintaxis de entrada no es válida para tipo integer: «string» QueryFailedError: la sintaxis de entrada no es válida para tipo integer: «string»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-10-20 21:55:32:0851 http: [2024-10-21T02:55:32.085Z] ::ffff:127.0.0.1 "POST /api/v1/employee HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"name":"NORMA MARIA","firstLastName":"LOPEZ","secondLastName":"MARIN","documentTypeId":1,"documentNumber":"11000007","email":"nmx@correo.com","cellPhone":"3148954791","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"LA MADRE","address":"VEREDA PANAMA NUEVA","bloodTypeId":1,"dateBirth":"2000-02-17","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5736,"educationLevelId":1,"lastYearStudy":5,"genderId":1,"maritalStatusId":1,"children":0,"ageChildren":"0","lastCompany":"string","monthsWorked":0,"workExperience":"string","workIncapacity":"string","userRegister":"string","userUpdate":"string","isActive":true,"workingTypeId":1,"salary":2000000,"epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":5,"ccfId":1,"noveltyId":0,"workCenterId":2,"transportationAllowance":160000,"parafiscales":true,"positionId":0,"dateEntry":"2024-07-10","dateExit":null,"paymentPeriodId":1,"subcotizanteId":1} 88.315 ms
+ 
+2024-10-20 21:56:39:1061 debug: Creating data of 'EmployeeEntity' 
+2024-10-20 21:56:39:2162 http: [2024-10-21T02:56:39.216Z] ::ffff:127.0.0.1 "POST /api/v1/employee HTTP/1.1" 201 961 "-" "insomnia/2023.5.8" {"name":"NORMA MARIA","firstLastName":"LOPEZ","secondLastName":"MARIN","documentTypeId":1,"documentNumber":"11000007","email":"nmx@correo.com","cellPhone":"3148954791","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"LA MADRE","address":"VEREDA PANAMA NUEVA","bloodTypeId":1,"dateBirth":"2000-02-17","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5736,"educationLevelId":1,"lastYearStudy":5,"genderId":1,"maritalStatusId":1,"children":0,"ageChildren":"0","lastCompany":"string","monthsWorked":0,"workExperience":"string","workIncapacity":"string","userRegister":1,"userUpdate":1,"isActive":true,"workingTypeId":1,"salary":2000000,"epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":5,"ccfId":1,"noveltyId":0,"workCenterId":2,"transportationAllowance":160000,"parafiscales":true,"positionId":0,"dateEntry":"2024-07-10","dateExit":null,"paymentPeriodId":1,"subcotizanteId":1} 109.224 ms
+ 
+2024-10-20 22:02:56:3804 http: [2024-10-21T03:02:56.380Z] ::ffff:127.0.0.1 "POST /api/v1/employee/816 HTTP/1.1" 404 159 "-" "insomnia/2023.5.8" {"name":"MARIA SALOME","firstLastName":"MENA","secondLastName":"URREA","userUpdate":1} 1.678 ms
+ 
+2024-10-20 22:03:05:3443 debug: Finding data of 'EmployeeEntity' by id: 816 
+2024-10-20 22:03:05:4284 debug: Updating data of 'EmployeeEntity' by id: 816 
+2024-10-20 22:03:05:4364 debug: Affected rows: 1 
+2024-10-20 22:03:05:4374 debug: Finding data of 'EmployeeEntity' by id: 816 
+2024-10-20 22:03:05:4575 http: [2024-10-21T03:03:05.456Z] ::ffff:127.0.0.1 "PUT /api/v1/employee/816 HTTP/1.1" 200 985 "-" "insomnia/2023.5.8" {"name":"MARIA SALOME","firstLastName":"MENA","secondLastName":"URREA","userUpdate":1} 110.336 ms
+ 
+2024-10-20 22:22:28:3574 info: Database connected successfully! 
+2024-10-20 22:22:28:7317 debug: EmployeeService:constructor 
+2024-10-20 22:23:26:7568 info: Database connected successfully! 
+2024-10-20 22:23:26:97710 debug: EmployeeService:constructor 

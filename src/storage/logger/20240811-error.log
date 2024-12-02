@@ -1,0 +1,18 @@
+2024-08-11 10:11:04:5485 error: Route.get() requires a callback function but got a [object Undefined] Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as get] (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\routes\v1\logRouter.ts:17:8)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-4563678686564212.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-4563678686564212.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-4563678686564212.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\ts-node-dev\lib\hook.js:63:13)
+2024-08-11 10:17:27:1481 error: relation "user" does not exist QueryFailedError: relation "user" does not exist
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)

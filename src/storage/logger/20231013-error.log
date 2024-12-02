@@ -1,0 +1,10 @@
+2023-10-13 10:41:17:5155 error: la autentificaci�n password fall� para el usuario �postgres� error: la autentificaci�n password fall� para el usuario �postgres�
+    at Parser.parseErrorMessage (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)

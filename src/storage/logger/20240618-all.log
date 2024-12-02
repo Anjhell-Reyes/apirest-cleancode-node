@@ -1,0 +1,54 @@
+2024-06-18 10:25:45:5115 info: Database connected successfully! 
+2024-06-18 10:25:46:0310 debug: EmployeeService:constructor 
+2024-06-18 10:26:49:1441 http: [2024-06-18T15:26:49.143Z] ::1 "GET /swagger HTTP/1.1" 401 13 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 6.648 ms
+ 
+2024-06-18 10:26:49:2983 http: [2024-06-18T15:26:49.297Z] ::1 "GET /favicon.ico HTTP/1.1" 401 13 "http://localhost:3401/swagger" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.615 ms
+ 
+2024-06-18 10:27:39:6276 http: [2024-06-18T15:27:39.627Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 401 13 "-" "insomnia/2023.5.8" {} 0.648 ms
+ 
+2024-06-18 22:58:19:6316 info: Database connected successfully! 
+2024-06-18 22:58:20:0581 debug: EmployeeService:constructor 
+2024-06-18 23:04:16:7988 info: Database connected successfully! 
+2024-06-18 23:04:17:1081 debug: EmployeeService:constructor 
+2024-06-18 23:04:17:1101 error: jwtCheck is not defined ReferenceError: jwtCheck is not defined
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\routes\v1\employeeRouter.ts:11:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-18860452129367156.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-18860452129367156.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-18860452129367156.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+2024-06-18 23:04:45:4725 info: Database connected successfully! 
+2024-06-18 23:04:45:9459 debug: EmployeeService:constructor 
+2024-06-18 23:08:07:9119 http: [2024-06-19T04:08:07.909Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" - - "-" "insomnia/2023.5.8" {} - ms
+ 
+2024-06-18 23:09:50:3624 http: [2024-06-19T04:09:50.361Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" - - "-" "insomnia/2023.5.8" {} - ms
+ 
+2024-06-18 23:10:47:9369 http: [2024-06-19T04:10:47.936Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" - - "-" "insomnia/2023.5.8" {} - ms
+ 
+2024-06-18 23:20:15:9069 info: Database connected successfully! 
+2024-06-18 23:20:16:2082 debug: EmployeeService:constructor 
+2024-06-18 23:20:26:4685 http: [2024-06-19T04:20:26.467Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 200 27455 "-" "insomnia/2023.5.8" {} 1102.357 ms
+ 
+2024-06-18 23:32:32:7778 info: Database connected successfully! 
+2024-06-18 23:32:33:1041 debug: EmployeeService:constructor 
+2024-06-18 23:33:04:8599 http: [2024-06-19T04:33:04.858Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 200 27455 "-" "insomnia/2023.5.8" {} 1443.466 ms
+ 
+2024-06-18 23:33:33:6246 http: [2024-06-19T04:33:33.623Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 200 27455 "-" "insomnia/2023.5.8" {} 815.722 ms
+ 
+2024-06-18 23:38:55:8699 debug: Creating data of 'EmployeeEntity' 
+2024-06-18 23:38:56:2482 error: el valor nulo en la columna «department_birth_code» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «department_birth_code» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-06-18 23:38:56:2533 http: [2024-06-19T04:38:56.253Z] ::ffff:127.0.0.1 "POST /api/v1/employee HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"name":"John","firstLastName":"Doe","secondLastName":"Smith","documentTypeId":1,"documentNumber":"1234567890","email":"john.doe@example.com","cellPhone":"1234567890","phone":"0987654321","municipalityId":1,"departmentCode":1,"municipalityCode":1,"district":"District","address":"123 Main St","bloodTypeId":1,"dateBirth":"1990-01-01","nationalityId":1,"educationLevelId":1,"lastYearStudy":2022,"genderId":1,"maritalStatusId":1,"children":0,"lastCompany":"Last Company","monthsWorked":12,"workExperience":"Work experience","workIncapacity":"None","workingTypeId":1,"salary":50000,"epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":1,"ccfId":1,"noveltyId":1,"workCenter":"Work Center","transportationAllowance":1000,"parafiscales":true,"positionId":1,"dateEntry":"2024-01-01","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1} 1136.647 ms
+ 
+2024-06-18 23:45:28:7347 debug: Creating data of 'EmployeeEntity' 
+2024-06-18 23:45:28:9349 http: [2024-06-19T04:45:28.933Z] ::ffff:127.0.0.1 "POST /api/v1/employee HTTP/1.1" 201 991 "-" "insomnia/2023.5.8" {"name":"John","firstLastName":"Doe","secondLastName":"Smith","documentTypeId":1,"documentNumber":"1234567890","email":"john.doe@example.com","cellPhone":"1234567890","phone":"0987654321","municipalityId":1,"departmentCode":1,"municipalityCode":1,"district":"District","address":"123 Main St","bloodTypeId":1,"dateBirth":"1990-01-01","nationalityId":1,"departmentBirthCode":70,"municipalityBirthCode":70508,"educationLevelId":1,"lastYearStudy":4,"genderId":1,"maritalStatusId":1,"children":0,"lastCompany":"Last Company","monthsWorked":12,"workExperience":"Work experience","workIncapacity":"None","workingTypeId":1,"salary":50000,"epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":1,"ccfId":1,"noveltyId":1,"workCenter":"Work Center","transportationAllowance":1000,"parafiscales":true,"positionId":1,"dateEntry":"2024-01-01","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1} 940.387 ms
+ 

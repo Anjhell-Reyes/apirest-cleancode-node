@@ -1,0 +1,110 @@
+2024-11-14 15:01:01:6657 info: Database connected successfully! 
+2024-11-14 15:01:02:0741 debug: EmployeeService:constructor 
+2024-11-14 15:02:00:7978 http: [2024-11-14T20:02:00.797Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 615.389 ms
+ 
+2024-11-14 15:02:53:1862 http: [2024-11-14T20:02:53.185Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 177.573 ms
+ 
+2024-11-14 15:02:54:0751 http: [2024-11-14T20:02:54.075Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 84.247 ms
+ 
+2024-11-14 15:02:56:9069 http: [2024-11-14T20:02:56.906Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 53.209 ms
+ 
+2024-11-14 15:04:01:1892 http: [2024-11-14T20:04:01.189Z] ::1 "GET /api/v1/employee/document/3 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 204.288 ms
+ 
+2024-11-14 15:04:01:4124 http: [2024-11-14T20:04:01.412Z] ::1 "GET /api/v1/employee/document/2 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 237.965 ms
+ 
+2024-11-14 15:04:06:1522 http: [2024-11-14T20:04:06.152Z] ::1 "GET /api/v1/employee/document/3 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 114.745 ms
+ 
+2024-11-14 15:04:07:1522 http: [2024-11-14T20:04:07.152Z] ::1 "GET /api/v1/employee/document/32 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 92.860 ms
+ 
+2024-11-14 15:04:09:9359 http: [2024-11-14T20:04:09.933Z] ::1 "GET /api/v1/employee/document/322 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 46.334 ms
+ 
+2024-11-14 15:04:10:4685 http: [2024-11-14T20:04:10.462Z] ::1 "GET /api/v1/employee/document/3224 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 96.188 ms
+ 
+2024-11-14 15:04:10:5686 http: [2024-11-14T20:04:10.567Z] ::1 "GET /api/v1/employee/document/3221 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 29.742 ms
+ 
+2024-11-14 15:04:12:8198 http: [2024-11-14T20:04:12.819Z] ::1 "GET /api/v1/employee/document/322 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 109.936 ms
+ 
+2024-11-14 15:04:14:8218 http: [2024-11-14T20:04:14.820Z] ::1 "GET /api/v1/employee/document/3224 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 73.918 ms
+ 
+2024-11-14 15:04:15:7267 http: [2024-11-14T20:04:15.725Z] ::1 "GET /api/v1/employee/document/32241 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 108.550 ms
+ 
+2024-11-14 15:04:28:8949 http: [2024-11-14T20:04:28.894Z] ::1 "GET /api/v1/employee/document/322412 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 141.568 ms
+ 
+2024-11-14 15:04:31:6416 http: [2024-11-14T20:04:31.641Z] ::1 "GET /api/v1/employee/document/3224123 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 112.793 ms
+ 
+2024-11-14 15:04:34:9229 http: [2024-11-14T20:04:34.921Z] ::1 "GET /api/v1/employee/document/32241239 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 120.572 ms
+ 
+2024-11-14 15:13:11:2823 http: [2024-11-14T20:13:11.282Z] ::1 "GET /api/v1/employee/document/3 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 196.938 ms
+ 
+2024-11-14 15:13:11:5235 http: [2024-11-14T20:13:11.523Z] ::1 "GET /api/v1/employee/document/2 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 254.794 ms
+ 
+2024-11-14 15:13:14:4685 http: [2024-11-14T20:13:14.468Z] ::1 "GET /api/v1/employee/document/3 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 67.320 ms
+ 
+2024-11-14 15:13:15:2713 http: [2024-11-14T20:13:15.271Z] ::1 "GET /api/v1/employee/document/32 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 97.761 ms
+ 
+2024-11-14 15:13:16:9159 http: [2024-11-14T20:13:16.915Z] ::1 "GET /api/v1/employee/document/322 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 26.845 ms
+ 
+2024-11-14 15:13:18:0000 http: [2024-11-14T20:13:17.999Z] ::1 "GET /api/v1/employee/document/3224 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 88.204 ms
+ 
+2024-11-14 15:13:18:7548 http: [2024-11-14T20:13:18.754Z] ::1 "GET /api/v1/employee/document/32241 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 93.892 ms
+ 
+2024-11-14 15:13:21:8088 http: [2024-11-14T20:13:21.808Z] ::1 "GET /api/v1/employee/document/322412 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 62.538 ms
+ 
+2024-11-14 15:13:22:5255 http: [2024-11-14T20:13:22.525Z] ::1 "GET /api/v1/employee/document/3224123 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 61.534 ms
+ 
+2024-11-14 15:13:23:5646 http: [2024-11-14T20:13:23.564Z] ::1 "GET /api/v1/employee/document/32241236 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 69.204 ms
+ 
+2024-11-14 15:15:31:4294 http: [2024-11-14T20:15:31.429Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 129.470 ms
+ 
+2024-11-14 15:15:34:98610 http: [2024-11-14T20:15:34.986Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 45.291 ms
+ 
+2024-11-14 15:15:38:1481 http: [2024-11-14T20:15:38.148Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 32.622 ms
+ 
+2024-11-14 15:15:39:8388 http: [2024-11-14T20:15:39.838Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 61.804 ms
+ 
+2024-11-14 15:16:09:5105 http: [2024-11-14T20:16:09.510Z] ::1 "GET /api/v1/employee/document/3 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 114.216 ms
+ 
+2024-11-14 15:16:09:9149 http: [2024-11-14T20:16:09.914Z] ::1 "GET /api/v1/employee/document/32 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 29.720 ms
+ 
+2024-11-14 15:16:13:0501 http: [2024-11-14T20:16:13.050Z] ::1 "GET /api/v1/employee/document/322 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 58.871 ms
+ 
+2024-11-14 15:16:14:2663 http: [2024-11-14T20:16:14.265Z] ::1 "GET /api/v1/employee/document/3224 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 91.176 ms
+ 
+2024-11-14 15:16:14:8829 http: [2024-11-14T20:16:14.882Z] ::1 "GET /api/v1/employee/document/32241 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 100.260 ms
+ 
+2024-11-14 15:16:16:1401 http: [2024-11-14T20:16:16.139Z] ::1 "GET /api/v1/employee/document/322412 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 92.484 ms
+ 
+2024-11-14 15:16:17:3844 http: [2024-11-14T20:16:17.384Z] ::1 "GET /api/v1/employee/document/3224123 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 87.891 ms
+ 
+2024-11-14 15:16:18:2342 http: [2024-11-14T20:16:18.234Z] ::1 "GET /api/v1/employee/document/32241236 HTTP/1.1" 404 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 136.098 ms
+ 
+2024-11-14 15:19:24:4975 debug: Creating data of 'EmployeeEntity' 
+2024-11-14 15:19:24:97010 error: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-11-14 15:19:24:97710 http: [2024-11-14T20:19:24.977Z] ::1 "POST /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {"documentTypeId":1,"documentNumber":"32241236","name":"PATRICIA","firstLastName":"CADAVID","secondLastName":"PUMAREJO","email":"pacad@correo.com","cellPhone":"3113677278","phone":"","municipalityId":17,"departmentCode":5,"municipalityCode":5088,"district":"CABANAS","address":"CRA 53","bloodTypeId":7,"dateBirth":"1992-11-25","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5736,"educationLevelId":2,"lastYearStudy":"11","genderId":2,"maritalStatusId":2,"children":"2","ageChildren":"15, 9","workCenterId":1,"workingTypeId":1,"dateEntry":"2024-11-01","positionId":10,"salary":"1300000","transportationAllowance":"162000","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"epsId":3,"afpId":6,"arlId":2,"ccfId":2,"parafiscales":true,"rlId":5,"isActive":true,"coverageStartDate":"2024-11-01","coverageEndDate":"2024-12-31"} 481.099 ms
+ 
+2024-11-14 15:20:11:1081 debug: Creating data of 'EmployeeEntity' 
+2024-11-14 15:20:11:2803 error: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «user_register» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-11-14 15:20:11:2893 http: [2024-11-14T20:20:11.289Z] ::1 "POST /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {"documentTypeId":1,"documentNumber":"32241236","name":"PATRICIA","firstLastName":"CADAVID","secondLastName":"PUMAREJO","email":"pacad@correo.com","cellPhone":"3113677278","phone":"","municipalityId":17,"departmentCode":5,"municipalityCode":5088,"district":"CABANAS","address":"CRA 53","bloodTypeId":7,"dateBirth":"1992-11-25","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5736,"educationLevelId":2,"lastYearStudy":"11","genderId":2,"maritalStatusId":2,"children":"2","ageChildren":"15, 9","workCenterId":1,"workingTypeId":1,"dateEntry":"2024-11-01","positionId":10,"salary":"1300000","transportationAllowance":"162000","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"epsId":3,"afpId":6,"arlId":2,"ccfId":2,"parafiscales":true,"rlId":5,"isActive":true,"coverageStartDate":"2024-11-01","coverageEndDate":"2024-12-31"} 179.958 ms
+ 
+2024-11-14 16:00:09:2382 info: Database connected successfully! 
+2024-11-14 16:00:09:5656 debug: EmployeeService:constructor 
+2024-11-14 16:01:48:8058 http: [2024-11-14T21:01:48.803Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 302.270 ms
+ 
+2024-11-14 16:01:49:97810 http: [2024-11-14T21:01:49.978Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 89.357 ms
+ 
+2024-11-14 16:01:50:7397 http: [2024-11-14T21:01:50.739Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 80.344 ms
+ 
+2024-11-14 16:01:53:3423 http: [2024-11-14T21:01:53.341Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" {} 50.722 ms
+ 

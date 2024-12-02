@@ -1,0 +1,5 @@
+2024-11-22 20:43:08:0410 info: Database connected successfully! 
+2024-11-22 20:43:08:4054 debug: EmployeeNoveltyService:constructor 
+2024-11-22 20:43:08:4304 debug: EmployeeService:constructor 
+2024-11-22 20:57:59:0400 http: [2024-11-23T01:57:59.040Z] ::ffff:127.0.0.1 "GET /api/v1/employee-novelty HTTP/1.1" 200 187 "-" "insomnia/2023.5.8" {} 91.876 ms
+ 

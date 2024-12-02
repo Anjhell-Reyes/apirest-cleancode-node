@@ -1,0 +1,84 @@
+2024-08-14 11:16:21:3814 error: Provided "skip" value is not a number. Please provide a numeric value. TypeORMError: Provided "skip" value is not a number. Please provide a numeric value.
+    at SelectQueryBuilder.skip (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1510:19)
+    at EmployeeRepository.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:96:20)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:13:12)
+    at EmployeeRepository.findFilteredEmployees (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:92:16)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:116:72)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:16:12)
+    at EmployeeService.exportEmployeesToExcel (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:140:16)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:202:49)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+2024-08-14 11:17:17:7067 error: Provided "skip" value is not a number. Please provide a numeric value. TypeORMError: Provided "skip" value is not a number. Please provide a numeric value.
+    at SelectQueryBuilder.skip (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1510:19)
+    at EmployeeRepository.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:96:20)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:13:12)
+    at EmployeeRepository.findFilteredEmployees (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:92:16)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:116:72)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:16:12)
+    at EmployeeService.exportEmployeesToExcel (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:140:16)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:202:49)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+2024-08-14 11:34:06:3233 error: Provided "skip" value is not a number. Please provide a numeric value. TypeORMError: Provided "skip" value is not a number. Please provide a numeric value.
+    at SelectQueryBuilder.skip (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1510:19)
+    at EmployeeRepository.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:96:20)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:13:12)
+    at EmployeeRepository.findFilteredEmployees (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:92:16)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:116:72)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:16:12)
+    at EmployeeService.exportEmployeesToExcel (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:140:16)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:202:49)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+2024-08-14 19:20:11:1051 error: Provided "skip" value is not a number. Please provide a numeric value. TypeORMError: Provided "skip" value is not a number. Please provide a numeric value.
+    at SelectQueryBuilder.skip (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1510:19)
+    at EmployeeRepository.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:96:20)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:13:12)
+    at EmployeeRepository.findFilteredEmployees (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\persistence\repositories\employeeRepository.ts:92:16)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:116:72)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:16:12)
+    at EmployeeService.exportEmployeesToExcel (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:140:16)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:202:49)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+2024-08-14 19:25:11:3544 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:204:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-08-14 19:34:06:6086 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:204:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-08-14 20:46:37:3834 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:200:5)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-08-14 20:47:26:1582 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:200:5)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)

@@ -1,0 +1,523 @@
+2023-11-21 08:56:32:9209 error: Cannot destructure property 'deletedAt' of 'entity' as it is null. TypeError: Cannot destructure property 'deletedAt' of 'entity' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-21 08:57:00:6737 error: Cannot destructure property 'deletedAt' of 'entity' as it is null. TypeError: Cannot destructure property 'deletedAt' of 'entity' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-21 08:57:09:98810 error: Cannot destructure property 'deletedAt' of 'entity' as it is null. TypeError: Cannot destructure property 'deletedAt' of 'entity' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-21 09:02:34:7638 error: Cannot destructure property 'deletedAt' of 'entity' as it is null. TypeError: Cannot destructure property 'deletedAt' of 'entity' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-21 09:02:44:0210 error: Cannot destructure property 'deletedAt' of 'entity' as it is null. TypeError: Cannot destructure property 'deletedAt' of 'entity' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-21 09:08:30:2102 error: error de sintaxis en o cerca de «:» QueryFailedError: error de sintaxis en o cerca de «:»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getRawAndEntities (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:1669:29)
+    at SelectQueryBuilder.getOne (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:1696:25)
+2023-11-21 09:09:23:8018 error: Cannot destructure property 'deletedAt' of 'entity' as it is null. TypeError: Cannot destructure property 'deletedAt' of 'entity' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-21 09:09:58:2282 error: no existe la columna «documentnumber» QueryFailedError: no existe la columna «documentnumber»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getRawAndEntities (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:1669:29)
+    at SelectQueryBuilder.getOne (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:1696:25)
+2023-11-21 09:10:34:1291 error: Cannot destructure property 'deletedAt' of 'entity' as it is null. TypeError: Cannot destructure property 'deletedAt' of 'entity' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-21 09:54:06:7257 error: ⨯ Unable to compile TypeScript:
+src/app/controllers/resolutionController.ts(68,40): error TS1003: Identifier expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/app/controllers/resolutionController.ts(68,40): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 11:28:57:0941 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 11:29:07:0581 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 11:30:11:4214 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 11:30:17:9119 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 11:30:32:2923 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 11:30:42:9119 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 11:32:08:7187 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(104,13): error TS1005: ',' expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 11:41:52:2933 error: Missing initializer in const declaration C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:98
+            const dto;
+                  ^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-11-21 11:42:13:1712 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(80,36): error TS1003: Identifier expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(80,36): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 11:42:21:2993 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(80,36): error TS1011: An element access expression should take an argument.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(80,38): error TS1003: Identifier expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(80,36): error TS1011: An element access expression should take an argument.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(80,38): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 12:48:30:4394 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(87,20): error TS1005: ',' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(88,17): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(88,19): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(89,27): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(89,29): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(90,29): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(90,31): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(91,31): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(91,33): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(92,29): error TS1359: Identifier expected. 'null' is a reserved word that cannot be used here.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(92,33): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(93,29): error TS1359: Identifier expected. 'null' is a reserved word that cannot be used here.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(93,33): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(94,34): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(94,36): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(95,31): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(95,33): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(96,31): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(96,33): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(97,34): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(97,36): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(98,20): error TS1359: Identifier expected. 'null' is a reserved word that cannot be used here.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(98,24): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(99,33): error TS1359: Identifier expected. 'null' is a reserved word that cannot be used here.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(99,37): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(100,28): error TS1359: Identifier expected. 'null' is a reserved word that cannot be used here.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(100,32): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(101,28): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(101,30): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(102,26): error TS1359: Identifier expected. 'null' is a reserved word that cannot be used here.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(102,30): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(106,37): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(106,39): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(107,42): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(108,9): error TS1005: ':' expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(87,20): error TS1005: ',' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(88,17): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(88,19): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(89,27): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(89,29): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(90,29): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(90,31): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(91,31): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(91,33): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(92,29): error TS1359: Identifier expected. 'null' is a reserved word that cannot be used here.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(92,33): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(93,29): error TS1359: Identifier expected. 'null' is a reserved word that cannot be used here.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(93,33): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(94,34): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(94,36): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(95,31): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(95,33): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(96,31): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(96,33): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(97,34): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(97,36): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(98,20): error TS1359: Identifier expected. 'null' is a reserved word that cannot be used here.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(98,24): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(99,33): error TS1359: Identifier expected. 'null' is a reserved word that cannot be used here.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(99,37): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(100,28): error TS1359: Identifier expected. 'null' is a reserved word that cannot be used here.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(100,32): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(101,28): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(101,30): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(102,26): error TS1359: Identifier expected. 'null' is a reserved word that cannot be used here.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(102,30): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(106,37): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(106,39): error TS1005: ':' expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(107,42): error TS1003: Identifier expected.
+src/infrastructure/persistence/repositories/resolutionRepository.ts(108,9): error TS1005: ':' expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 12:49:38:8659 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(111,5): error TS1110: Type expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(111,5): error TS1110: Type expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-47342536632664545.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 14:52:49:6987 error: Missing initializer in const declaration C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts:162
+            const request;
+                  ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-11-21 14:52:57:7518 error: Missing initializer in const declaration C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts:162
+            const request;
+                  ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-11-21 14:55:30:1772 error: Missing initializer in const declaration C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts:89
+            const response;
+                  ^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-11-21 15:01:42:6597 error: Unexpected strict mode reserved word C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\resolutionRouter.ts:47
+        yield controller.find(req, res, next);
+        ^^^^^
+
+SyntaxError: Unexpected strict mode reserved word
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-11-21 15:01:55:6737 error: ⨯ Unable to compile TypeScript:
+src/routes/v1/resolutionRouter.ts(37,5): error TS1005: ',' expected.
+src/routes/v1/resolutionRouter.ts(40,1): error TS1128: Declaration or statement expected.
+src/routes/v1/resolutionRouter.ts(40,2): error TS1128: Declaration or statement expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/routes/v1/resolutionRouter.ts(37,5): error TS1005: ',' expected.
+src/routes/v1/resolutionRouter.ts(40,1): error TS1128: Declaration or statement expected.
+src/routes/v1/resolutionRouter.ts(40,2): error TS1128: Declaration or statement expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\resolutionRouter.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 15:02:22:0921 error: Unexpected strict mode reserved word C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\resolutionRouter.ts:39
+        yield controller.findNit(req, res, next);
+        ^^^^^
+
+SyntaxError: Unexpected strict mode reserved word
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-11-21 15:02:28:8218 error: ⨯ Unable to compile TypeScript:
+src/routes/v1/resolutionRouter.ts(29,5): error TS1005: ',' expected.
+src/routes/v1/resolutionRouter.ts(32,1): error TS1128: Declaration or statement expected.
+src/routes/v1/resolutionRouter.ts(32,2): error TS1128: Declaration or statement expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/routes/v1/resolutionRouter.ts(29,5): error TS1005: ',' expected.
+src/routes/v1/resolutionRouter.ts(32,1): error TS1128: Declaration or statement expected.
+src/routes/v1/resolutionRouter.ts(32,2): error TS1128: Declaration or statement expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\resolutionRouter.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 15:03:05:0030 error: ⨯ Unable to compile TypeScript:
+src/routes/v1/resolutionRouter.ts(29,12): error TS1109: Expression expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/routes/v1/resolutionRouter.ts(29,12): error TS1109: Expression expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\resolutionRouter.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 15:03:18:6627 error: ⨯ Unable to compile TypeScript:
+src/routes/v1/resolutionRouter.ts(31,1): error TS1003: Identifier expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/routes/v1/resolutionRouter.ts(31,1): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\resolutionRouter.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 15:10:46:3213 error: ⨯ Unable to compile TypeScript:
+src/domain/contracts/repositoryContract.ts(15,1): error TS1131: Property or signature expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/domain/contracts/repositoryContract.ts(15,1): error TS1131: Property or signature expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\contracts\repositoryContract.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 15:15:08:1712 error: Unexpected token ';' C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:98
+            const ;
+                  ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-11-21 15:15:16:7007 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(80,36): error TS1003: Identifier expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/repositories/resolutionRepository.ts(80,36): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6979540637707262.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-21 15:39:19:4735 error: la sintaxis de entrada no es válida para tipo bigint: «nit» QueryFailedError: la sintaxis de entrada no es válida para tipo bigint: «nit»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getRawAndEntities (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:1669:29)
+    at SelectQueryBuilder.getOne (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:1696:25)
+2023-11-21 15:40:09:98910 error: la sintaxis de entrada no es válida para tipo bigint: «nit» QueryFailedError: la sintaxis de entrada no es válida para tipo bigint: «nit»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getRawAndEntities (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:1669:29)
+    at SelectQueryBuilder.getOne (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:1696:25)

@@ -1,0 +1,55 @@
+2024-06-06 00:13:23:98510 info: Database connected successfully! 
+2024-06-06 00:13:24:2192 debug: EmployeeService:constructor 
+2024-06-06 00:13:34:1832 http: [2024-06-06T05:13:34.182Z] ::1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 7.647 ms
+ 
+2024-06-06 00:13:34:2072 http: [2024-06-06T05:13:34.207Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 5.520 ms
+ 
+2024-06-06 00:13:34:2162 http: [2024-06-06T05:13:34.216Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 9.724 ms
+ 
+2024-06-06 00:13:34:2282 http: [2024-06-06T05:13:34.228Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 0.696 ms
+ 
+2024-06-06 00:13:34:2332 http: [2024-06-06T05:13:34.233Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 8.680 ms
+ 
+2024-06-06 00:13:34:5485 http: [2024-06-06T05:13:34.548Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 2.042 ms
+ 
+2024-06-06 00:13:41:0581 http: [2024-06-06T05:13:41.058Z] ::1 "GET /api/v1/employee HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 131.798 ms
+ 
+2024-06-06 08:47:31:7057 info: Database connected successfully! 
+2024-06-06 08:47:32:1271 debug: EmployeeService:constructor 
+2024-06-06 08:47:36:95710 http: [2024-06-06T13:47:36.955Z] ::1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 8.673 ms
+ 
+2024-06-06 08:47:37:0030 http: [2024-06-06T13:47:37.002Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 5.926 ms
+ 
+2024-06-06 08:47:37:0110 http: [2024-06-06T13:47:37.011Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 0.698 ms
+ 
+2024-06-06 08:47:37:0170 http: [2024-06-06T13:47:37.016Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 15.975 ms
+ 
+2024-06-06 08:47:37:0240 http: [2024-06-06T13:47:37.024Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 14.735 ms
+ 
+2024-06-06 08:47:38:3854 http: [2024-06-06T13:47:38.385Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 6.347 ms
+ 
+2024-06-06 08:47:44:7447 http: [2024-06-06T13:47:44.744Z] ::1 "GET /api/v1/employee HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 211.805 ms
+ 
+2024-06-06 12:13:43:98510 info: Database connected successfully! 
+2024-06-06 12:13:44:3323 debug: EmployeeService:constructor 
+2024-06-06 12:13:59:8428 http: [2024-06-06T17:13:59.842Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 9.384 ms
+ 
+2024-06-06 12:13:59:8468 http: [2024-06-06T17:13:59.846Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 12.893 ms
+ 
+2024-06-06 12:13:59:8539 http: [2024-06-06T17:13:59.853Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 2.926 ms
+ 
+2024-06-06 12:13:59:8699 http: [2024-06-06T17:13:59.869Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 11.031 ms
+ 
+2024-06-06 12:14:04:4254 http: [2024-06-06T17:14:04.425Z] ::1 "GET /api/v1/employee HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 162.204 ms
+ 
+2024-06-06 12:29:04:1281 error: Expected double-quoted property name in JSON at position 52 SyntaxError: Expected double-quoted property name in JSON at position 52
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)

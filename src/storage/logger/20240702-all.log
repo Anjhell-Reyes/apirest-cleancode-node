@@ -1,0 +1,266 @@
+2024-07-02 16:15:08:6036 info: Database connected successfully! 
+2024-07-02 16:15:09:0370 debug: EmployeeService:constructor 
+2024-07-02 16:15:33:2332 http: [2024-07-02T21:15:33.233Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 10.529 ms
+ 
+2024-07-02 16:15:33:2392 http: [2024-07-02T21:15:33.238Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 15.994 ms
+ 
+2024-07-02 16:15:33:2643 http: [2024-07-02T21:15:33.264Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 5.449 ms
+ 
+2024-07-02 16:15:33:2713 http: [2024-07-02T21:15:33.271Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 10.840 ms
+ 
+2024-07-02 16:15:36:5055 http: [2024-07-02T21:15:36.505Z] ::1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 2.400 ms
+ 
+2024-07-02 16:15:36:5626 http: [2024-07-02T21:15:36.561Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.317 ms
+ 
+2024-07-02 16:15:36:5716 http: [2024-07-02T21:15:36.570Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 16.119 ms
+ 
+2024-07-02 16:15:36:5766 http: [2024-07-02T21:15:36.576Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 19.490 ms
+ 
+2024-07-02 16:15:36:5846 http: [2024-07-02T21:15:36.583Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 25.382 ms
+ 
+2024-07-02 16:15:36:96910 http: [2024-07-02T21:15:36.969Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.275 ms
+ 
+2024-07-02 16:15:46:5556 http: [2024-07-02T21:15:46.555Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 256.461 ms
+ 
+2024-07-02 16:38:54:0230 http: [2024-07-02T21:38:54.023Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 245.670 ms
+ 
+2024-07-02 16:38:55:3243 http: [2024-07-02T21:38:55.323Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 67.207 ms
+ 
+2024-07-02 16:38:55:9289 http: [2024-07-02T21:38:55.928Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 56.084 ms
+ 
+2024-07-02 16:38:58:0340 http: [2024-07-02T21:38:58.034Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 38.670 ms
+ 
+2024-07-02 16:42:51:3904 http: [2024-07-02T21:42:51.390Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 129.086 ms
+ 
+2024-07-02 16:42:51:8669 http: [2024-07-02T21:42:51.866Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 42.581 ms
+ 
+2024-07-02 16:43:11:4585 http: [2024-07-02T21:43:11.458Z] ::1 "GET /api/v1/employee?page=81&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 148.934 ms
+ 
+2024-07-02 16:43:14:0781 http: [2024-07-02T21:43:14.078Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 37.308 ms
+ 
+2024-07-02 16:46:44:8308 http: [2024-07-02T21:46:44.830Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.663 ms
+ 
+2024-07-02 16:46:44:8488 http: [2024-07-02T21:46:44.847Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.513 ms
+ 
+2024-07-02 16:46:44:8539 http: [2024-07-02T21:46:44.853Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 14.813 ms
+ 
+2024-07-02 16:46:44:8569 http: [2024-07-02T21:46:44.856Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 13.087 ms
+ 
+2024-07-02 19:33:01:8809 info: Database connected successfully! 
+2024-07-02 19:33:02:1191 debug: EmployeeService:constructor 
+2024-07-02 19:33:37:4314 http: [2024-07-03T00:33:37.430Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 192.817 ms
+ 
+2024-07-02 19:33:39:8368 http: [2024-07-03T00:33:39.835Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 34.353 ms
+ 
+2024-07-02 19:33:56:2452 http: [2024-07-03T00:33:56.245Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 93.907 ms
+ 
+2024-07-02 19:33:56:7528 http: [2024-07-03T00:33:56.751Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 87.645 ms
+ 
+2024-07-02 19:34:27:7868 http: [2024-07-03T00:34:27.785Z] ::1 "GET /api/v1/employee?page=1&limit=25&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 101.367 ms
+ 
+2024-07-02 19:34:40:5606 http: [2024-07-03T00:34:40.560Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 131.282 ms
+ 
+2024-07-02 19:35:24:6106 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:53:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:35:24:6266 http: [2024-07-03T00:35:24.625Z] ::1 "GET /api/v1/employee/document/1 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 106.488 ms
+ 
+2024-07-02 19:35:24:8749 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:53:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:35:24:8799 http: [2024-07-03T00:35:24.879Z] ::1 "GET /api/v1/employee/document/12 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 40.820 ms
+ 
+2024-07-02 19:35:25:3153 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:53:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:35:25:3213 http: [2024-07-03T00:35:25.321Z] ::1 "GET /api/v1/employee/document/121 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 53.977 ms
+ 
+2024-07-02 19:35:25:5045 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:53:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:35:25:5085 http: [2024-07-03T00:35:25.507Z] ::1 "GET /api/v1/employee/document/1212 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 44.620 ms
+ 
+2024-07-02 19:35:25:7347 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:53:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:35:25:7397 http: [2024-07-03T00:35:25.738Z] ::1 "GET /api/v1/employee/document/12121 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 39.103 ms
+ 
+2024-07-02 19:35:26:0501 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:53:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:35:26:0561 http: [2024-07-03T00:35:26.055Z] ::1 "GET /api/v1/employee/document/121212 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 50.331 ms
+ 
+2024-07-02 19:35:28:6667 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:53:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:35:28:6707 http: [2024-07-03T00:35:28.670Z] ::1 "GET /api/v1/employee/document/1212121 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 19.968 ms
+ 
+2024-07-02 19:35:28:97910 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:53:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:35:28:98210 http: [2024-07-03T00:35:28.982Z] ::1 "GET /api/v1/employee/document/12121212 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 30.527 ms
+ 
+2024-07-02 19:40:06:6016 debug: Creating data of 'EmployeeEntity' 
+2024-07-02 19:40:06:7167 http: [2024-07-03T00:40:06.715Z] ::1 "POST /api/v1/employee HTTP/1.1" 201 720 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {"documentTypeId":1,"documentNumber":"12121212","name":"FELIPE","firstLastName":"MELO","secondLastName":"RIVERIO","email":"fmr@correo.com","cellPhone":"1212121212","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"SAN BARTOLO","address":"1","bloodTypeId":"2","dateBirth":"1985-01-30T00:00:00.000Z","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5604,"educationLevelId":"2","lastYearStudy":"8","genderId":"1","maritalStatusId":"2","children":"1","ageChildren":"17","workCenter":"NO REGISTRA","workingTypeId":"2","isActive":true,"dateEntry":"2024-06-26T00:00:00.000Z","positionId":"3","salary":"1200000","transportationAllowance":162000,"paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"epsId":"2","afpId":"5","arlId":"5","ccfId":"5","parafiscales":true,"rlId":"1","description":1} 114.117 ms
+ 
+2024-07-02 19:40:06:8118 http: [2024-07-03T00:40:06.811Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 24.557 ms
+ 
+2024-07-02 19:40:07:2012 http: [2024-07-03T00:40:07.201Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 23.318 ms
+ 
+2024-07-02 19:46:42:5345 info: Database connected successfully! 
+2024-07-02 19:46:42:7618 debug: EmployeeService:constructor 
+2024-07-02 19:47:22:0370 http: [2024-07-03T00:47:22.037Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 130.651 ms
+ 
+2024-07-02 19:47:22:5125 http: [2024-07-03T00:47:22.512Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 47.333 ms
+ 
+2024-07-02 19:47:23:98210 http: [2024-07-03T00:47:23.982Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 31.135 ms
+ 
+2024-07-02 19:47:29:6857 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:63:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:47:29:7047 http: [2024-07-03T00:47:29.704Z] ::1 "GET /api/v1/employee/document/2 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 51.675 ms
+ 
+2024-07-02 19:47:29:9149 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:63:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:47:29:9189 http: [2024-07-03T00:47:29.918Z] ::1 "GET /api/v1/employee/document/23 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 33.738 ms
+ 
+2024-07-02 19:47:30:3493 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:63:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:47:30:3534 http: [2024-07-03T00:47:30.353Z] ::1 "GET /api/v1/employee/document/232 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 25.269 ms
+ 
+2024-07-02 19:47:30:6296 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:63:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:47:30:6336 http: [2024-07-03T00:47:30.633Z] ::1 "GET /api/v1/employee/document/2323 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 61.319 ms
+ 
+2024-07-02 19:47:31:4955 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:63:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:47:31:4995 http: [2024-07-03T00:47:31.498Z] ::1 "GET /api/v1/employee/document/23232 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 69.946 ms
+ 
+2024-07-02 19:47:31:8398 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:63:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:47:31:8438 http: [2024-07-03T00:47:31.843Z] ::1 "GET /api/v1/employee/document/232323 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 56.036 ms
+ 
+2024-07-02 19:47:37:1221 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:63:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:47:37:1261 http: [2024-07-03T00:47:37.125Z] ::1 "GET /api/v1/employee/document/2323232 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 21.559 ms
+ 
+2024-07-02 19:47:38:0150 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:63:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-02 19:47:38:0190 http: [2024-07-03T00:47:38.018Z] ::1 "GET /api/v1/employee/document/23232323 HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 29.036 ms
+ 
+2024-07-02 19:51:24:6156 debug: Creating data of 'EmployeeEntity' 
+2024-07-02 19:51:24:7227 http: [2024-07-03T00:51:24.722Z] ::1 "POST /api/v1/employee HTTP/1.1" 201 940 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {"documentTypeId":1,"documentNumber":"23232323","name":"SELENA","firstLastName":"WILLIAM","secondLastName":"","email":"sw@email.com","cellPhone":"3434343443","phone":"","municipalityId":94,"departmentCode":5,"municipalityCode":5736,"district":"LA MADRE","address":"CLL 72","bloodTypeId":"5","dateBirth":"1987-08-13T00:00:00.000Z","nationalityId":1,"departmentBirthCode":5,"municipalityBirthCode":5736,"educationLevelId":"1","lastYearStudy":"5","genderId":"2","maritalStatusId":"1","children":0,"ageChildren":"0","workCenter":"NO REGISTRA","workingTypeId":"2","isActive":true,"dateEntry":"2024-06-06T00:00:00.000Z","positionId":"9","salary":"1100000","transportationAllowance":162000,"paymentPeriodId":1,"contributorId":1,"subcotizanteId":1,"epsId":"1","afpId":"4","arlId":"4","ccfId":"5","parafiscales":true,"rlId":"1","description":1} 106.523 ms
+ 
+2024-07-02 19:51:24:8208 http: [2024-07-03T00:51:24.820Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 35.500 ms
+ 
+2024-07-02 19:51:25:2543 http: [2024-07-03T00:51:25.253Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 27.066 ms
+ 
+2024-07-02 19:54:16:7077 http: [2024-07-03T00:54:16.707Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=2&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 85.483 ms
+ 
+2024-07-02 19:54:16:9219 http: [2024-07-03T00:54:16.921Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=23&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 34.203 ms
+ 
+2024-07-02 19:54:19:95810 http: [2024-07-03T00:54:19.958Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=231&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 25.840 ms
+ 
+2024-07-02 19:54:21:5355 http: [2024-07-03T00:54:21.535Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=23&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 31.282 ms
+ 
+2024-07-02 19:54:21:8468 http: [2024-07-03T00:54:21.846Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=2&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 33.578 ms
+ 
+2024-07-02 19:54:22:0000 http: [2024-07-03T00:54:21.999Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 23.677 ms
+ 
+2024-07-02 19:54:33:4655 http: [2024-07-03T00:54:33.465Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=1&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 90.303 ms
+ 
+2024-07-02 19:54:36:0701 http: [2024-07-03T00:54:36.070Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=2&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 28.953 ms
+ 
+2024-07-02 19:54:41:6306 http: [2024-07-03T00:54:41.629Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 26.217 ms
+ 
+2024-07-02 22:13:03:2963 info: Database connected successfully! 
+2024-07-02 22:13:03:5385 debug: EmployeeService:constructor 
+2024-07-02 22:54:01:1171 error: getaddrinfo ENOTFOUND base Error: getaddrinfo ENOTFOUND base
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+2024-07-02 22:58:39:5836 info: Database connected successfully! 
+2024-07-02 22:58:39:7988 debug: EmployeeService:constructor 
+2024-07-02 23:00:46:5275 http: [2024-07-03T04:00:46.526Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 309.568 ms
+ 
+2024-07-02 23:01:07:6767 http: [2024-07-03T04:01:07.675Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 121.707 ms
+ 
+2024-07-02 23:01:08:1502 http: [2024-07-03T04:01:08.150Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 34.927 ms
+ 
+2024-07-02 23:01:09:5215 http: [2024-07-03T04:01:09.521Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 35.096 ms
+ 
+2024-07-02 23:01:31:8218 http: [2024-07-03T04:01:31.821Z] ::1 "GET /api/v1/employee?page=82&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 89.170 ms
+ 
+2024-07-02 23:01:36:4284 http: [2024-07-03T04:01:36.428Z] ::1 "GET /api/v1/employee?page=81&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 27.929 ms
+ 
+2024-07-02 23:01:42:5455 http: [2024-07-03T04:01:42.545Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 26.462 ms
+ 
+2024-07-02 23:02:49:2422 http: [2024-07-03T04:02:49.242Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 92.108 ms
+ 
+2024-07-02 23:02:49:5485 http: [2024-07-03T04:02:49.548Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 28.801 ms
+ 
+2024-07-02 23:28:38:8258 info: Database connected successfully! 
+2024-07-02 23:28:39:0591 debug: EmployeeService:constructor 
+2024-07-02 23:29:01:1221 debug: Finding data of 'EmployeeEntity' by id: 810 
+2024-07-02 23:29:01:2873 http: [2024-07-03T04:29:01.286Z] ::1 "GET /api/v1/employee/810 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 158.803 ms
+ 
+2024-07-02 23:29:23:8088 http: [2024-07-03T04:29:23.808Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 110.610 ms
+ 
+2024-07-02 23:29:24:2352 http: [2024-07-03T04:29:24.235Z] ::1 "GET /api/v1/employee?page=1&limit=10&search=&documentType=&workCenter=&workingType=&status=&position= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 55.257 ms
+ 
+2024-07-02 23:29:35:99010 debug: Finding data of 'EmployeeEntity' by id: 804 
+2024-07-02 23:29:36:1041 http: [2024-07-03T04:29:36.104Z] ::1 "GET /api/v1/employee/804 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 112.793 ms
+ 

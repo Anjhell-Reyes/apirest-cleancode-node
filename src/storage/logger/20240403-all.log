@@ -1,0 +1,20 @@
+2024-04-03 17:21:26:8108 info: Database connected successfully! 
+2024-04-03 17:21:27:2222 debug: ZoneService:constructor 
+2024-04-03 17:24:03:95110 http: [2024-04-03T22:24:03.950Z] ::ffff:127.0.0.1 "GET /swagger-ui HTTP/1.1" 404 149 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" {} 5.338 ms
+ 
+2024-04-03 17:24:10:0290 http: [2024-04-03T22:24:10.028Z] ::ffff:127.0.0.1 "GET /swagger HTTP/1.1" 301 181 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" {} 4.025 ms
+ 
+2024-04-03 17:24:10:0470 http: [2024-04-03T22:24:10.047Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" {} 7.138 ms
+ 
+2024-04-03 17:24:10:1281 http: [2024-04-03T22:24:10.128Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" {} 1.078 ms
+ 
+2024-04-03 17:24:10:1491 http: [2024-04-03T22:24:10.148Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" {} 24.719 ms
+ 
+2024-04-03 17:24:10:1702 http: [2024-04-03T22:24:10.170Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" {} 15.981 ms
+ 
+2024-04-03 17:24:10:2362 http: [2024-04-03T22:24:10.236Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" {} 16.608 ms
+ 
+2024-04-03 17:24:10:4545 http: [2024-04-03T22:24:10.453Z] ::ffff:127.0.0.1 "GET /swagger/favicon-16x16.png HTTP/1.1" 200 665 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" {} 2.317 ms
+ 
+2024-04-03 17:24:25:5205 http: [2024-04-03T22:24:25.519Z] ::ffff:127.0.0.1 "GET /api/v1/zone HTTP/1.1" 200 277 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" {} 124.445 ms
+ 

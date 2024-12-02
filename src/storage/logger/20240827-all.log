@@ -1,0 +1,21 @@
+2024-08-27 11:29:58:98510 info: Database connected successfully! 
+2024-08-27 11:29:59:3093 debug: EmployeeService:constructor 
+2024-08-27 11:31:47:2312 info: Database connected successfully! 
+2024-08-27 11:31:47:5415 debug: EmployeeService:constructor 
+2024-08-27 11:32:14:3473 http: [2024-08-27T16:32:14.346Z] ::ffff:127.0.0.1 "POST /api/v1/user//login HTTP/1.1" 403 61 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"12345"} 3.849 ms
+ 
+2024-08-27 11:32:49:1542 info: Database connected successfully! 
+2024-08-27 11:32:49:5255 debug: EmployeeService:constructor 
+2024-08-27 11:32:51:9499 http: [2024-08-27T16:32:51.948Z] ::ffff:127.0.0.1 "POST /api/v1/user//login HTTP/1.1" 404 158 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"12345"} 6.225 ms
+ 
+2024-08-27 11:33:06:7968 debug: Finding data of 'UserEntity' by field 'email' with value: castrogilwilson@gmail.com 
+2024-08-27 11:33:07:1602 http: [2024-08-27T16:33:07.160Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"12345"} 364.438 ms
+ 
+2024-08-27 11:35:39:4204 debug: Finding data of 'UserEntity' by field 'email' with value: c.wilcas@gmail.com 
+2024-08-27 11:35:39:7217 http: [2024-08-27T16:35:39.721Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 300.353 ms
+ 
+2024-08-27 11:37:41:2252 http: [2024-08-27T16:37:41.225Z] ::ffff:127.0.0.1 "POST /api/v1/user/logi HTTP/1.1" 404 156 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 2.503 ms
+ 
+2024-08-27 11:37:45:6697 debug: Finding data of 'UserEntity' by field 'email' with value: c.wilcas@gmail.com 
+2024-08-27 11:37:45:7778 http: [2024-08-27T16:37:45.777Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 107.837 ms
+ 

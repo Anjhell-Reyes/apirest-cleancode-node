@@ -1,0 +1,243 @@
+2024-08-28 08:57:09:8999 info: Database connected successfully! 
+2024-08-28 08:57:10:3614 debug: EmployeeService:constructor 
+2024-08-28 08:58:18:5776 debug: Finding data of 'UserEntity' by field 'email' with value: c.wilcas@gmail.com 
+2024-08-28 08:58:18:7568 http: [2024-08-28T13:58:18.754Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 169.215 ms
+ 
+2024-08-28 09:01:38:1692 info: Database connected successfully! 
+2024-08-28 09:01:38:4915 debug: EmployeeService:constructor 
+2024-08-28 09:03:03:4675 info: Database connected successfully! 
+2024-08-28 09:03:04:2052 debug: EmployeeService:constructor 
+2024-08-28 09:03:05:5295 debug: Finding data of 'UserEntity' by field 'email' with value: c.wilcas@gmail.com 
+2024-08-28 09:03:05:6927 http: [2024-08-28T14:03:05.691Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 160.615 ms
+ 
+2024-08-28 09:03:10:4034 debug: Finding data of 'UserEntity' by field 'email' with value: c.wilcas@gmail.com 
+2024-08-28 09:03:10:4204 http: [2024-08-28T14:03:10.419Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 16.068 ms
+ 
+2024-08-28 09:03:56:6276 info: Database connected successfully! 
+2024-08-28 09:03:57:7788 debug: EmployeeService:constructor 
+2024-08-28 09:08:11:6056 info: Database connected successfully! 
+2024-08-28 09:08:12:0781 debug: EmployeeService:constructor 
+2024-08-28 09:08:27:0480 info: Database connected successfully! 
+2024-08-28 09:08:27:4094 debug: EmployeeService:constructor 
+2024-08-28 09:08:28:5165 debug: Finding data of 'UserEntity' by field 'email' with value: c.wilcas@gmail.com 
+2024-08-28 09:08:28:5666 http: [2024-08-28T14:08:28.565Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 45.959 ms
+ 
+2024-08-28 09:09:34:6106 info: Database connected successfully! 
+2024-08-28 09:09:34:8929 debug: EmployeeService:constructor 
+2024-08-28 09:09:44:0721 info: Database connected successfully! 
+2024-08-28 09:09:44:4805 debug: EmployeeService:constructor 
+2024-08-28 09:18:50:9479 info: Database connected successfully! 
+2024-08-28 09:18:51:3894 debug: EmployeeService:constructor 
+2024-08-28 09:18:54:9159 debug: Finding data of 'UserEntity' by field 'email' with value: c.wilcas@gmail.com 
+2024-08-28 09:18:54:96410 http: [2024-08-28T14:18:54.964Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 41.983 ms
+ 
+2024-08-28 09:19:06:2242 info: Database connected successfully! 
+2024-08-28 09:19:06:4865 debug: EmployeeService:constructor 
+2024-08-28 09:20:43:6517 info: Database connected successfully! 
+2024-08-28 09:20:43:95410 debug: EmployeeService:constructor 
+2024-08-28 09:21:15:2182 info: Database connected successfully! 
+2024-08-28 09:21:15:6757 debug: EmployeeService:constructor 
+2024-08-28 09:21:39:97610 info: Database connected successfully! 
+2024-08-28 09:21:40:4464 debug: EmployeeService:constructor 
+2024-08-28 09:21:54:8118 info: Database connected successfully! 
+2024-08-28 09:21:55:4875 debug: EmployeeService:constructor 
+2024-08-28 09:22:04:0040 info: Database connected successfully! 
+2024-08-28 09:22:04:3714 debug: EmployeeService:constructor 
+2024-08-28 09:22:04:8008 debug: Finding data of 'UserEntity' by field 'email' with value: c.wilcas@gmail.com 
+2024-08-28 09:22:04:9279 http: [2024-08-28T14:22:04.926Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 129.064 ms
+ 
+2024-08-28 09:22:18:3874 info: Database connected successfully! 
+2024-08-28 09:22:18:6486 debug: EmployeeService:constructor 
+2024-08-28 09:27:46:3293 http: [2024-08-28T14:27:46.328Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 14.087 ms
+ 
+2024-08-28 09:27:46:3363 http: [2024-08-28T14:27:46.335Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 19.098 ms
+ 
+2024-08-28 09:27:46:3443 http: [2024-08-28T14:27:46.343Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 1.927 ms
+ 
+2024-08-28 09:27:46:7808 http: [2024-08-28T14:27:46.779Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 4.360 ms
+ 
+2024-08-28 09:27:55:0741 http: [2024-08-28T14:27:55.073Z] ::1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 4.038 ms
+ 
+2024-08-28 09:27:55:1281 http: [2024-08-28T14:27:55.128Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 6.858 ms
+ 
+2024-08-28 09:27:55:1321 http: [2024-08-28T14:27:55.132Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 8.469 ms
+ 
+2024-08-28 09:27:55:1371 http: [2024-08-28T14:27:55.137Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 10.687 ms
+ 
+2024-08-28 09:27:55:1441 http: [2024-08-28T14:27:55.143Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 1.548 ms
+ 
+2024-08-28 09:27:55:6907 http: [2024-08-28T14:27:55.690Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 8.040 ms
+ 
+2024-08-28 09:29:53:2583 info: Database connected successfully! 
+2024-08-28 09:29:53:5786 debug: EmployeeService:constructor 
+2024-08-28 09:32:56:7027 info: Database connected successfully! 
+2024-08-28 09:32:57:0030 debug: EmployeeService:constructor 
+2024-08-28 09:33:22:4815 info: Database connected successfully! 
+2024-08-28 09:33:23:0050 debug: EmployeeService:constructor 
+2024-08-28 09:33:54:0731 info: Database connected successfully! 
+2024-08-28 09:33:54:3914 debug: EmployeeService:constructor 
+2024-08-28 09:33:54:5576 http: [2024-08-28T14:33:54.556Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 58.606 ms
+ 
+2024-08-28 09:34:00:8569 http: [2024-08-28T14:34:00.856Z] ::ffff:127.0.0.1 "POST /api/v1/user/logi HTTP/1.1" 404 156 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 4.012 ms
+ 
+2024-08-28 09:34:04:9179 http: [2024-08-28T14:34:04.917Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 121.558 ms
+ 
+2024-08-28 09:34:09:3473 http: [2024-08-28T14:34:09.347Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 13.934 ms
+ 
+2024-08-28 09:37:05:5465 info: Database connected successfully! 
+2024-08-28 09:37:05:8158 debug: EmployeeService:constructor 
+2024-08-28 09:37:21:2693 info: Database connected successfully! 
+2024-08-28 09:37:21:6727 debug: EmployeeService:constructor 
+2024-08-28 09:39:17:8559 info: Database connected successfully! 
+2024-08-28 09:39:18:3343 debug: EmployeeService:constructor 
+2024-08-28 09:40:13:9359 info: Database connected successfully! 
+2024-08-28 09:40:14:4324 debug: EmployeeService:constructor 
+2024-08-28 09:40:32:2362 info: Database connected successfully! 
+2024-08-28 09:40:32:6016 debug: EmployeeService:constructor 
+2024-08-28 09:40:35:4394 debug: Finding data of 'UserEntity' by field 'email' with value: c.wilcas@gmail.com 
+2024-08-28 09:40:35:4985 http: [2024-08-28T14:40:35.498Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 53.064 ms
+ 
+2024-08-28 09:40:38:4835 debug: Finding data of 'UserEntity' by field 'email' with value: c.wilcas@gmail.com 
+2024-08-28 09:40:38:5005 http: [2024-08-28T14:40:38.500Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 17.002 ms
+ 
+2024-08-28 09:43:20:0951 info: Database connected successfully! 
+2024-08-28 09:43:20:4154 debug: EmployeeService:constructor 
+2024-08-28 09:43:47:1481 info: Database connected successfully! 
+2024-08-28 09:43:47:5395 debug: EmployeeService:constructor 
+2024-08-28 09:43:47:7467 http: [2024-08-28T14:43:47.745Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 44.443 ms
+ 
+2024-08-28 09:48:05:5906 info: Database connected successfully! 
+2024-08-28 09:48:05:8579 debug: EmployeeService:constructor 
+2024-08-28 09:48:42:6336 info: Database connected successfully! 
+2024-08-28 09:48:43:0561 debug: EmployeeService:constructor 
+2024-08-28 09:48:56:6256 http: [2024-08-28T14:48:56.624Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 184.382 ms
+ 
+2024-08-28 09:49:15:7197 info: Database connected successfully! 
+2024-08-28 09:49:16:1051 debug: EmployeeService:constructor 
+2024-08-28 09:49:16:4124 http: [2024-08-28T14:49:16.410Z] ::1 "POST /api/v1/user/login HTTP/1.1" 401 40 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 117.928 ms
+ 
+2024-08-28 09:49:35:2352 info: Database connected successfully! 
+2024-08-28 09:49:35:5055 debug: EmployeeService:constructor 
+2024-08-28 09:51:22:0440 info: Database connected successfully! 
+2024-08-28 09:51:22:7598 debug: EmployeeService:constructor 
+2024-08-28 09:51:46:1872 info: Database connected successfully! 
+2024-08-28 09:51:46:5556 debug: EmployeeService:constructor 
+2024-08-28 09:52:07:7137 info: Database connected successfully! 
+2024-08-28 09:52:07:98610 debug: EmployeeService:constructor 
+2024-08-28 09:52:10:2873 http: [2024-08-28T14:52:10.286Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 48.238 ms
+ 
+2024-08-28 09:55:16:7427 info: Database connected successfully! 
+2024-08-28 09:55:17:3113 debug: EmployeeService:constructor 
+2024-08-28 09:55:33:5385 info: Database connected successfully! 
+2024-08-28 09:55:33:8238 debug: EmployeeService:constructor 
+2024-08-28 09:55:37:6787 http: [2024-08-28T14:55:37.677Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"user_name":"c.wilcas@gmail.com","password":"123"} 234.331 ms
+ 
+2024-08-28 09:55:50:1001 http: [2024-08-28T14:55:50.100Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"user_name":"WILSON CASTRO","password":"123"} 307.605 ms
+ 
+2024-08-28 09:56:09:3644 info: Database connected successfully! 
+2024-08-28 09:56:09:6677 debug: EmployeeService:constructor 
+2024-08-28 10:01:09:1401 info: Database connected successfully! 
+2024-08-28 10:01:09:5686 debug: EmployeeService:constructor 
+2024-08-28 10:01:09:9479 http: [2024-08-28T15:01:09.946Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 94.536 ms
+ 
+2024-08-28 10:03:43:4084 info: Database connected successfully! 
+2024-08-28 10:03:43:7628 debug: EmployeeService:constructor 
+2024-08-28 10:04:01:7007 http: [2024-08-28T15:04:01.700Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 240.741 ms
+ 
+2024-08-28 10:04:15:1321 info: Database connected successfully! 
+2024-08-28 10:04:15:7678 debug: EmployeeService:constructor 
+2024-08-28 10:04:31:9069 info: Database connected successfully! 
+2024-08-28 10:04:32:6597 debug: EmployeeService:constructor 
+2024-08-28 10:04:34:4835 http: [2024-08-28T15:04:34.477Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 102.361 ms
+ 
+2024-08-28 10:16:49:3073 info: Database connected successfully! 
+2024-08-28 10:16:49:6887 debug: EmployeeService:constructor 
+2024-08-28 10:20:29:5145 info: Database connected successfully! 
+2024-08-28 10:20:29:7768 debug: EmployeeService:constructor 
+2024-08-28 10:20:32:2312 http: [2024-08-28T15:20:32.230Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 69.380 ms
+ 
+2024-08-28 10:20:42:9169 info: Database connected successfully! 
+2024-08-28 10:20:43:2462 debug: EmployeeService:constructor 
+2024-08-28 10:24:14:6446 debug: Finding data of 'EmployeeEntity' by id: 400 
+2024-08-28 10:24:14:9209 http: [2024-08-28T15:24:14.919Z] ::1 "GET /api/v1/employee/400 HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 265.147 ms
+ 
+2024-08-28 10:24:42:5516 http: [2024-08-28T15:24:42.551Z] ::1 "GET /api/v1/employee/document/98645726 HTTP/1.1" 404 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 169.176 ms
+ 
+2024-08-28 10:24:54:7608 http: [2024-08-28T15:24:54.760Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 195.995 ms
+ 
+2024-08-28 10:25:30:8318 http: [2024-08-28T15:25:30.831Z] ::1 "GET /api/v1/employee/document/666633 HTTP/1.1" 200 974 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 139.601 ms
+ 
+2024-08-28 10:26:23:97510 info: Database connected successfully! 
+2024-08-28 10:26:24:2553 debug: EmployeeService:constructor 
+2024-08-28 10:29:50:4585 info: Database connected successfully! 
+2024-08-28 10:29:50:95710 debug: EmployeeService:constructor 
+2024-08-28 10:30:00:6557 info: Database connected successfully! 
+2024-08-28 10:30:00:9149 debug: EmployeeService:constructor 
+2024-08-28 10:30:13:6767 info: Database connected successfully! 
+2024-08-28 10:30:14:1001 debug: EmployeeService:constructor 
+2024-08-28 10:33:54:0020 info: Database connected successfully! 
+2024-08-28 10:33:54:2733 debug: EmployeeService:constructor 
+2024-08-28 10:34:12:7417 info: Database connected successfully! 
+2024-08-28 10:34:13:3974 debug: EmployeeService:constructor 
+2024-08-28 10:34:15:0130 http: [2024-08-28T15:34:15.012Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 46.168 ms
+ 
+2024-08-28 10:36:28:0861 info: Database connected successfully! 
+2024-08-28 10:36:28:3614 debug: EmployeeService:constructor 
+2024-08-28 10:36:59:4494 info: Database connected successfully! 
+2024-08-28 10:36:59:7057 debug: EmployeeService:constructor 
+2024-08-28 10:37:44:0991 info: Database connected successfully! 
+2024-08-28 10:37:44:4394 debug: EmployeeService:constructor 
+2024-08-28 10:38:28:4074 http: [2024-08-28T15:38:28.406Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 147.497 ms
+ 
+2024-08-28 10:41:19:2733 info: Database connected successfully! 
+2024-08-28 10:41:19:5465 debug: EmployeeService:constructor 
+2024-08-28 10:42:01:8308 info: Database connected successfully! 
+2024-08-28 10:42:02:1451 debug: EmployeeService:constructor 
+2024-08-28 10:57:21:7367 info: Database connected successfully! 
+2024-08-28 10:57:22:2372 debug: EmployeeService:constructor 
+2024-08-28 10:58:52:1592 http: [2024-08-28T15:58:52.158Z] ::ffff:127.0.0.1 "POST /api/v1/employee/document/666633 HTTP/1.1" 404 171 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 3.330 ms
+ 
+2024-08-28 10:58:57:7508 http: [2024-08-28T15:58:57.748Z] ::ffff:127.0.0.1 "GET /api/v1/employee/document/666633 HTTP/1.1" 200 974 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 349.747 ms
+ 
+2024-08-28 11:03:59:5095 info: Database connected successfully! 
+2024-08-28 11:03:59:8969 debug: EmployeeService:constructor 
+2024-08-28 11:04:30:3173 info: Database connected successfully! 
+2024-08-28 11:04:30:6216 debug: EmployeeService:constructor 
+2024-08-28 11:04:44:9099 info: Database connected successfully! 
+2024-08-28 11:04:45:2022 debug: EmployeeService:constructor 
+2024-08-28 11:04:48:9069 http: [2024-08-28T16:04:48.905Z] ::ffff:127.0.0.1 "POST /api/v1/users/login/c.wilcas@gmail.com HTTP/1.1" 404 177 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 5.551 ms
+ 
+2024-08-28 11:05:07:0440 http: [2024-08-28T16:05:07.044Z] ::ffff:127.0.0.1 "POST /api/v1/users/login/c.wilcas@gmail.com HTTP/1.1" 404 177 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 2.015 ms
+ 
+2024-08-28 11:05:34:0380 info: Database connected successfully! 
+2024-08-28 11:05:34:4304 debug: EmployeeService:constructor 
+2024-08-28 11:14:20:9279 http: [2024-08-28T16:14:20.926Z] ::ffff:127.0.0.1 "GET /api/v1/users/login HTTP/1.1" 404 157 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 8.710 ms
+ 
+2024-08-28 11:14:27:6196 http: [2024-08-28T16:14:27.619Z] ::ffff:127.0.0.1 "POST /api/v1/users/login HTTP/1.1" 404 158 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 2.390 ms
+ 
+2024-08-28 11:14:36:3483 http: [2024-08-28T16:14:36.348Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 148.556 ms
+ 
+2024-08-28 11:14:40:4204 debug: Finding data of 'UserEntity' by id: login 
+2024-08-28 11:14:40:7087 error: la sintaxis de entrada no es válida para tipo integer: «login» QueryFailedError: la sintaxis de entrada no es válida para tipo integer: «login»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getRawAndEntities (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1670:29)
+    at SelectQueryBuilder.getOne (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1697:25)
+2024-08-28 11:14:40:7147 http: [2024-08-28T16:14:40.714Z] ::ffff:127.0.0.1 "GET /api/v1/user/login HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"email":"c.wilcas@gmail.com","password":"123"} 294.203 ms
+ 
+2024-08-28 11:29:21:1481 debug: Listing data of 'UserEntity' 
+2024-08-28 11:29:21:2893 http: [2024-08-28T16:29:21.289Z] ::ffff:127.0.0.1 "GET /api/v1/user HTTP/1.1" 200 247 "-" "insomnia/2023.5.8" {} 140.189 ms
+ 
+2024-08-28 11:30:58:6166 http: [2024-08-28T16:30:58.616Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"12345"} 500.940 ms
+ 
+2024-08-28 11:32:40:3243 debug: Updating data of 'UserEntity' by id: 5 
+2024-08-28 11:32:40:5185 debug: Affected rows: 1 
+2024-08-28 11:32:40:5185 debug: Finding data of 'UserEntity' by id: 5 
+2024-08-28 11:32:40:5355 http: [2024-08-28T16:32:40.534Z] ::ffff:127.0.0.1 "PUT /api/v1/user/5 HTTP/1.1" 200 173 "-" "insomnia/2023.5.8" {"password":"12345"} 209.953 ms
+ 
+2024-08-28 11:32:48:9169 http: [2024-08-28T16:32:48.915Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"12345"} 117.667 ms
+ 
+2024-08-28 11:33:21:7758 http: [2024-08-28T16:33:21.774Z] ::ffff:127.0.0.1 "POST /api/v1/user/login HTTP/1.1" 401 39 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"12345"} 197.537 ms
+ 

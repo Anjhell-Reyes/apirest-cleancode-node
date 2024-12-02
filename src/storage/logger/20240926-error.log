@@ -1,0 +1,34 @@
+2024-09-26 19:32:38:99010 error: Unexpected token 'c', "createdAt:ASC" is not valid JSON SyntaxError: Unexpected token 'c', "createdAt:ASC" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:98:74)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:16:12)
+    at EmployeeController.exportEmployee (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:97:16)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\routes\v1\employeeRouter.ts:47:14
+    at Layer.handle [as handle_request] (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\index.js:175:3)
+2024-09-26 19:33:43:99510 error: Unexpected token 'c', "createdAt:ASC" is not valid JSON SyntaxError: Unexpected token 'c', "createdAt:ASC" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:98:74)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:16:12)
+    at EmployeeController.exportEmployee (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:97:16)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\routes\v1\employeeRouter.ts:47:14
+    at Layer.handle [as handle_request] (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\express\lib\router\index.js:175:3)

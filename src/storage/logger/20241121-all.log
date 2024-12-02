@@ -1,0 +1,57 @@
+2024-11-21 08:37:00:3013 info: Database connected successfully! 
+2024-11-21 08:37:00:7688 debug: EmployeeService:constructor 
+2024-11-21 08:39:45:5255 http: [2024-11-21T13:39:45.524Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 257.382 ms
+ 
+2024-11-21 08:39:46:4655 http: [2024-11-21T13:39:46.465Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 90.523 ms
+ 
+2024-11-21 08:39:47:3253 http: [2024-11-21T13:39:47.325Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 79.620 ms
+ 
+2024-11-21 08:39:50:7167 http: [2024-11-21T13:39:50.716Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 54.541 ms
+ 
+2024-11-21 08:40:06:6376 http: [2024-11-21T13:40:06.636Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 351.550 ms
+ 
+2024-11-21 08:40:33:8549 http: [2024-11-21T13:40:33.854Z] ::1 "GET /api/v1/employee/export/excel HTTP/1.1" 200 150347 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 1488.921 ms
+ 
+2024-11-21 08:41:30:4675 debug: Finding data of 'EmployeeEntity' by id: 822 
+2024-11-21 08:41:31:1682 http: [2024-11-21T13:41:31.168Z] ::1 "GET /api/v1/employee/822 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 696.932 ms
+ 
+2024-11-21 08:42:06:0661 http: [2024-11-21T13:42:06.066Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 177.555 ms
+ 
+2024-11-21 08:42:07:5696 http: [2024-11-21T13:42:07.569Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 48.226 ms
+ 
+2024-11-21 08:53:23:0010 info: Database connected successfully! 
+2024-11-21 08:53:23:3544 debug: EmployeeService:constructor 
+2024-11-21 08:55:18:8859 http: [2024-11-21T13:55:18.875Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 319.828 ms
+ 
+2024-11-21 08:55:19:8769 http: [2024-11-21T13:55:19.876Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 89.780 ms
+ 
+2024-11-21 08:55:20:6436 http: [2024-11-21T13:55:20.643Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 79.347 ms
+ 
+2024-11-21 08:55:23:4444 http: [2024-11-21T13:55:23.444Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 58.058 ms
+ 
+2024-11-21 08:55:35:9309 http: [2024-11-21T13:55:35.930Z] ::1 "GET /api/v1/employee/export/excel HTTP/1.1" 200 150414 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 1473.687 ms
+ 
+2024-11-21 09:10:18:0781 info: Database connected successfully! 
+2024-11-21 09:10:18:4565 debug: EmployeeService:constructor 
+2024-11-21 09:11:14:2633 info: Database connected successfully! 
+2024-11-21 09:11:14:8799 debug: EmployeeService:constructor 
+2024-11-21 09:11:22:96910 info: Database connected successfully! 
+2024-11-21 09:11:23:2953 debug: EmployeeService:constructor 
+2024-11-21 09:12:01:0390 http: [2024-11-21T14:12:01.038Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 278.976 ms
+ 
+2024-11-21 09:12:03:7718 http: [2024-11-21T14:12:03.771Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 74.966 ms
+ 
+2024-11-21 09:12:38:5866 http: [2024-11-21T14:12:38.586Z] ::1 "GET /api/v1/employee/export/excel HTTP/1.1" 200 156034 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 1559.984 ms
+ 
+2024-11-21 14:08:31:6857 info: Database connected successfully! 
+2024-11-21 14:08:32:0350 debug: EmployeeService:constructor 
+2024-11-21 14:09:22:7658 http: [2024-11-21T19:09:22.764Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 455.372 ms
+ 
+2024-11-21 14:10:20:4545 http: [2024-11-21T19:10:20.454Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 204.723 ms
+ 
+2024-11-21 14:10:21:3063 http: [2024-11-21T19:10:21.305Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 68.647 ms
+ 
+2024-11-21 14:10:24:4725 http: [2024-11-21T19:10:24.472Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 48.153 ms
+ 
+2024-11-21 14:10:31:98810 http: [2024-11-21T19:10:31.987Z] ::1 "GET /api/v1/employee/export/excel HTTP/1.1" 200 156034 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 1465.680 ms
+ 

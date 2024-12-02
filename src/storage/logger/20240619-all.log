@@ -1,0 +1,9 @@
+2024-06-19 11:04:40:6046 info: Database connected successfully! 
+2024-06-19 11:04:41:1231 debug: EmployeeService:constructor 
+2024-06-19 11:06:01:0511 http: [2024-06-19T16:06:01.050Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 200 27453 "-" "insomnia/2023.5.8" {} 1313.444 ms
+ 
+2024-06-19 11:07:41:2943 http: [2024-06-19T16:07:41.294Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 200 27453 "-" "insomnia/2023.5.8" {} 1179.774 ms
+ 
+2024-06-19 11:10:19:8899 debug: Creating data of 'EmployeeEntity' 
+2024-06-19 11:10:20:0821 http: [2024-06-19T16:10:20.082Z] ::ffff:127.0.0.1 "POST /api/v1/employee HTTP/1.1" 201 997 "-" "insomnia/2023.5.8" {"name":"Watson","firstLastName":"Mick","secondLastName":"Solop","documentTypeId":1,"documentNumber":"9123456789","email":"watson.mick@example.com","cellPhone":"9123456789","phone":"0987654321","municipalityId":1,"departmentCode":1,"municipalityCode":1,"district":"District","address":"123 Main St","bloodTypeId":1,"dateBirth":"1990-02-01","nationalityId":1,"departmentBirthCode":70,"municipalityBirthCode":70508,"educationLevelId":1,"lastYearStudy":4,"genderId":1,"maritalStatusId":1,"children":0,"lastCompany":"Last Company","monthsWorked":12,"workExperience":"Work experience","workIncapacity":"None","workingTypeId":1,"salary":50000,"epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":1,"ccfId":1,"noveltyId":1,"workCenter":"Work Center","transportationAllowance":1000,"parafiscales":true,"positionId":1,"dateEntry":"2024-06-18","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1} 888.893 ms
+ 

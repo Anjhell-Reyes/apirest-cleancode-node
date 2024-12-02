@@ -1,0 +1,150 @@
+2024-05-21 16:22:38:9239 info: Database connected successfully! 
+2024-05-21 16:22:39:3694 debug: EmployeeService:constructor 
+2024-05-21 16:23:12:1902 http: [2024-05-21T21:23:12.189Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" {} 21.386 ms
+ 
+2024-05-21 16:23:12:2773 http: [2024-05-21T21:23:12.277Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" {} 3.228 ms
+ 
+2024-05-21 16:23:12:3093 http: [2024-05-21T21:23:12.308Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" {} 39.296 ms
+ 
+2024-05-21 16:23:12:3554 http: [2024-05-21T21:23:12.355Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" {} 25.583 ms
+ 
+2024-05-21 16:23:12:4384 http: [2024-05-21T21:23:12.438Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" {} 26.529 ms
+ 
+2024-05-21 16:23:12:8579 http: [2024-05-21T21:23:12.857Z] ::ffff:127.0.0.1 "GET /swagger/favicon-16x16.png HTTP/1.1" 200 665 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" {} 4.454 ms
+ 
+2024-05-21 16:23:27:4665 http: [2024-05-21T21:23:27.465Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" {} 373.245 ms
+ 
+2024-05-21 16:28:11:0430 http: [2024-05-21T21:28:11.043Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 195.381 ms
+ 
+2024-05-21 16:28:14:5175 http: [2024-05-21T21:28:14.517Z] ::1 "GET /swagger/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 2.970 ms
+ 
+2024-05-21 16:28:14:95010 http: [2024-05-21T21:28:14.949Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 10.361 ms
+ 
+2024-05-21 16:28:14:97010 http: [2024-05-21T21:28:14.970Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 7.010 ms
+ 
+2024-05-21 16:28:14:98210 http: [2024-05-21T21:28:14.982Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 1.397 ms
+ 
+2024-05-21 16:28:15:1031 http: [2024-05-21T21:28:15.103Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 6.656 ms
+ 
+2024-05-21 16:28:16:4244 http: [2024-05-21T21:28:16.423Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 200 628 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 3.046 ms
+ 
+2024-05-21 16:32:16:7147 http: [2024-05-21T21:32:16.714Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 221.280 ms
+ 
+2024-05-21 19:44:30:7558 info: Database connected successfully! 
+2024-05-21 19:44:31:1622 debug: EmployeeService:constructor 
+2024-05-21 19:47:22:7307 http: [2024-05-22T00:47:22.729Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 776.626 ms
+ 
+2024-05-21 19:47:29:2673 http: [2024-05-22T00:47:29.267Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 60.857 ms
+ 
+2024-05-21 19:47:29:6657 http: [2024-05-22T00:47:29.665Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 49.185 ms
+ 
+2024-05-21 19:49:01:0501 http: [2024-05-22T00:49:01.049Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 127.488 ms
+ 
+2024-05-21 19:49:05:1542 http: [2024-05-22T00:49:05.153Z] ::1 "GET /api/v1/employees/5 HTTP/1.1" 404 157 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 4.038 ms
+ 
+2024-05-21 20:25:46:0330 debug: Finding data of 'EmployeeEntity' by id: 5 
+2024-05-21 20:25:46:1722 http: [2024-05-22T01:25:46.171Z] ::1 "GET /api/v1/employee/5 HTTP/1.1" 200 834 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 142.961 ms
+ 
+2024-05-21 20:28:23:96710 debug: Creating data of 'EmployeeEntity' 
+2024-05-21 20:28:24:1151 http: [2024-05-22T01:28:24.115Z] ::1 "POST /api/v1/employee HTTP/1.1" 201 836 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {"id":5,"name":"Uberto","firstLastName":"Osorio","secondLastName":"Perez","documentTypeId":1,"documentNumber":"6766868","email":"fdfdfdf@gmail.com","cellPhone":"34354545","phone":"4343434","municipalityId":0,"departmentCode":2,"municipalityCode":10,"district":"9","address":"sdf 54 - 89","bloodTypeId":1,"dateBirth":"1996-06-04T05:00:00.000Z","nationalityId":1,"departmentBirthCode":2,"municipalityBirthCode":1,"educationLevelId":6,"lastYearStudy":5,"genderId":2,"maritalStatusId":1,"children":0,"ageChildren":"","lastCompany":"","monthsWorked":0,"workExperience":"tytyrttrutyt","workIncapacity":"xcxcxcxcx","userRegister":null,"userUpdate":null,"isActive":true,"workingTypeId":1,"salary":"5000000","epsId":1,"afpId":1,"afcId":1,"arlId":3,"rlId":3,"ccfId":1,"createdAt":"2024-05-16T04:33:21.054Z","updatedAt":"2024-05-16T04:33:21.054Z"} 147.870 ms
+ 
+2024-05-21 20:31:40:7848 http: [2024-05-22T01:31:40.783Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 77.448 ms
+ 
+2024-05-21 20:44:14:2102 info: Database connected successfully! 
+2024-05-21 20:44:14:5135 debug: EmployeeService:constructor 
+2024-05-21 20:44:22:96110 http: [2024-05-22T01:44:22.960Z] ::1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 9.010 ms
+ 
+2024-05-21 20:44:22:99510 http: [2024-05-22T01:44:22.995Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 5.079 ms
+ 
+2024-05-21 20:44:23:0000 http: [2024-05-22T01:44:22.998Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 6.186 ms
+ 
+2024-05-21 20:44:23:0120 http: [2024-05-22T01:44:23.012Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 7.032 ms
+ 
+2024-05-21 20:44:23:0190 http: [2024-05-22T01:44:23.019Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 3.537 ms
+ 
+2024-05-21 20:44:23:2653 http: [2024-05-22T01:44:23.265Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 1.974 ms
+ 
+2024-05-21 20:44:31:0801 http: [2024-05-22T01:44:31.080Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 115.858 ms
+ 
+2024-05-21 21:07:42:4945 http: [2024-05-22T02:07:42.494Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 99.630 ms
+ 
+2024-05-21 21:07:42:8368 http: [2024-05-22T02:07:42.836Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 28.614 ms
+ 
+2024-05-21 21:07:43:1341 http: [2024-05-22T02:07:43.134Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 29.090 ms
+ 
+2024-05-21 21:07:52:3994 debug: Finding data of 'EmployeeEntity' by id: 6 
+2024-05-21 21:07:52:4314 http: [2024-05-22T02:07:52.431Z] ::1 "GET /api/v1/employee/6 HTTP/1.1" 200 898 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 31.726 ms
+ 
+2024-05-21 21:28:01:4505 http: [2024-05-22T02:28:01.449Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 192.999 ms
+ 
+2024-05-21 21:28:39:3363 http: [2024-05-22T02:28:39.336Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 93.016 ms
+ 
+2024-05-21 21:28:39:6046 http: [2024-05-22T02:28:39.604Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 23.944 ms
+ 
+2024-05-21 21:28:52:1291 debug: Finding data of 'EmployeeEntity' by id: 6 
+2024-05-21 21:28:52:2813 http: [2024-05-22T02:28:52.281Z] ::1 "GET /api/v1/employee/6 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 152.501 ms
+ 
+2024-05-21 21:29:06:8038 http: [2024-05-22T02:29:06.803Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 219.855 ms
+ 
+2024-05-21 21:29:19:98210 http: [2024-05-22T02:29:19.982Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 75.360 ms
+ 
+2024-05-21 21:34:24:7097 http: [2024-05-22T02:34:24.708Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 74.443 ms
+ 
+2024-05-21 21:34:24:95010 http: [2024-05-22T02:34:24.950Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 17.687 ms
+ 
+2024-05-21 21:53:03:5225 http: [2024-05-22T02:53:03.522Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 126.680 ms
+ 
+2024-05-21 21:53:24:0591 http: [2024-05-22T02:53:24.058Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 198.042 ms
+ 
+2024-05-21 21:53:33:0881 debug: Finding data of 'EmployeeEntity' by id: 6 
+2024-05-21 21:53:33:1091 http: [2024-05-22T02:53:33.109Z] ::1 "GET /api/v1/employee/6 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 20.141 ms
+ 
+2024-05-21 21:53:47:7898 http: [2024-05-22T02:53:47.789Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 88.905 ms
+ 
+2024-05-21 21:53:54:0961 debug: Finding data of 'EmployeeEntity' by id: 1 
+2024-05-21 21:53:54:1141 http: [2024-05-22T02:53:54.114Z] ::1 "GET /api/v1/employee/1 HTTP/1.1" 200 868 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 18.050 ms
+ 
+2024-05-21 21:54:19:8889 http: [2024-05-22T02:54:19.888Z] ::1 "PUT /api/v1/employees/1 HTTP/1.1" 404 157 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {"id":1,"name":"ALVARO","firstLastName":"RIVERO","secondLastName":"MENDOZA","documentTypeId":1,"documentNumber":"5093231","email":"usuariom@correo.com","cellPhone":"3105488546","phone":"","municipalityId":82,"departmentCode":5,"municipalityCode":5604,"district":"string","address":"VEREDA PANAMA NUEVE","bloodTypeId":1,"dateBirth":"1952-09-17T05:00:00.000Z","nationalityId":1,"departmentBirthCode":2,"municipalityBirthCode":11,"educationLevelId":1,"lastYearStudy":5,"genderId":1,"maritalStatusId":1,"children":0,"ageChildren":"0","lastCompany":"string","monthsWorked":0,"workExperience":"string","workIncapacity":"string","userRegister":"string","userUpdate":"string","isActive":true,"workingTypeId":1,"salary":0,"epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":1,"ccfId":1,"noveltyId":0,"createdAt":"2024-05-15T16:29:11.938Z","updatedAt":"2024-05-15T16:29:11.938Z"} 2.884 ms
+ 
+2024-05-21 21:54:35:8108 http: [2024-05-22T02:54:35.809Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 135.103 ms
+ 
+2024-05-21 22:22:29:97710 http: [2024-05-22T03:22:29.977Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 166.248 ms
+ 
+2024-05-21 22:22:29:98010 http: [2024-05-22T03:22:29.980Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 170.438 ms
+ 
+2024-05-21 22:23:01:1802 http: [2024-05-22T03:23:01.180Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 117.046 ms
+ 
+2024-05-21 22:23:15:8008 http: [2024-05-22T03:23:15.800Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 73.858 ms
+ 
+2024-05-21 22:23:24:3864 debug: Finding data of 'EmployeeEntity' by id: 6 
+2024-05-21 22:23:24:4044 http: [2024-05-22T03:23:24.404Z] ::1 "GET /api/v1/employee/6 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 17.130 ms
+ 
+2024-05-21 22:24:31:0410 http: [2024-05-22T03:24:31.040Z] ::1 "PUT /api/v1/employees/6 HTTP/1.1" 404 157 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {"id":6,"name":"Willy","firstLastName":"Arango","secondLastName":"xxxxxxxx","documentTypeId":2,"documentNumber":"65655656","email":"wax@correo.com","cellPhone":"3321434356","phone":"3238743","municipalityId":0,"departmentCode":2,"municipalityCode":105,"district":"2","address":"Barrio las lomas","bloodTypeId":7,"dateBirth":"1998-02-26T05:00:00.000Z","nationalityId":9,"departmentBirthCode":6,"municipalityBirthCode":8,"educationLevelId":3,"lastYearStudy":4,"genderId":1,"maritalStatusId":3,"children":1,"ageChildren":"4","lastCompany":"sdfdffdfd","monthsWorked":4,"workExperience":"bnbvnnhn hjhjkhmhjj erWsedrgtfgyhujk","workIncapacity":"lkjhgfds poiuytr asdff","userRegister":null,"userUpdate":null,"isActive":true,"workingTypeId":1,"salary":"4500000","epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":2,"ccfId":2,"noveltyId":0,"createdAt":"2024-05-16T22:23:47.764Z","updatedAt":"2024-05-16T22:23:47.764Z"} 0.503 ms
+ 
+2024-05-21 22:42:21:99710 http: [2024-05-22T03:42:21.997Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 74.055 ms
+ 
+2024-05-21 22:43:05:3123 http: [2024-05-22T03:43:05.312Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 257.157 ms
+ 
+2024-05-21 22:43:27:8178 debug: Finding data of 'EmployeeEntity' by id: 6 
+2024-05-21 22:43:27:9229 http: [2024-05-22T03:43:27.922Z] ::1 "GET /api/v1/employee/6 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 104.547 ms
+ 
+2024-05-21 22:43:55:1441 http: [2024-05-22T03:43:55.144Z] ::1 "PUT /api/v1/employees/6 HTTP/1.1" 404 157 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {"id":6,"name":"Willy","firstLastName":"aaaaa","secondLastName":"xxxxxxxx","documentTypeId":4,"documentNumber":"65655656","email":"wax@correo.com","cellPhone":"3321434356","phone":"3238743","municipalityId":0,"departmentCode":2,"municipalityCode":105,"district":"2","address":"Barrio las lomas","bloodTypeId":7,"dateBirth":"1998-02-26T05:00:00.000Z","nationalityId":9,"departmentBirthCode":6,"municipalityBirthCode":8,"educationLevelId":3,"lastYearStudy":4,"genderId":1,"maritalStatusId":3,"children":1,"ageChildren":"4","lastCompany":"sdfdffdfd","monthsWorked":4,"workExperience":"bnbvnnhn hjhjkhmhjj erWsedrgtfgyhujk","workIncapacity":"lkjhgfds poiuytr asdff","userRegister":null,"userUpdate":null,"isActive":true,"workingTypeId":1,"salary":"4500000","epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":1,"ccfId":1,"noveltyId":0,"createdAt":"2024-05-16T22:23:47.764Z","updatedAt":"2024-05-16T22:23:47.764Z"} 0.372 ms
+ 
+2024-05-21 22:45:35:5796 http: [2024-05-22T03:45:35.579Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 112.530 ms
+ 
+2024-05-21 22:45:35:5836 http: [2024-05-22T03:45:35.583Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 119.660 ms
+ 
+2024-05-21 22:45:50:7888 http: [2024-05-22T03:45:50.788Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 92.875 ms
+ 
+2024-05-21 22:45:58:0060 http: [2024-05-22T03:45:58.006Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 18.886 ms
+ 
+2024-05-21 22:46:40:1812 http: [2024-05-22T03:46:40.180Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 73.792 ms
+ 
+2024-05-21 22:46:44:8679 debug: Finding data of 'EmployeeEntity' by id: 6 
+2024-05-21 22:46:44:8869 http: [2024-05-22T03:46:44.886Z] ::1 "GET /api/v1/employee/6 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 18.378 ms
+ 
+2024-05-21 22:47:05:5526 debug: Creating data of 'EmployeeEntity' 
+2024-05-21 22:47:05:6987 http: [2024-05-22T03:47:05.698Z] ::1 "POST /api/v1/employee HTTP/1.1" 201 904 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {"id":6,"name":"Willy","firstLastName":"aaaaa","secondLastName":"xxxxxxxx","documentTypeId":4,"documentNumber":"65655656","email":"wax@correo.com","cellPhone":"3321434356","phone":"3238743","municipalityId":0,"departmentCode":2,"municipalityCode":105,"district":"2","address":"Barrio las lomas","bloodTypeId":7,"dateBirth":"1998-02-26T05:00:00.000Z","nationalityId":9,"departmentBirthCode":6,"municipalityBirthCode":8,"educationLevelId":3,"lastYearStudy":4,"genderId":1,"maritalStatusId":3,"children":1,"ageChildren":"4","lastCompany":"sdfdffdfd","monthsWorked":4,"workExperience":"bnbvnnhn hjhjkhmhjj erWsedrgtfgyhujk","workIncapacity":"lkjhgfds poiuytr asdff","userRegister":null,"userUpdate":null,"isActive":true,"workingTypeId":1,"salary":"4500000","epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":1,"ccfId":1,"noveltyId":0,"createdAt":"2024-05-16T22:23:47.764Z","updatedAt":"2024-05-16T22:23:47.764Z"} 147.057 ms
+ 
+2024-05-21 22:47:18:8599 http: [2024-05-22T03:47:18.859Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 71.528 ms
+ 

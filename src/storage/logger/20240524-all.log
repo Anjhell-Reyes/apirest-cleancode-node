@@ -1,0 +1,103 @@
+2024-05-24 20:09:09:7327 info: Database connected successfully! 
+2024-05-24 20:09:10:0661 debug: EmployeeService:constructor 
+2024-05-24 20:12:56:2242 http: [2024-05-25T01:12:56.223Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 134.195 ms
+ 
+2024-05-24 20:12:56:7508 http: [2024-05-25T01:12:56.750Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 38.384 ms
+ 
+2024-05-24 20:12:57:1101 http: [2024-05-25T01:12:57.110Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 380.191 ms
+ 
+2024-05-24 20:13:19:7467 debug: Finding data of 'EmployeeEntity' by id: 4 
+2024-05-24 20:13:19:9059 http: [2024-05-25T01:13:19.904Z] ::1 "GET /api/v1/employee/4 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 159.312 ms
+ 
+2024-05-24 20:14:40:1291 debug: Creating data of 'EmployeeEntity' 
+2024-05-24 20:14:40:2773 http: [2024-05-25T01:14:40.277Z] ::1 "POST /api/v1/employee HTTP/1.1" 201 884 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {"id":4,"name":"Sofia","firstLastName":"Jaramillo","secondLastName":"Rodas","documentTypeId":1,"documentNumber":"32000000","email":"sdfghfg@gmail.com","cellPhone":"3235657787","phone":"4545665","municipalityId":0,"departmentCode":1,"municipalityCode":1,"district":"2","address":"sdf 54 - 89","bloodTypeId":6,"dateBirth":"1998-11-15T05:00:00.000Z","nationalityId":1,"departmentBirthCode":2,"municipalityBirthCode":83,"educationLevelId":6,"lastYearStudy":11,"genderId":2,"maritalStatusId":2,"children":2,"ageChildren":"17 y 12","lastCompany":"jkjkjk","monthsWorked":8,"workExperience":"asfkj sdkjfsd jfksdj","workIncapacity":"sdfeiwori eorio","userRegister":null,"userUpdate":null,"isActive":true,"workingTypeId":1,"salary":"10200000","epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":1,"ccfId":1,"noveltyId":0,"createdAt":"2024-05-15T19:54:15.616Z","updatedAt":"2024-05-15T19:54:15.616Z"} 147.580 ms
+ 
+2024-05-24 20:15:09:7858 http: [2024-05-25T01:15:09.785Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 184.489 ms
+ 
+2024-05-24 20:25:34:7397 debug: Finding data of 'EmployeeEntity' by id: 1 
+2024-05-24 20:25:34:8709 http: [2024-05-25T01:25:34.870Z] ::1 "GET /api/v1/employee/1 HTTP/1.1" 200 868 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 131.213 ms
+ 
+2024-05-24 20:26:18:0921 debug: Creating data of 'EmployeeEntity' 
+2024-05-24 20:26:18:1932 http: [2024-05-25T01:26:18.193Z] ::1 "POST /api/v1/employee HTTP/1.1" 201 875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {"id":1,"name":"ALVARO","firstLastName":"RIVERO","secondLastName":"MENDOZA","documentTypeId":1,"documentNumber":"5093231","email":"usuariom@correo.com","cellPhone":"3105488546","phone":"0000000","municipalityId":82,"departmentCode":5,"municipalityCode":5604,"district":"string","address":"VEREDA PANAMA NUEVE","bloodTypeId":1,"dateBirth":"1952-09-17T05:00:00.000Z","nationalityId":1,"departmentBirthCode":70,"municipalityBirthCode":70508,"educationLevelId":1,"lastYearStudy":5,"genderId":1,"maritalStatusId":1,"children":0,"ageChildren":"0","lastCompany":"string","monthsWorked":0,"workExperience":"string","workIncapacity":"string","userRegister":"string","userUpdate":"string","isActive":true,"workingTypeId":1,"salary":0,"epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":1,"ccfId":1,"noveltyId":0,"createdAt":"2024-05-15T16:29:11.938Z","updatedAt":"2024-05-15T16:29:11.938Z"} 100.826 ms
+ 
+2024-05-24 20:26:29:0611 http: [2024-05-25T01:26:29.060Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 85.587 ms
+ 
+2024-05-24 20:27:05:4675 http: [2024-05-25T01:27:05.466Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 157.025 ms
+ 
+2024-05-24 20:27:05:4705 http: [2024-05-25T01:27:05.470Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 161.631 ms
+ 
+2024-05-24 20:27:18:3273 debug: Finding data of 'EmployeeEntity' by id: 1 
+2024-05-24 20:27:18:4875 http: [2024-05-25T01:27:18.487Z] ::1 "GET /api/v1/employee/1 HTTP/1.1" 200 875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 158.961 ms
+ 
+2024-05-24 20:27:30:8198 debug: Creating data of 'EmployeeEntity' 
+2024-05-24 20:27:30:9209 http: [2024-05-25T01:27:30.920Z] ::1 "POST /api/v1/employee HTTP/1.1" 201 875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {"id":1,"name":"ALVARO","firstLastName":"RIVERO","secondLastName":"MENDOZA","documentTypeId":1,"documentNumber":"5093231","email":"usuariom@correo.com","cellPhone":"3105488546","phone":"1000000","municipalityId":82,"departmentCode":5,"municipalityCode":5604,"district":"string","address":"VEREDA PANAMA NUEVE","bloodTypeId":1,"dateBirth":"1952-09-17T05:00:00.000Z","nationalityId":1,"departmentBirthCode":70,"municipalityBirthCode":70508,"educationLevelId":1,"lastYearStudy":5,"genderId":1,"maritalStatusId":1,"children":0,"ageChildren":"0","lastCompany":"string","monthsWorked":0,"workExperience":"string","workIncapacity":"string","userRegister":"string","userUpdate":"string","isActive":true,"workingTypeId":1,"salary":0,"epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":1,"ccfId":1,"noveltyId":0,"createdAt":"2024-05-15T16:29:11.938Z","updatedAt":"2024-05-25T01:26:18.185Z"} 101.042 ms
+ 
+2024-05-24 20:27:57:7818 http: [2024-05-25T01:27:57.781Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 74.576 ms
+ 
+2024-05-24 20:33:35:2122 debug: Creating data of 'EmployeeEntity' 
+2024-05-24 20:33:35:3223 error: la sintaxis de entrada no es válida para tipo integer: «{"id":1,"region":"Región Andina","departmentCode":2,"department":"Antioquia","municipalityCode":1,"municipality":"Medellín"}» QueryFailedError: la sintaxis de entrada no es válida para tipo integer: «{"id":1,"region":"Región Andina","departmentCode":2,"department":"Antioquia","municipalityCode":1,"municipality":"Medellín"}»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:434:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:197:21)
+2024-05-24 20:33:35:4054 http: [2024-05-25T01:33:35.405Z] ::1 "POST /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {"documentTypeId":2,"documentNumber":"224234545454","name":"kkkkkk","firstLastName":"jjjjjjj","secondLastName":"oooooo","email":"sdfghfghhghg@gmail.com","cellPhone":"","phone":"","municipalityId":{"id":1,"region":"Región Andina","departmentCode":2,"department":"Antioquia","municipalityCode":1,"municipality":"Medellín"},"departmentCode":1,"municipalityCode":1,"district":"1","address":"","bloodTypeId":1,"nationalityId":1,"departmentBirthCode":0,"municipalityBirthCode":0,"educationLevelId":1,"lastYearStudy":0,"genderId":1,"maritalStatusId":1,"children":0,"ageChildren":"","lastCompany":"","monthsWorked":0,"workExperience":"","workIncapacity":"","workingTypeId":1,"salary":0,"epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":1,"ccfId":1,"noveltyId":0} 192.222 ms
+ 
+2024-05-24 20:33:43:6416 http: [2024-05-25T01:33:43.641Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 20.651 ms
+ 
+2024-05-24 20:40:05:95810 debug: Creating data of 'EmployeeEntity' 
+2024-05-24 20:40:06:0541 error: la sintaxis de entrada no es válida para tipo integer: «{"id":1,"region":"Región Andina","departmentCode":2,"department":"Antioquia","municipalityCode":1,"municipality":"Medellín"}» QueryFailedError: la sintaxis de entrada no es válida para tipo integer: «{"id":1,"region":"Región Andina","departmentCode":2,"department":"Antioquia","municipalityCode":1,"municipality":"Medellín"}»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:434:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:197:21)
+2024-05-24 20:40:06:0591 http: [2024-05-25T01:40:06.059Z] ::1 "POST /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {"documentTypeId":2,"documentNumber":"224234545454","name":"kkkkkk","firstLastName":"jjjjjjj","secondLastName":"oooooo","email":"sdfghfghhghg@gmail.com","cellPhone":"3105488546","phone":"0000000","municipalityId":{"id":1,"region":"Región Andina","departmentCode":2,"department":"Antioquia","municipalityCode":1,"municipality":"Medellín"},"departmentCode":2,"municipalityCode":105,"district":"1","address":"sdf 54 - 89","bloodTypeId":1,"dateBirth":"2000-01-26T00:00:00.000Z","nationalityId":1,"departmentBirthCode":2,"municipalityBirthCode":105,"educationLevelId":1,"lastYearStudy":"5","genderId":1,"maritalStatusId":1,"children":0,"ageChildren":"0","lastCompany":"jkjkjk","monthsWorked":0,"workExperience":"sfserwerwerwer uiyiu","workIncapacity":"asdasd","workingTypeId":1,"salary":"1500000","epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":1,"ccfId":1,"noveltyId":0} 100.387 ms
+ 
+2024-05-24 20:40:13:0160 http: [2024-05-25T01:40:13.016Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 21.061 ms
+ 
+2024-05-24 20:42:42:1502 http: [2024-05-25T01:42:42.150Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 10.685 ms
+ 
+2024-05-24 20:42:42:1522 http: [2024-05-25T01:42:42.152Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 10.366 ms
+ 
+2024-05-24 20:42:42:1552 http: [2024-05-25T01:42:42.155Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 9.167 ms
+ 
+2024-05-24 20:42:42:1592 http: [2024-05-25T01:42:42.159Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 0.910 ms
+ 
+2024-05-24 20:42:45:1882 http: [2024-05-25T01:42:45.188Z] ::1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 1.798 ms
+ 
+2024-05-24 20:42:45:2202 http: [2024-05-25T01:42:45.219Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 1.709 ms
+ 
+2024-05-24 20:42:45:2242 http: [2024-05-25T01:42:45.224Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 1.850 ms
+ 
+2024-05-24 20:42:45:2302 http: [2024-05-25T01:42:45.230Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 6.733 ms
+ 
+2024-05-24 20:42:45:2352 http: [2024-05-25T01:42:45.235Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 0.865 ms
+ 
+2024-05-24 20:42:45:4525 http: [2024-05-25T01:42:45.452Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 200 628 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 4.107 ms
+ 
+2024-05-24 20:43:02:3213 debug: Creating data of 'EmployeeEntity' 
+2024-05-24 20:43:02:4294 http: [2024-05-25T01:43:02.429Z] ::1 "POST /api/v1/employee HTTP/1.1" 201 769 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {"name":"KKKKK","firstLastName":"JJJJJJ","secondLastName":"OOOOO","documentTypeId":"2","documentNumber":"09090909","email":"usuariokj@correo.com","cellPhone":"3105488546","phone":"","municipalityId":"82","departmentCode":"5","municipalityCode":"5604","district":"string","address":"VEREDA PANAMA NUEVE","bloodTypeId":"1","dateBirth":"1952-09-17","nationalityId":"1","departmentBirthCode":70,"municipalityBirthCode":70508,"educationLevelId":"1","lastYearStudy":5,"genderId":"1","maritalStatusId":"1","children":0,"ageChildren":"0","lastCompany":"string","monthsWorked":0,"workExperience":"string","workIncapacity":"string","userRegister":"string","userUpdate":"string","isActive":true} 107.636 ms
+ 
+2024-05-24 20:43:24:1552 http: [2024-05-25T01:43:24.155Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 99.582 ms
+ 
+2024-05-24 20:43:24:4545 http: [2024-05-25T01:43:24.454Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 19.112 ms
+ 
+2024-05-24 20:44:35:7157 info: Database connected successfully! 
+2024-05-24 20:44:35:9449 debug: EmployeeService:constructor 
+2024-05-24 20:52:25:8158 http: [2024-05-25T01:52:25.814Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 183.273 ms
+ 
+2024-05-24 20:52:53:8959 http: [2024-05-25T01:52:53.895Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 122.809 ms
+ 
+2024-05-24 20:54:06:1081 http: [2024-05-25T01:54:06.108Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 76.178 ms
+ 
+2024-05-24 20:54:06:6216 http: [2024-05-25T01:54:06.621Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 35.359 ms
+ 
+2024-05-24 20:54:06:8529 http: [2024-05-25T01:54:06.852Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 28.936 ms
+ 
+2024-05-24 20:54:28:6316 http: [2024-05-25T01:54:28.631Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 146.526 ms
+ 
+2024-05-24 20:54:28:7728 http: [2024-05-25T01:54:28.772Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 266.289 ms
+ 

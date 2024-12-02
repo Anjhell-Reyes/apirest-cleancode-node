@@ -1,0 +1,110 @@
+2024-06-25 20:03:04:6907 info: Database connected successfully! 
+2024-06-25 20:03:05:0681 debug: EmployeeService:constructor 
+2024-06-25 20:03:18:7798 http: [2024-06-26T01:03:18.778Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 401 31 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 5.547 ms
+ 
+2024-06-25 20:03:18:7858 http: [2024-06-26T01:03:18.785Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 401 31 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.359 ms
+ 
+2024-06-25 20:03:18:7968 http: [2024-06-26T01:03:18.796Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 401 31 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.461 ms
+ 
+2024-06-25 20:03:18:8218 http: [2024-06-26T01:03:18.821Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 401 31 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 17.473 ms
+ 
+2024-06-25 20:03:18:8398 http: [2024-06-26T01:03:18.839Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 401 31 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.186 ms
+ 
+2024-06-25 20:03:18:8448 http: [2024-06-26T01:03:18.844Z] ::1 "GET /swagger/favicon-16x16.png HTTP/1.1" 401 31 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 0.865 ms
+ 
+2024-06-25 20:03:25:5305 http: [2024-06-26T01:03:25.530Z] ::1 "GET /swagger/ HTTP/1.1" 401 31 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.111 ms
+ 
+2024-06-25 20:03:25:6306 http: [2024-06-26T01:03:25.630Z] ::1 "GET /favicon.ico HTTP/1.1" 401 31 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 0.968 ms
+ 
+2024-06-25 20:03:29:7427 http: [2024-06-26T01:03:29.741Z] ::1 "GET /swagger/ HTTP/1.1" 401 31 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.188 ms
+ 
+2024-06-25 20:03:29:7978 http: [2024-06-26T01:03:29.796Z] ::1 "GET /favicon.ico HTTP/1.1" 401 31 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.339 ms
+ 
+2024-06-25 20:32:34:3504 http: [2024-06-26T01:32:34.350Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 200 27476 "-" "insomnia/2023.5.8" {} 964.377 ms
+ 
+2024-06-25 20:33:03:4745 http: [2024-06-26T01:33:03.472Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 401 26 "-" "insomnia/2023.5.8" {} 411.330 ms
+ 
+2024-06-25 20:33:13:5776 http: [2024-06-26T01:33:13.576Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 401 26 "-" "insomnia/2023.5.8" {} 124.552 ms
+ 
+2024-06-25 21:02:05:2092 http: [2024-06-26T02:02:05.208Z] ::1 "GET /swagger HTTP/1.1" 401 31 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 2.690 ms
+ 
+2024-06-25 21:02:05:4044 http: [2024-06-26T02:02:05.404Z] ::1 "GET /favicon.ico HTTP/1.1" 401 31 "http://localhost:3401/swagger" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.076 ms
+ 
+2024-06-25 21:03:09:0861 http: [2024-06-26T02:03:09.085Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.045 ms
+ 
+2024-06-25 21:03:38:6256 http: [2024-06-26T02:03:38.625Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.146 ms
+ 
+2024-06-25 21:07:38:0741 http: [2024-06-26T02:07:38.074Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 2.769 ms
+ 
+2024-06-25 21:27:03:4404 http: [2024-06-26T02:27:03.439Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.755 ms
+ 
+2024-06-25 21:27:51:8509 http: [2024-06-26T02:27:51.850Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.172 ms
+ 
+2024-06-25 21:28:30:7648 http: [2024-06-26T02:28:30.764Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/callback?code=zerMe8k8xePKvs0_qAbYG_Uz5QaCw_wv467guWXlSVqPf" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 0.970 ms
+ 
+2024-06-25 21:28:34:7157 http: [2024-06-26T02:28:34.715Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.667 ms
+ 
+2024-06-25 21:34:05:8098 http: [2024-06-26T02:34:05.809Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 2.645 ms
+ 
+2024-06-25 21:34:11:0571 http: [2024-06-26T02:34:11.057Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 2.155 ms
+ 
+2024-06-25 22:49:27:6206 http: [2024-06-26T03:49:27.619Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 14.991 ms
+ 
+2024-06-25 23:06:47:5315 http: [2024-06-26T04:06:47.531Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 2.020 ms
+ 
+2024-06-25 23:19:41:4444 http: [2024-06-26T04:19:41.444Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.783 ms
+ 
+2024-06-25 23:30:37:6707 http: [2024-06-26T04:30:37.670Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 2.238 ms
+ 
+2024-06-25 23:34:46:7618 http: [2024-06-26T04:34:46.761Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/callback?code=dsURYGJ-txSbPLA58sBBh5KTa3SqRMZlLMzNlgR4e57-J" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.514 ms
+ 
+2024-06-25 23:50:13:4184 http: [2024-06-26T04:50:13.418Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.571 ms
+ 
+2024-06-25 23:50:41:4164 http: [2024-06-26T04:50:41.416Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 3.731 ms
+ 
+2024-06-25 23:50:54:6967 http: [2024-06-26T04:50:54.696Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/callback?code=f_rGoq2TPvxnLDgEublyIv4CWg9RixD68rmYWShMy5Wof" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 2.816 ms
+ 
+2024-06-25 23:51:04:5966 http: [2024-06-26T04:51:04.596Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.069 ms
+ 
+2024-06-25 23:54:27:3043 http: [2024-06-26T04:54:27.304Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 3.768 ms
+ 
+2024-06-25 23:55:03:9239 http: [2024-06-26T04:55:03.923Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.482 ms
+ 
+2024-06-25 23:55:50:0040 http: [2024-06-26T04:55:50.004Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.025 ms
+ 
+2024-06-25 23:56:26:7217 http: [2024-06-26T04:56:26.721Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.111 ms
+ 
+2024-06-25 23:56:41:8889 http: [2024-06-26T04:56:41.888Z] ::1 "GET /api/auth/login HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 2.704 ms
+ 
+2024-06-25 23:58:10:1512 http: [2024-06-26T04:58:10.151Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 0.984 ms
+ 
+2024-06-25 23:58:18:8919 http: [2024-06-26T04:58:18.891Z] ::1 "GET /api/auth/login HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 0.940 ms
+ 
+2024-06-26 00:08:13:3143 http: [2024-06-26T05:08:13.314Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.273 ms
+ 
+2024-06-26 00:08:20:0190 http: [2024-06-26T05:08:20.019Z] ::1 "GET /api/auth/login HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 2.286 ms
+ 
+2024-06-26 00:08:25:6386 http: [2024-06-26T05:08:25.638Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.138 ms
+ 
+2024-06-26 00:10:35:4895 http: [2024-06-26T05:10:35.489Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.126 ms
+ 
+2024-06-26 00:15:47:1471 http: [2024-06-26T05:15:47.147Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.658 ms
+ 
+2024-06-26 00:45:40:6426 http: [2024-06-26T05:45:40.642Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.074 ms
+ 
+2024-06-26 00:52:15:1762 http: [2024-06-26T05:52:15.176Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.308 ms
+ 
+2024-06-26 00:52:18:0941 http: [2024-06-26T05:52:18.094Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.366 ms
+ 
+2024-06-26 01:09:40:6046 http: [2024-06-26T06:09:40.604Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 9.491 ms
+ 
+2024-06-26 01:21:32:5305 http: [2024-06-26T06:21:32.529Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 17.521 ms
+ 
+2024-06-26 01:21:35:97110 http: [2024-06-26T06:21:35.970Z] ::1 "GET /api/auth/callback?code=cT1aP1HqyLonxZIxTeYzOWebLSlFRuvsMtdar_RK0QVfG HTTP/1.1" 401 31 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.387 ms
+ 
+2024-06-26 01:27:34:7367 http: [2024-06-26T06:27:34.736Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 4.409 ms
+ 
+2024-06-26 01:27:36:8178 http: [2024-06-26T06:27:36.817Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/welcome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.046 ms
+ 
+2024-06-26 01:27:43:8418 http: [2024-06-26T06:27:43.841Z] ::1 "GET /api/auth/callback?code=0qwyAXAO-UFHMwJ8FwmgSYlJOViWydfI4z_BQ57VnM6co HTTP/1.1" 401 31 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 3.419 ms
+ 

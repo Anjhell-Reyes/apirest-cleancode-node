@@ -1,0 +1,762 @@
+2023-05-09 15:00:53:1311 error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5290570512113728.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5290570512113728.js:114:20)
+2023-05-09 15:00:53:1822 error: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\layer.js:45:17)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\index.js:475:17)
+    at Function.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:224:7)
+    at Server.registerSwagger (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:83:17)
+    at Server.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:66:10)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:28:58)
+2023-05-09 15:05:14:9199 error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:114:20)
+2023-05-09 15:05:14:9419 error: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\layer.js:45:17)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\index.js:475:17)
+    at Function.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:224:7)
+    at Server.registerSwagger (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:83:17)
+    at Server.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:66:10)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:28:58)
+2023-05-09 15:06:43:5245 error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:114:20)
+2023-05-09 15:06:43:5495 error: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\layer.js:45:17)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\index.js:475:17)
+    at Function.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:224:7)
+    at Server.registerSwagger (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:83:17)
+    at Server.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:66:10)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:28:58)
+2023-05-09 15:07:10:95110 error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:114:20)
+2023-05-09 15:07:10:99210 error: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\layer.js:45:17)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\index.js:475:17)
+    at Function.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:224:7)
+    at Server.registerSwagger (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:83:17)
+    at Server.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:66:10)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:28:58)
+2023-05-09 15:07:53:6937 error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:114:20)
+2023-05-09 15:07:53:7217 error: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\layer.js:45:17)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\index.js:475:17)
+    at Function.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:224:7)
+    at Server.registerSwagger (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:83:17)
+    at Server.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:66:10)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:28:58)
+2023-05-09 15:08:50:4935 error: Cannot find module './businessInfractionsCalendarService'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module './businessInfractionsCalendarService'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:114:20)
+2023-05-09 15:08:50:5285 error: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\layer.js:45:17)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\index.js:475:17)
+    at Function.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:224:7)
+    at Server.registerSwagger (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:83:17)
+    at Server.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:66:10)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:28:58)
+2023-05-09 15:09:16:1001 error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:114:20)
+2023-05-09 15:09:16:1391 error: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\layer.js:45:17)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\index.js:475:17)
+    at Function.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:224:7)
+    at Server.registerSwagger (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:83:17)
+    at Server.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:66:10)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:28:58)
+2023-05-09 15:09:48:6657 error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:114:20)
+2023-05-09 15:09:48:7277 error: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\layer.js:45:17)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\index.js:475:17)
+    at Function.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:224:7)
+    at Server.registerSwagger (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:83:17)
+    at Server.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:66:10)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:28:58)
+2023-05-09 15:09:58:7928 error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-5768899106264433.js:114:20)
+2023-05-09 15:09:58:8338 error: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\layer.js:45:17)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\index.js:475:17)
+    at Function.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:224:7)
+    at Server.registerSwagger (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:83:17)
+    at Server.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:66:10)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:28:58)
+2023-05-09 15:11:43:5215 error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module '../../domain/types/symbols'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-630697958293035.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-630697958293035.js:114:20)
+2023-05-09 15:11:43:5435 error: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\layer.js:45:17)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\router\index.js:475:17)
+    at Function.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\express\lib\application.js:224:7)
+    at Server.registerSwagger (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:83:17)
+    at Server.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:66:10)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts:28:58)
+2023-05-09 17:55:10:1982 error: Maximum call stack size exceeded RangeError: Maximum call stack size exceeded
+    at C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:9
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:13:12)
+    at ResolutionService.summaryValueByCustomer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:74:16)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:57:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:13:12)
+    at ResolutionService.summaryValueByCustomer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:74:16)
+2023-05-09 17:56:18:5826 error: Maximum call stack size exceeded RangeError: Maximum call stack size exceeded
+    at C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:9
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:13:12)
+    at ResolutionService.summaryValueByCustomer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:78:16)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:57:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:13:12)
+    at ResolutionService.summaryValueByCustomer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:78:16)
+2023-05-09 18:00:03:4935 error: database is not defined ReferenceError: database is not defined
+    at ResolutionRepository.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:65:32)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:4:12)
+    at ResolutionRepository.querySummaryValueByCustomer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:70:16)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:57:47)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:71
+    at new Promise (<anonymous>)
+2023-05-09 18:03:51:6036 error: ResolutionRepository is not defined ReferenceError: ResolutionRepository is not defined
+    at new DbContext (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:10:92)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:16:19)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-7908315732349185.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-7908315732349185.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-7908315732349185.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-05-09 18:04:03:8068 error: ResolutionRepository is not defined ReferenceError: ResolutionRepository is not defined
+    at new DbContext (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:10:92)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:16:19)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-7908315732349185.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-7908315732349185.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-7908315732349185.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-05-09 18:04:35:1231 error: Cannot find module './repositories/resolutionRepositoryContract'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module './repositories/resolutionRepositoryContract'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-7908315732349185.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-7908315732349185.js:114:20)
+2023-05-09 18:05:16:4064 error: Cannot find module './repositories/ResolutionRepositoryContract'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module './repositories/ResolutionRepositoryContract'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-7908315732349185.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-7908315732349185.js:114:20)
+2023-05-09 18:05:44:8779 error: Cannot find module './repositories/resolutionRepositoryContract'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module './repositories/resolutionRepositoryContract'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-7908315732349185.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-7908315732349185.js:114:20)
+2023-05-09 18:06:52:8849 error: Cannot find module './repositories/resolutionRepositoryContract'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module './repositories/resolutionRepositoryContract'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6445061064846598.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6445061064846598.js:114:20)
+2023-05-09 18:09:14:1602 error: Cannot find module 'C:UsersejecutivoDesktopFlit_act_projecBackCrudResolution_mastersrcdomaincontractsesolutionRepositoryContract.ts'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module 'C:UsersejecutivoDesktopFlit_act_projecBackCrudResolution_mastersrcdomaincontractsesolutionRepositoryContract.ts'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6445061064846598.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6445061064846598.js:114:20)
+2023-05-09 18:09:20:4344 error: Cannot find module './repositories/resolutionRepositoryContract'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module './repositories/resolutionRepositoryContract'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6445061064846598.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6445061064846598.js:114:20)
+2023-05-09 18:09:31:1251 error: Cannot find module './domain/contracts/resolutionRepositoryContract'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts Error: Cannot find module './domain/contracts/resolutionRepositoryContract'
+Require stack:
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\controllers\resolutionController.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\ioc\inversify.config.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\v1\rentingApiRouter.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\routes\index.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\bootstrap\server.ts
+- C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6445061064846598.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6445061064846598.js:114:20)
+2023-05-09 18:09:50:1832 error: resolutionRepositoryContract_1.ResolutionRepositoryContract is not a constructor TypeError: resolutionRepositoryContract_1.ResolutionRepositoryContract is not a constructor
+    at new DbContext (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:10:88)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:16:19)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6445061064846598.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6445061064846598.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-6445061064846598.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-05-09 18:15:50:2893 error: resolutionRepositoryContract_1.ResolutionRepositoryContract is not a constructor TypeError: resolutionRepositoryContract_1.ResolutionRepositoryContract is not a constructor
+    at new DbContext (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:10:88)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:16:19)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-05-09 18:18:23:7838 error: ResolutionRepository is not defined ReferenceError: ResolutionRepository is not defined
+    at new DbContext (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:10:92)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:16:19)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-05-09 18:19:02:4164 error: ResolutionRepository is not defined ReferenceError: ResolutionRepository is not defined
+    at new DbContext (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:10:92)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:16:19)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-05-09 18:19:20:2573 error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/dbContext.ts(9,1): error TS1005: 'from' expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/infrastructure/persistence/dbContext.ts(9,1): error TS1005: 'from' expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-05-09 18:19:26:99010 error: DbContext is not defined ReferenceError: DbContext is not defined
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:17:19)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-05-09 18:19:57:6977 error: trafficSecretaryRepository_2.ResolutionRepository is not a constructor TypeError: trafficSecretaryRepository_2.ResolutionRepository is not a constructor
+    at new DbContext (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:11:88)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\dbContext.ts:17:19)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-05-09 18:20:47:3203 error: database is not defined ReferenceError: database is not defined
+    at ResolutionRepository.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:65:32)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:4:12)
+    at ResolutionRepository.querySummaryValueByCustomer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:70:16)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:57:47)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:71
+    at new Promise (<anonymous>)
+2023-05-09 18:20:54:4685 error: database is not defined ReferenceError: database is not defined
+    at ResolutionRepository.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:65:32)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:4:12)
+    at ResolutionRepository.querySummaryValueByCustomer (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:70:16)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:57:47)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:71
+    at new Promise (<anonymous>)
+2023-05-09 18:21:57:2212 error: The argument 'id' must be a non-empty string. Received '' TypeError: The argument 'id' must be a non-empty string. Received ''
+    at new NodeError (node:internal/errors:399:5)
+    at Module.require (node:internal/modules/cjs/loader:1136:11)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-09284054136433051.js:71:20)
+2023-05-09 18:25:14:4084 error: Console is not defined ReferenceError: Console is not defined
+    at ResolutionRepository.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:75:5)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-05-09 18:25:17:8939 error: Console is not defined ReferenceError: Console is not defined
+    at ResolutionRepository.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:75:5)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\infrastructure\persistence\repositories\resolutionRepository.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)

@@ -1,0 +1,262 @@
+2024-10-19 19:42:42:7387 info: Database connected successfully! 
+2024-10-19 19:42:43:2252 debug: EmployeeService:constructor 
+2024-10-19 19:46:20:6637 info: Database connected successfully! 
+2024-10-19 19:46:21:0541 debug: EmployeeService:constructor 
+2024-10-19 19:47:22:0971 http: [2024-10-20T00:47:22.095Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 289.109 ms
+ 
+2024-10-19 19:48:48:6967 http: [2024-10-20T00:48:48.696Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 151.769 ms
+ 
+2024-10-19 19:48:49:2102 http: [2024-10-20T00:48:49.210Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 61.291 ms
+ 
+2024-10-19 19:48:51:6907 http: [2024-10-20T00:48:51.690Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 58.633 ms
+ 
+2024-10-19 19:49:17:7998 http: [2024-10-20T00:49:17.796Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 238.618 ms
+ 
+2024-10-19 19:49:24:8639 http: [2024-10-20T00:49:24.863Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 79.019 ms
+ 
+2024-10-19 19:49:40:6186 http: [2024-10-20T00:49:40.618Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 188.122 ms
+ 
+2024-10-19 19:49:49:95710 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:260:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-10-19 19:49:49:96510 http: [2024-10-20T00:49:49.963Z] ::1 "GET /api/v1/employee/export/excel?filter.isActive=%24eq%3Atrue HTTP/1.1" 500 32 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 1089.881 ms
+ 
+2024-10-19 19:50:04:1652 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:260:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-10-19 19:50:04:1692 http: [2024-10-20T00:50:04.169Z] ::1 "GET /api/v1/employee/export/excel?filter.isActive=%24eq%3Atrue HTTP/1.1" 500 32 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 721.936 ms
+ 
+2024-10-19 19:50:05:3053 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:260:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-10-19 19:50:05:3113 http: [2024-10-20T00:50:05.310Z] ::1 "GET /api/v1/employee/export/excel?filter.isActive=%24eq%3Atrue HTTP/1.1" 500 32 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 514.552 ms
+ 
+2024-10-19 19:50:06:1812 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:260:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-10-19 19:50:06:1842 http: [2024-10-20T00:50:06.184Z] ::1 "GET /api/v1/employee/export/excel?filter.isActive=%24eq%3Atrue HTTP/1.1" 500 32 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 521.166 ms
+ 
+2024-10-19 19:50:51:2042 info: Database connected successfully! 
+2024-10-19 19:50:51:4685 debug: EmployeeService:constructor 
+2024-10-19 19:50:57:6216 http: [2024-10-20T00:50:57.620Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 272.674 ms
+ 
+2024-10-19 19:50:59:4354 http: [2024-10-20T00:50:59.434Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 128.365 ms
+ 
+2024-10-19 19:51:10:9289 http: [2024-10-20T00:51:10.927Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 240.703 ms
+ 
+2024-10-19 19:51:20:3974 http: [2024-10-20T00:51:20.397Z] ::1 "GET /api/v1/employee/export/excel?filter.isActive=%24eq%3Atrue HTTP/1.1" 200 150166 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 1352.569 ms
+ 
+2024-10-19 20:03:15:5355 info: Database connected successfully! 
+2024-10-19 20:03:15:8759 debug: EmployeeService:constructor 
+2024-10-19 20:03:32:4084 http: [2024-10-20T01:03:32.407Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 196.491 ms
+ 
+2024-10-19 20:03:33:1131 http: [2024-10-20T01:03:33.113Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 80.368 ms
+ 
+2024-10-19 20:03:36:8108 http: [2024-10-20T01:03:36.810Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 41.080 ms
+ 
+2024-10-19 20:03:51:96010 http: [2024-10-20T01:03:51.959Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 203.314 ms
+ 
+2024-10-19 20:04:00:2933 http: [2024-10-20T01:04:00.293Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 143.358 ms
+ 
+2024-10-19 20:04:12:7828 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:234:7)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:18:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-19 20:04:12:8018 http: [2024-10-20T01:04:12.801Z] ::1 "GET /api/v1/employee/export/excel?filter.isActive=%24eq%3Atrue HTTP/1.1" 500 32 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 369.258 ms
+ 
+2024-10-19 20:06:23:6476 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:234:7)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:18:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-19 20:06:23:6557 http: [2024-10-20T01:06:23.655Z] ::1 "GET /api/v1/employee/export/excel?filter.isActive=%24eq%3Atrue HTTP/1.1" 500 32 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 126.582 ms
+ 
+2024-10-19 20:16:21:3864 info: Database connected successfully! 
+2024-10-19 20:16:21:7147 debug: EmployeeService:constructor 
+2024-10-19 20:17:46:3453 http: [2024-10-20T01:17:46.340Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 474.425 ms
+ 
+2024-10-19 20:17:46:3504 http: [2024-10-20T01:17:46.350Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 450.626 ms
+ 
+2024-10-19 20:17:53:3403 http: [2024-10-20T01:17:53.340Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 90.586 ms
+ 
+2024-10-19 20:18:26:4494 http: [2024-10-20T01:18:26.449Z] ::1 "GET /api/v1/employee?page=1&limit=50&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 232.139 ms
+ 
+2024-10-19 20:18:37:7918 http: [2024-10-20T01:18:37.790Z] ::1 "GET /api/v1/employee?page=1&limit=50&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 412.329 ms
+ 
+2024-10-19 20:19:01:98910 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:239:7)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:18:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-19 20:19:02:0470 http: [2024-10-20T01:19:02.046Z] ::1 "GET /api/v1/employee/export/excel?filter.isActive=%24eq%3Atrue HTTP/1.1" 500 32 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 488.916 ms
+ 
+2024-10-19 20:20:07:4515 http: [2024-10-20T01:20:07.451Z] ::1 "GET /api/v1/employee?page=1&limit=50&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 284.008 ms
+ 
+2024-10-19 20:20:08:7167 http: [2024-10-20T01:20:08.716Z] ::1 "GET /api/v1/employee?page=1&limit=50&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 106.032 ms
+ 
+2024-10-19 20:20:15:8268 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:239:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-10-19 20:20:15:8328 http: [2024-10-20T01:20:15.832Z] ::1 "GET /api/v1/employee/export/excel HTTP/1.1" 500 32 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 1697.717 ms
+ 
+2024-10-19 20:22:20:3223 http: [2024-10-20T01:22:20.322Z] ::1 "GET /api/v1/employee?page=1&limit=50&filter.documentTypeId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 302.675 ms
+ 
+2024-10-19 20:22:39:1612 http: [2024-10-20T01:22:39.161Z] ::1 "GET /api/v1/employee?page=1&limit=50&filter.documentTypeId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 335.138 ms
+ 
+2024-10-19 20:22:40:2883 http: [2024-10-20T01:22:40.288Z] ::1 "GET /api/v1/employee?page=1&limit=50&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 101.071 ms
+ 
+2024-10-19 20:23:14:4354 http: [2024-10-20T01:23:14.434Z] ::1 "GET /api/v1/employee?page=1&limit=50&filter.documentTypeId=%24eq%3A4&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 291.956 ms
+ 
+2024-10-19 20:23:35:2112 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:239:7)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:18:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-19 20:23:35:2202 http: [2024-10-20T01:23:35.220Z] ::1 "GET /api/v1/employee/export/excel?filter.documentTypeId=%24eq%3A4 HTTP/1.1" 500 32 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 185.486 ms
+ 
+2024-10-19 20:46:35:4134 info: Database connected successfully! 
+2024-10-19 20:46:35:7187 debug: EmployeeService:constructor 
+2024-10-19 20:47:57:7828 http: [2024-10-20T01:47:57.781Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 175.880 ms
+ 
+2024-10-19 20:47:57:8068 http: [2024-10-20T01:47:57.806Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 185.814 ms
+ 
+2024-10-19 20:48:30:4054 http: [2024-10-20T01:48:30.405Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 103.841 ms
+ 
+2024-10-19 20:48:30:7718 http: [2024-10-20T01:48:30.770Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 31.011 ms
+ 
+2024-10-19 20:48:33:2613 http: [2024-10-20T01:48:33.261Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 36.786 ms
+ 
+2024-10-19 20:48:40:1371 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:247:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-10-19 20:48:40:1552 http: [2024-10-20T01:48:40.155Z] ::1 "GET /api/v1/employee/export/excel HTTP/1.1" 500 32 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 796.719 ms
+ 
+2024-10-19 21:12:49:9149 info: Database connected successfully! 
+2024-10-19 21:12:50:1672 debug: EmployeeService:constructor 
+2024-10-19 21:17:00:3514 http: [2024-10-20T02:17:00.351Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 213.516 ms
+ 
+2024-10-19 21:17:03:5586 http: [2024-10-20T02:17:03.558Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 81.174 ms
+ 
+2024-10-19 21:18:43:5786 http: [2024-10-20T02:18:43.578Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 99.774 ms
+ 
+2024-10-19 21:18:44:0971 http: [2024-10-20T02:18:44.097Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 42.601 ms
+ 
+2024-10-19 21:18:47:1181 http: [2024-10-20T02:18:47.118Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 33.023 ms
+ 
+2024-10-19 21:19:08:5245 http: [2024-10-20T02:19:08.524Z] ::1 "GET /api/v1/employee/export/excel HTTP/1.1" 200 150485 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 1044.964 ms
+ 
+2024-10-19 21:19:46:3273 http: [2024-10-20T02:19:46.326Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 162.774 ms
+ 
+2024-10-19 21:19:53:9239 http: [2024-10-20T02:19:53.923Z] ::1 "GET /api/v1/employee/export/excel?filter.isActive=%24eq%3Atrue HTTP/1.1" 200 40840 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 321.348 ms
+ 
+2024-10-19 21:20:14:7017 http: [2024-10-20T02:20:14.700Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 204.257 ms
+ 
+2024-10-19 21:20:14:8649 http: [2024-10-20T02:20:14.864Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.088 ms
+ 
+2024-10-19 21:20:20:2442 http: [2024-10-20T02:20:20.244Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.documentTypeId=%24eq%3A5&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 44.030 ms
+ 
+2024-10-19 21:20:49:1652 http: [2024-10-20T02:20:49.165Z] ::1 "GET /api/v1/employee/export/excel?filter.documentTypeId=%24eq%3A5 HTTP/1.1" 200 8467 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 137.322 ms
+ 
+2024-10-19 21:22:01:4585 http: [2024-10-20T02:22:01.458Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.documentTypeId=%24eq%3A5&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 171.028 ms
+ 
+2024-10-19 21:22:01:5996 http: [2024-10-20T02:22:01.599Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 44.975 ms
+ 
+2024-10-19 21:22:16:4825 http: [2024-10-20T02:22:16.482Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workCenterId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 121.955 ms
+ 
+2024-10-19 21:22:33:0080 http: [2024-10-20T02:22:33.008Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workCenterId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 168.837 ms
+ 
+2024-10-19 21:22:33:2032 http: [2024-10-20T02:22:33.203Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.483 ms
+ 
+2024-10-19 21:22:42:3934 http: [2024-10-20T02:22:42.393Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 70.593 ms
+ 
+2024-10-19 21:22:53:6316 http: [2024-10-20T02:22:53.630Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 172.255 ms
+ 
+2024-10-19 21:22:53:7778 http: [2024-10-20T02:22:53.777Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 26.329 ms
+ 
+2024-10-19 21:23:04:8949 http: [2024-10-20T02:23:04.894Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 109.162 ms
+ 
+2024-10-19 21:23:18:4625 http: [2024-10-20T02:23:18.462Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 214.563 ms
+ 
+2024-10-19 21:26:00:2633 http: [2024-10-20T02:26:00.263Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workCenterId=%24eq%3A2&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 132.099 ms
+ 
+2024-10-19 21:26:07:3323 http: [2024-10-20T02:26:07.332Z] ::1 "GET /api/v1/employee/export/excel?filter.workCenterId=%24eq%3A2&filter.isActive=%24eq%3Atrue HTTP/1.1" 200 7708 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 55.124 ms
+ 
+2024-10-19 21:27:55:9199 http: [2024-10-20T02:27:55.919Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workCenterId=%24eq%3A2&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 227.853 ms
+ 
+2024-10-19 21:27:55:98610 http: [2024-10-20T02:27:55.986Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 42.105 ms
+ 
+2024-10-19 21:28:01:7528 http: [2024-10-20T02:28:01.752Z] ::1 "GET /api/v1/employee/export/excel HTTP/1.1" 200 150485 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 688.796 ms
+ 
+2024-10-19 21:46:11:5245 info: Database connected successfully! 
+2024-10-19 21:46:11:7638 debug: EmployeeService:constructor 
+2024-10-19 21:47:16:6316 http: [2024-10-20T02:47:16.631Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 176.886 ms
+ 
+2024-10-19 21:48:10:0741 http: [2024-10-20T02:48:10.074Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 105.943 ms
+ 
+2024-10-19 21:48:10:4525 http: [2024-10-20T02:48:10.452Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 31.953 ms
+ 
+2024-10-19 21:48:13:0711 http: [2024-10-20T02:48:13.070Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 43.531 ms
+ 
+2024-10-19 21:48:31:5095 http: [2024-10-20T02:48:31.509Z] ::1 "GET /api/v1/employee/export/excel HTTP/1.1" 200 150166 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 925.127 ms
+ 
+2024-10-19 21:49:18:2432 http: [2024-10-20T02:49:18.243Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 124.112 ms
+ 
+2024-10-19 21:49:23:4525 http: [2024-10-20T02:49:23.451Z] ::1 "GET /api/v1/employee/export/excel?filter.isActive=%24eq%3Atrue HTTP/1.1" 200 40699 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 320.613 ms
+ 
+2024-10-19 21:50:32:8348 http: [2024-10-20T02:50:32.834Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workingTypeId=%24eq%3A2&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 116.455 ms
+ 
+2024-10-19 21:50:48:0691 http: [2024-10-20T02:50:48.069Z] ::1 "GET /api/v1/employee/export/excel?filter.workingTypeId=%24eq%3A2&filter.isActive=%24eq%3Atrue HTTP/1.1" 200 8464 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 150.056 ms
+ 
+2024-10-19 22:04:50:3493 http: [2024-10-20T03:04:50.348Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workingTypeId=%24eq%3A2&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 170.708 ms
+ 
+2024-10-19 22:04:50:5485 http: [2024-10-20T03:04:50.548Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 28.796 ms
+ 
+2024-10-19 22:05:36:95210 http: [2024-10-20T03:05:36.952Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 121.423 ms
+ 
+2024-10-19 22:05:43:6637 http: [2024-10-20T03:05:43.663Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workingTypeId=%24eq%3A2&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 35.574 ms
+ 
+2024-10-19 22:05:56:5586 http: [2024-10-20T03:05:56.558Z] ::1 "GET /api/v1/employee?page=2&limit=10&filter.workingTypeId=%24eq%3A2&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 91.405 ms
+ 
+2024-10-19 22:06:21:8208 http: [2024-10-20T03:06:21.820Z] ::1 "GET /api/v1/employee?page=3&limit=10&filter.workingTypeId=%24eq%3A2&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 111.794 ms
+ 
+2024-10-19 22:06:27:8919 http: [2024-10-20T03:06:27.891Z] ::1 "GET /api/v1/employee?page=4&limit=10&filter.workingTypeId=%24eq%3A2&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 26.889 ms
+ 
+2024-10-19 22:06:33:0010 http: [2024-10-20T03:06:33.001Z] ::1 "GET /api/v1/employee?page=3&limit=10&filter.workingTypeId=%24eq%3A2&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 27.679 ms
+ 
+2024-10-19 22:06:38:2663 http: [2024-10-20T03:06:38.266Z] ::1 "GET /api/v1/employee?page=2&limit=10&filter.workingTypeId=%24eq%3A2&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.291 ms
+ 
+2024-10-19 22:06:56:6216 http: [2024-10-20T03:06:56.621Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workingTypeId=%24eq%3A2&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 95.042 ms
+ 
+2024-10-19 22:11:41:8859 info: Database connected successfully! 
+2024-10-19 22:11:42:1932 debug: EmployeeService:constructor 
+2024-10-19 22:12:16:1001 http: [2024-10-20T03:12:16.099Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 185.678 ms
+ 
+2024-10-19 22:12:19:6186 http: [2024-10-20T03:12:19.618Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 89.067 ms
+ 
+2024-10-19 22:13:06:5506 http: [2024-10-20T03:13:06.550Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 91.932 ms
+ 
+2024-10-19 22:13:06:9399 http: [2024-10-20T03:13:06.939Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 34.219 ms
+ 
+2024-10-19 22:13:09:5756 http: [2024-10-20T03:13:09.575Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.115 ms
+ 
+2024-10-19 22:13:16:9029 http: [2024-10-20T03:13:16.902Z] ::1 "GET /api/v1/employee/export/excel HTTP/1.1" 200 150166 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 818.466 ms
+ 
+2024-10-19 22:14:21:7407 http: [2024-10-20T03:14:21.740Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workCenterId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 119.437 ms
+ 
+2024-10-19 22:14:31:2733 http: [2024-10-20T03:14:31.273Z] ::1 "GET /api/v1/employee/export/excel?filter.workCenterId=%24eq%3A1 HTTP/1.1" 200 147350 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 669.431 ms
+ 
+2024-10-19 22:15:07:8569 http: [2024-10-20T03:15:07.855Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workCenterId=%24eq%3A1&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 161.577 ms
+ 
+2024-10-19 22:15:13:3884 http: [2024-10-20T03:15:13.388Z] ::1 "GET /api/v1/employee/export/excel?filter.workCenterId=%24eq%3A1&filter.isActive=%24eq%3Atrue HTTP/1.1" 200 37857 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 296.936 ms
+ 
+2024-10-19 22:15:31:5235 http: [2024-10-20T03:15:31.523Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workCenterId=%24eq%3A1&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 166.118 ms
+ 
+2024-10-19 22:15:31:6867 http: [2024-10-20T03:15:31.686Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 27.242 ms
+ 

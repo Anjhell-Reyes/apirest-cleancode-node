@@ -1,0 +1,65 @@
+2023-11-20 21:28:56:4214 error: no existe la columna __root.document_number_reported QueryFailedError: no existe la columna __root.document_number_reported
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2023-11-20 21:29:03:0480 error: no existe la columna __root.document_number_reported QueryFailedError: no existe la columna __root.document_number_reported
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2023-11-20 22:41:09:3073 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-20 23:02:43:0881 error: Cannot destructure property 'deletedAt' of 'entity' as it is null. TypeError: Cannot destructure property 'deletedAt' of 'entity' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-20 23:03:59:9169 error: ⨯ Unable to compile TypeScript:
+src/domain/models/resolutionModel.ts(35,20): error TS1003: Identifier expected.
+ Error: ⨯ Unable to compile TypeScript:
+src/domain/models/resolutionModel.ts(35,20): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-49009961562440685.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-49009961562440685.js:114:20)
+    at require.extensions.<computed> (C:\Users\EJECUT~1\AppData\Local\Temp\ts-node-dev-hook-49009961562440685.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+2023-11-20 23:05:31:5435 error: Cannot destructure property 'deletedAt' of 'entity' as it is null. TypeError: Cannot destructure property 'deletedAt' of 'entity' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-20 23:05:43:2202 error: Cannot destructure property 'deletedAt' of 'entity' as it is null. TypeError: Cannot destructure property 'deletedAt' of 'entity' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-20 23:05:46:1882 error: Cannot destructure property 'deletedAt' of 'entity' as it is null. TypeError: Cannot destructure property 'deletedAt' of 'entity' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-20 23:08:09:1321 error: Cannot destructure property 'deletedAt' of 'entity' as it is null. TypeError: Cannot destructure property 'deletedAt' of 'entity' as it is null.
+    at ResolutionMapper.mapToDto (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\domain\models\resolutionModel.ts:32:13)
+    at ResolutionService.<anonymous> (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:63:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\Flit_act_projec\BackCrudResolution_master\src\app\services\resolutionService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)

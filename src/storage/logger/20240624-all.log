@@ -1,0 +1,41 @@
+2024-06-24 21:01:43:2282 info: Database connected successfully! 
+2024-06-24 21:01:43:5836 debug: EmployeeService:constructor 
+2024-06-24 21:08:19:6617 http: [2024-06-25T02:08:19.661Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 200 27450 "-" "insomnia/2023.5.8" {} 776.174 ms
+ 
+2024-06-24 21:10:39:5035 http: [2024-06-25T02:10:39.502Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 200 27450 "-" "insomnia/2023.5.8" {} 907.445 ms
+ 
+2024-06-24 21:47:22:3514 debug: Creating data of 'EmployeeEntity' 
+2024-06-24 21:47:22:4635 http: [2024-06-25T02:47:22.463Z] ::ffff:127.0.0.1 "POST /api/v1/employee HTTP/1.1" 201 988 "-" "insomnia/2023.5.8" {"name":"Kerry","firstLastName":"Salas","secondLastName":"Mell","documentTypeId":1,"documentNumber":"8123456789","email":"ksm@example.com","cellPhone":"8123456789","phone":"8987654321","municipalityId":1,"departmentCode":1,"municipalityCode":1,"district":"District","address":"123 Main St","bloodTypeId":1,"dateBirth":"1991-02-01","nationalityId":1,"departmentBirthCode":70,"municipalityBirthCode":70508,"educationLevelId":1,"lastYearStudy":4,"genderId":1,"maritalStatusId":1,"children":0,"lastCompany":"Last Company","monthsWorked":12,"workExperience":"Work experience","workIncapacity":"None","userRegister":"correo@email.com","workingTypeId":1,"salary":50000,"epsId":1,"afpId":1,"afcId":1,"arlId":1,"rlId":1,"ccfId":1,"noveltyId":1,"workCenter":"Work Center","transportationAllowance":1000,"parafiscales":true,"positionId":1,"dateEntry":"2024-06-18","paymentPeriodId":1,"contributorId":1,"subcotizanteId":1} 736.792 ms
+ 
+2024-06-24 21:53:11:7678 debug: Updating data of 'EmployeeEntity' by id: 796 
+2024-06-24 21:53:11:8478 debug: Affected rows: 1 
+2024-06-24 21:53:11:8488 debug: Finding data of 'EmployeeEntity' by id: 796 
+2024-06-24 21:53:11:8809 http: [2024-06-25T02:53:11.880Z] ::ffff:127.0.0.1 "PUT /api/v1/employee/796 HTTP/1.1" 200 1121 "-" "insomnia/2023.5.8" {"name":"Watson Updated","firstLastName":"Mick Updated","secondLastName":"Solop Updated"} 727.973 ms
+ 
+2024-06-24 22:05:43:4925 info: Database connected successfully! 
+2024-06-24 22:05:43:7187 debug: EmployeeService:constructor 
+2024-06-24 22:06:09:6667 info: Database connected successfully! 
+2024-06-24 22:06:09:98910 debug: EmployeeService:constructor 
+2024-06-24 22:06:36:5596 info: Database connected successfully! 
+2024-06-24 22:06:36:8629 debug: EmployeeService:constructor 
+2024-06-24 22:07:19:5175 debug: Updating data of 'EmployeeEntity' by id: 796 
+2024-06-24 22:07:19:6126 debug: Affected rows: 1 
+2024-06-24 22:07:19:6146 debug: Finding data of 'EmployeeEntity' by id: 796 
+2024-06-24 22:07:19:6617 http: [2024-06-25T03:07:19.660Z] ::ffff:127.0.0.1 "PUT /api/v1/employee/796 HTTP/1.1" 200 1130 "-" "insomnia/2023.5.8" {"name":"Watson Modificado","firstLastName":"Mick Modificado","secondLastName":"Solop Modificado"} 814.258 ms
+ 
+2024-06-24 22:31:24:2142 http: [2024-06-25T03:31:24.213Z] ::1 "GET /swagger HTTP/1.1" 401 31 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 2.845 ms
+ 
+2024-06-24 22:31:24:3363 http: [2024-06-25T03:31:24.336Z] ::1 "GET /favicon.ico HTTP/1.1" 401 31 "http://localhost:3401/swagger" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.177 ms
+ 
+2024-06-24 22:32:09:5145 http: [2024-06-25T03:32:09.514Z] ::1 "GET /swagger/ HTTP/1.1" 401 31 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.178 ms
+ 
+2024-06-24 22:32:09:5846 http: [2024-06-25T03:32:09.584Z] ::1 "GET /favicon.ico HTTP/1.1" 401 31 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 2.979 ms
+ 
+2024-06-24 23:02:50:0040 http: [2024-06-25T04:02:50.004Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.460 ms
+ 
+2024-06-24 23:10:31:99310 http: [2024-06-25T04:10:31.992Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.380 ms
+ 
+2024-06-24 23:16:29:4104 http: [2024-06-25T04:16:29.410Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.189 ms
+ 
+2024-06-24 23:27:44:8729 http: [2024-06-25T04:27:44.871Z] ::1 "GET /api/auth/me HTTP/1.1" 401 31 "http://localhost:3001/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" {} 1.407 ms
+ 

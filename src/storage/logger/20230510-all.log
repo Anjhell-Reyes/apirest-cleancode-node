@@ -1,0 +1,14 @@
+2023-05-10 08:35:18:5295 info: Database connected successfully! 
+2023-05-10 08:35:23:4194 debug: ResolutionService:constructor 
+2023-05-10 08:35:23:4224 debug: ResolutionController:constructor 
+2023-05-10 08:35:23:4665 debug: TrafficSecretaryService:constructor 
+2023-05-10 08:35:23:4715 debug: TrafficSecretaryController:constructor 
+2023-05-10 08:36:04:95310 http: [2023-05-10T13:36:04.952Z] ::1 "GET /api/v1/resolutions/summaryValueByCustomer HTTP/1.1" 200 116 "-" "PostmanRuntime/7.32.2" {} 158.493 ms
+ 
+2023-05-10 08:39:38:9489 info: Database connected successfully! 
+2023-05-10 08:39:42:3233 debug: ResolutionService:constructor 
+2023-05-10 08:39:42:3253 debug: ResolutionController:constructor 
+2023-05-10 08:39:42:3584 debug: TrafficSecretaryService:constructor 
+2023-05-10 08:39:42:3604 debug: TrafficSecretaryController:constructor 
+2023-05-10 08:39:47:7578 http: [2023-05-10T13:39:47.754Z] ::1 "GET /api/v1/resolutions/summaryValueByCustomer HTTP/1.1" 200 116 "-" "PostmanRuntime/7.32.2" {} 55.032 ms
+ 

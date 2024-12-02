@@ -1,0 +1,97 @@
+2024-05-11 22:48:55:96510 info: Database connected successfully! 
+2024-05-11 22:48:56:4715 debug: EmployeeService:constructor 
+2024-05-11 22:49:10:9059 info: Database connected successfully! 
+2024-05-11 22:49:11:2032 debug: EmployeeService:constructor 
+2024-05-11 22:49:27:7327 info: Database connected successfully! 
+2024-05-11 22:49:28:0390 debug: EmployeeService:constructor 
+2024-05-11 22:50:57:6496 info: Database connected successfully! 
+2024-05-11 22:50:57:96610 debug: EmployeeService:constructor 
+2024-05-11 22:51:37:2623 http: [2024-05-12T03:51:37.261Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} - ms
+ 
+2024-05-11 22:51:37:3233 http: [2024-05-12T03:51:37.322Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" - - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} - ms
+ 
+2024-05-11 22:51:37:3664 http: [2024-05-12T03:51:37.366Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 10.618 ms
+ 
+2024-05-11 22:51:37:7638 http: [2024-05-12T03:51:37.763Z] ::ffff:127.0.0.1 "GET /swagger/favicon-16x16.png HTTP/1.1" - - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} - ms
+ 
+2024-05-11 22:51:48:1892 http: [2024-05-12T03:51:48.189Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 2.967 ms
+ 
+2024-05-11 22:51:48:2613 http: [2024-05-12T03:51:48.261Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 5.235 ms
+ 
+2024-05-11 22:51:48:2773 http: [2024-05-12T03:51:48.277Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 7.123 ms
+ 
+2024-05-11 22:51:48:2843 http: [2024-05-12T03:51:48.284Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 12.513 ms
+ 
+2024-05-11 22:51:48:2913 http: [2024-05-12T03:51:48.290Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 2.083 ms
+ 
+2024-05-11 22:52:03:8228 http: [2024-05-12T03:52:03.821Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 404 154 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 4.457 ms
+ 
+2024-05-11 22:52:59:5846 http: [2024-05-12T03:52:59.584Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 404 154 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 1.026 ms
+ 
+2024-05-11 22:54:03:7808 info: Database connected successfully! 
+2024-05-11 22:54:04:0901 debug: EmployeeService:constructor 
+2024-05-11 22:54:17:2663 http: [2024-05-12T03:54:17.264Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 8.334 ms
+ 
+2024-05-11 22:54:17:3263 http: [2024-05-12T03:54:17.325Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 14.372 ms
+ 
+2024-05-11 22:54:17:3303 http: [2024-05-12T03:54:17.330Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 11.216 ms
+ 
+2024-05-11 22:54:17:3433 http: [2024-05-12T03:54:17.343Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 21.966 ms
+ 
+2024-05-11 22:54:17:3534 http: [2024-05-12T03:54:17.353Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 2.768 ms
+ 
+2024-05-11 22:54:23:96210 error: no existe la columna __root.documentTypeId QueryFailedError: no existe la columna __root.documentTypeId
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-05-11 22:54:24:0911 http: [2024-05-12T03:54:24.090Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 500 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 339.799 ms
+ 
+2024-05-11 22:55:41:4424 info: Database connected successfully! 
+2024-05-11 22:55:41:7938 debug: EmployeeService:constructor 
+2024-05-11 22:57:04:2342 info: Database connected successfully! 
+2024-05-11 22:57:04:5305 debug: EmployeeService:constructor 
+2024-05-11 22:57:22:98710 info: Database connected successfully! 
+2024-05-11 22:57:23:3223 debug: EmployeeService:constructor 
+2024-05-11 23:18:53:7508 info: Database connected successfully! 
+2024-05-11 23:18:54:0751 debug: EmployeeService:constructor 
+2024-05-11 23:19:06:9109 http: [2024-05-12T04:19:06.909Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 11.366 ms
+ 
+2024-05-11 23:19:06:97210 http: [2024-05-12T04:19:06.972Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 12.745 ms
+ 
+2024-05-11 23:19:06:97710 http: [2024-05-12T04:19:06.977Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 7.711 ms
+ 
+2024-05-11 23:19:07:0010 http: [2024-05-12T04:19:07.001Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 1.661 ms
+ 
+2024-05-11 23:19:07:0070 http: [2024-05-12T04:19:07.007Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 10.830 ms
+ 
+2024-05-11 23:19:08:6977 http: [2024-05-12T04:19:08.697Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 0.998 ms
+ 
+2024-05-11 23:19:08:7578 http: [2024-05-12T04:19:08.757Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 1.085 ms
+ 
+2024-05-11 23:19:08:7618 http: [2024-05-12T04:19:08.761Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 15.768 ms
+ 
+2024-05-11 23:19:08:7688 http: [2024-05-12T04:19:08.766Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 15.010 ms
+ 
+2024-05-11 23:19:08:7838 http: [2024-05-12T04:19:08.782Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 5.144 ms
+ 
+2024-05-11 23:32:02:6827 debug: Finding data of 'DocumentTypeEntity' by id: 1 
+2024-05-11 23:32:02:8388 debug: Finding data of 'BloodTypeEntity' by id: 1 
+2024-05-11 23:32:02:8629 debug: Finding data of 'EducationLevelEntity' by id: 1 
+2024-05-11 23:32:02:9019 debug: Finding data of 'GenderEntity' by id: 1 
+2024-05-11 23:32:02:9159 debug: Finding data of 'MaritalStatusEntity' by id: 1 
+2024-05-11 23:32:02:9319 debug: Finding data of 'MunicipalitiesColombiaEntity' by id: 5 
+2024-05-11 23:32:02:95510 debug: Finding data of 'MunicipalitiesColombiaEntity' by id: 5604 
+2024-05-11 23:32:02:98310 http: [2024-05-12T04:32:02.983Z] ::ffff:127.0.0.1 "POST /api/v1/employee HTTP/1.1" 404 53 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {"name":"ALVARO","firstLastName":"RIVERO","secondLastName":"MENDOZA","documentTypeId":"1","documentNumber":"5093231","email":"usuariom@correo.com","cellPhone":"3105488546","phone":"","departmentCode":"5","municipalityCode":"5604","district":"string","address":"VEREDA PANAMA NUEVE","bloodTypeId":"1","dateBirth":"1952-09-17","nationalityId":"1","departmentBirthCode":70,"municipalityBirthCode":70508,"educationLevelId":"1","lastYearStudy":5,"genderId":"1","maritalStatusId":"1","children":0,"ageChildren":"0","lastCompany":"string","monthsWorked":0,"workExperience":"string","workIncapacity":"string","userRegister":"string","userUpdate":"string","isActive":true} 300.308 ms
+ 
+2024-05-11 23:36:35:5636 debug: Finding data of 'DocumentTypeEntity' by id: 1 
+2024-05-11 23:36:35:7197 debug: Finding data of 'BloodTypeEntity' by id: 1 
+2024-05-11 23:36:35:7437 debug: Finding data of 'EducationLevelEntity' by id: 1 
+2024-05-11 23:36:35:7638 debug: Finding data of 'GenderEntity' by id: 1 
+2024-05-11 23:36:35:7808 debug: Finding data of 'MaritalStatusEntity' by id: 1 
+2024-05-11 23:36:35:8028 debug: Finding data of 'MunicipalitiesColombiaEntity' by id: 5 
+2024-05-11 23:36:35:8218 debug: Finding data of 'MunicipalitiesColombiaEntity' by id: 5604 
+2024-05-11 23:36:35:8408 http: [2024-05-12T04:36:35.839Z] ::ffff:127.0.0.1 "POST /api/v1/employee HTTP/1.1" 404 53 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {"name":"ALVARO","firstLastName":"RIVERO","secondLastName":"MENDOZA","documentTypeId":"1","documentNumber":"5093231","email":"usuariom@correo.com","cellPhone":"3105488546","phone":"","departmentCode":5,"municipalityCode":5604,"district":"string","address":"VEREDA PANAMA NUEVE","bloodTypeId":"1","dateBirth":"1952-09-17","nationalityId":"1","departmentBirthCode":70,"municipalityBirthCode":70508,"educationLevelId":"1","lastYearStudy":5,"genderId":"1","maritalStatusId":"1","children":0,"ageChildren":"0","lastCompany":"string","monthsWorked":0,"workExperience":"string","workIncapacity":"string","userRegister":"string","userUpdate":"string","isActive":true} 273.640 ms
+ 

@@ -1,0 +1,61 @@
+2024-06-11 10:52:19:4444 error: Cannot destructure property 'deletedAt' of '_a' as it is null. TypeError: Cannot destructure property 'deletedAt' of '_a' as it is null.
+    at EmployeeMapper.mapToDto (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\domain\models\employeeModel.ts:62:13)
+    at EmployeeService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:110:36)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\employeeService.ts:17:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-06-11 21:48:26:4194 error: Cannot read properties of undefined (reading 'sortBy') TypeError: Cannot read properties of undefined (reading 'sortBy')
+    at PaginationQueryBuilder.build (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\utils\pagination\paginationQueryBuilder.ts:23:60)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:74:57)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:16:12)
+    at EmployeeController.listPaginated (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:89:16)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:32:28)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+2024-06-11 21:48:30:5606 error: Cannot read properties of undefined (reading 'sortBy') TypeError: Cannot read properties of undefined (reading 'sortBy')
+    at PaginationQueryBuilder.build (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\utils\pagination\paginationQueryBuilder.ts:23:60)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:74:57)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:16:12)
+    at EmployeeController.listPaginated (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:89:16)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:32:28)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+2024-06-11 21:54:21:2513 error: Cannot read properties of undefined (reading 'sortBy') TypeError: Cannot read properties of undefined (reading 'sortBy')
+    at PaginationQueryBuilder.build (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\utils\pagination\paginationQueryBuilder.ts:23:60)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:74:57)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:16:12)
+    at EmployeeController.listPaginated (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:89:16)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:32:28)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+2024-06-11 21:57:07:9139 error: Cannot read properties of undefined (reading 'sortBy') TypeError: Cannot read properties of undefined (reading 'sortBy')
+    at PaginationQueryBuilder.build (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\utils\pagination\paginationQueryBuilder.ts:23:60)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:74:57)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:16:12)
+    at EmployeeController.listPaginated (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:89:16)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:32:28)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+2024-06-11 21:57:08:2533 error: Cannot read properties of undefined (reading 'sortBy') TypeError: Cannot read properties of undefined (reading 'sortBy')
+    at PaginationQueryBuilder.build (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\infrastructure\utils\pagination\paginationQueryBuilder.ts:23:60)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:74:57)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:16:12)
+    at EmployeeController.listPaginated (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:89:16)
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:32:28)
+    at Generator.next (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:20:71

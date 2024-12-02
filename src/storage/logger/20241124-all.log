@@ -1,0 +1,44 @@
+2024-11-24 22:26:09:1071 info: Database connected successfully! 
+2024-11-24 22:26:09:4084 error: Ambiguous match found for serviceIdentifier: Symbol(TaskRepository) Error: Ambiguous match found for serviceIdentifier: Symbol(TaskRepository)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:92:23)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:68:5)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:109:26)
+    at C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:133:17
+    at Array.forEach (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:132:26
+    at Array.forEach (<anonymous>)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:112:20)
+    at C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:133:17
+    at Array.forEach (<anonymous>)
+2024-11-24 22:27:02:5145 info: Database connected successfully! 
+2024-11-24 22:27:02:8208 error: Ambiguous match found for serviceIdentifier: Symbol(TaskRepository) Error: Ambiguous match found for serviceIdentifier: Symbol(TaskRepository)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:92:23)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:68:5)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:109:26)
+    at C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:133:17
+    at Array.forEach (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:132:26
+    at Array.forEach (<anonymous>)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:112:20)
+    at C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:133:17
+    at Array.forEach (<anonymous>)
+2024-11-24 22:44:09:1612 info: Database connected successfully! 
+2024-11-24 22:44:09:4995 debug: TaskService:constructor 
+2024-11-24 22:44:21:7648 http: [2024-11-25T03:44:21.763Z] ::ffff:127.0.0.1 "GET /api/v1/tasks HTTP/1.1" 200 176 "-" "insomnia/2023.5.8" {} 28.393 ms
+ 
+2024-11-24 22:46:47:5285 info: Database connected successfully! 
+2024-11-24 22:46:47:8258 debug: TaskService:constructor 
+2024-11-24 22:46:55:3834 http: [2024-11-25T03:46:55.382Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 200 628 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 8.508 ms
+ 
+2024-11-24 22:47:07:7437 http: [2024-11-25T03:47:07.742Z] ::1 "GET /swagger HTTP/1.1" 301 181 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 3.373 ms
+ 
+2024-11-24 22:47:07:7588 http: [2024-11-25T03:47:07.758Z] ::1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 6.836 ms
+ 
+2024-11-24 22:47:07:8168 http: [2024-11-25T03:47:07.816Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 4.668 ms
+ 
+2024-11-24 22:47:07:8198 http: [2024-11-25T03:47:07.819Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 0.840 ms
+ 
+2024-11-24 22:47:07:8408 http: [2024-11-25T03:47:07.840Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 14.282 ms
+ 
+2024-11-24 22:47:07:9089 http: [2024-11-25T03:47:07.908Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {} 6.337 ms
+ 

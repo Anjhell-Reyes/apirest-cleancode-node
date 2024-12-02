@@ -1,0 +1,154 @@
+2024-05-14 10:06:33:3904 info: Database connected successfully! 
+2024-05-14 10:06:33:8098 debug: EmployeeService:constructor 
+2024-05-14 10:07:25:2933 http: [2024-05-14T15:07:25.292Z] ::1 "GET /swagger HTTP/1.1" 301 181 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 12.015 ms
+ 
+2024-05-14 10:07:25:3233 http: [2024-05-14T15:07:25.323Z] ::1 "GET /swagger/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 14.390 ms
+ 
+2024-05-14 10:07:25:3954 http: [2024-05-14T15:07:25.394Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 2.162 ms
+ 
+2024-05-14 10:07:25:4344 http: [2024-05-14T15:07:25.433Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 35.169 ms
+ 
+2024-05-14 10:07:25:4755 http: [2024-05-14T15:07:25.475Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 20.424 ms
+ 
+2024-05-14 10:07:25:5626 http: [2024-05-14T15:07:25.562Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 22.120 ms
+ 
+2024-05-14 10:07:26:4124 http: [2024-05-14T15:07:26.411Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 200 628 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 2.356 ms
+ 
+2024-05-14 10:08:03:9239 http: [2024-05-14T15:08:03.923Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {} 226.223 ms
+ 
+2024-05-14 10:25:01:8959 http: [2024-05-14T15:25:01.894Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 91.152 ms
+ 
+2024-05-14 10:25:02:0511 http: [2024-05-14T15:25:02.051Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 21.718 ms
+ 
+2024-05-14 10:25:02:1241 http: [2024-05-14T15:25:02.123Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 27.145 ms
+ 
+2024-05-14 10:25:02:1852 http: [2024-05-14T15:25:02.185Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 21.725 ms
+ 
+2024-05-14 10:25:02:2703 http: [2024-05-14T15:25:02.269Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 24.000 ms
+ 
+2024-05-14 10:26:15:4254 http: [2024-05-14T15:26:15.424Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 87.315 ms
+ 
+2024-05-14 10:35:47:3664 http: [2024-05-14T15:35:47.366Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 80.623 ms
+ 
+2024-05-14 10:35:47:4895 http: [2024-05-14T15:35:47.489Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 19.025 ms
+ 
+2024-05-14 10:35:47:5576 http: [2024-05-14T15:35:47.557Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 19.885 ms
+ 
+2024-05-14 10:35:47:6146 http: [2024-05-14T15:35:47.614Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 21.290 ms
+ 
+2024-05-14 10:35:47:7107 http: [2024-05-14T15:35:47.710Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 23.848 ms
+ 
+2024-05-14 10:36:26:6627 http: [2024-05-14T15:36:26.662Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 100.677 ms
+ 
+2024-05-14 10:39:29:1221 http: [2024-05-14T15:39:29.122Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 240.392 ms
+ 
+2024-05-14 10:39:37:5876 http: [2024-05-14T15:39:37.587Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 19.656 ms
+ 
+2024-05-14 10:39:56:2312 http: [2024-05-14T15:39:56.231Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 73.290 ms
+ 
+2024-05-14 10:49:02:4765 http: [2024-05-14T15:49:02.476Z] ::ffff:127.0.0.1 "GET /swagger/favicon-16x16.png HTTP/1.1" - - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} - ms
+ 
+2024-05-14 10:50:25:4424 http: [2024-05-14T15:50:25.442Z] ::ffff:127.0.0.1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "insomnia/2023.5.8" {} 86.144 ms
+ 
+2024-05-14 10:53:47:4134 http: [2024-05-14T15:53:47.413Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 94.522 ms
+ 
+2024-05-14 10:54:42:8969 http: [2024-05-14T15:54:42.896Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 141.910 ms
+ 
+2024-05-14 10:54:48:2112 http: [2024-05-14T15:54:48.211Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 16.412 ms
+ 
+2024-05-14 10:57:15:4725 http: [2024-05-14T15:57:15.472Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 115.582 ms
+ 
+2024-05-14 10:57:16:7658 http: [2024-05-14T15:57:16.765Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 13.458 ms
+ 
+2024-05-14 10:57:19:4725 http: [2024-05-14T15:57:19.472Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 15.558 ms
+ 
+2024-05-14 10:57:45:1281 http: [2024-05-14T15:57:45.128Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 106.480 ms
+ 
+2024-05-14 14:28:38:96910 info: Database connected successfully! 
+2024-05-14 14:28:39:4204 debug: EmployeeService:constructor 
+2024-05-14 14:33:59:0961 http: [2024-05-14T19:33:59.095Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 352.548 ms
+ 
+2024-05-14 14:34:10:9499 http: [2024-05-14T19:34:10.949Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 203.887 ms
+ 
+2024-05-14 15:03:20:8949 info: Database connected successfully! 
+2024-05-14 15:03:21:2072 debug: EmployeeService:constructor 
+2024-05-14 15:04:06:5175 http: [2024-05-14T20:04:06.516Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 353.968 ms
+ 
+2024-05-14 15:04:07:4925 http: [2024-05-14T20:04:07.491Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 44.972 ms
+ 
+2024-05-14 15:04:07:7538 http: [2024-05-14T20:04:07.753Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 46.968 ms
+ 
+2024-05-14 15:04:07:97610 http: [2024-05-14T20:04:07.976Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 33.297 ms
+ 
+2024-05-14 15:04:08:5576 http: [2024-05-14T20:04:08.557Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 33.813 ms
+ 
+2024-05-14 15:17:20:3153 http: [2024-05-14T20:17:20.314Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 174.199 ms
+ 
+2024-05-14 15:17:32:8719 http: [2024-05-14T20:17:32.871Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 154.552 ms
+ 
+2024-05-14 15:37:56:0250 http: [2024-05-14T20:37:56.025Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 148.907 ms
+ 
+2024-05-14 15:38:00:3974 http: [2024-05-14T20:38:00.396Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 33.039 ms
+ 
+2024-05-14 15:41:33:8298 http: [2024-05-14T20:41:33.829Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 103.640 ms
+ 
+2024-05-14 15:41:33:9369 http: [2024-05-14T20:41:33.935Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 20.050 ms
+ 
+2024-05-14 15:41:34:0521 http: [2024-05-14T20:41:34.051Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 23.337 ms
+ 
+2024-05-14 15:59:43:4975 http: [2024-05-14T20:59:43.497Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 428.526 ms
+ 
+2024-05-14 15:59:43:95610 http: [2024-05-14T20:59:43.956Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 28.900 ms
+ 
+2024-05-14 15:59:44:1321 http: [2024-05-14T20:59:44.132Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 40.452 ms
+ 
+2024-05-14 15:59:44:4304 http: [2024-05-14T20:59:44.430Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 30.539 ms
+ 
+2024-05-14 15:59:44:6246 http: [2024-05-14T20:59:44.624Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 34.833 ms
+ 
+2024-05-14 16:37:14:6406 http: [2024-05-14T21:37:14.639Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 187.504 ms
+ 
+2024-05-14 16:37:15:0290 http: [2024-05-14T21:37:15.029Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 28.379 ms
+ 
+2024-05-14 16:37:15:1762 http: [2024-05-14T21:37:15.176Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 28.709 ms
+ 
+2024-05-14 16:37:15:3003 http: [2024-05-14T21:37:15.299Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 29.559 ms
+ 
+2024-05-14 16:37:15:5155 http: [2024-05-14T21:37:15.514Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 28.305 ms
+ 
+2024-05-14 17:18:30:8789 http: [2024-05-14T22:18:30.877Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 117.376 ms
+ 
+2024-05-14 17:18:31:0420 http: [2024-05-14T22:18:31.042Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 17.408 ms
+ 
+2024-05-14 17:18:31:1471 http: [2024-05-14T22:18:31.147Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 19.604 ms
+ 
+2024-05-14 17:18:31:6296 http: [2024-05-14T22:18:31.629Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 16.009 ms
+ 
+2024-05-14 17:18:31:7728 http: [2024-05-14T22:18:31.772Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 18.343 ms
+ 
+2024-05-14 19:47:17:3714 info: Database connected successfully! 
+2024-05-14 19:47:17:7177 debug: EmployeeService:constructor 
+2024-05-14 19:51:03:1582 http: [2024-05-15T00:51:03.157Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 187.765 ms
+ 
+2024-05-14 19:51:04:4034 http: [2024-05-15T00:51:04.402Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 45.494 ms
+ 
+2024-05-14 19:51:04:7698 http: [2024-05-15T00:51:04.769Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 40.865 ms
+ 
+2024-05-14 19:51:04:9379 http: [2024-05-15T00:51:04.937Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 36.080 ms
+ 
+2024-05-14 19:51:05:1211 http: [2024-05-15T00:51:05.121Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 35.943 ms
+ 
+2024-05-14 23:10:07:4715 http: [2024-05-15T04:10:07.470Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 126.724 ms
+ 
+2024-05-14 23:10:07:5936 http: [2024-05-15T04:10:07.592Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 19.619 ms
+ 
+2024-05-14 23:10:07:6847 http: [2024-05-15T04:10:07.684Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 22.171 ms
+ 
+2024-05-14 23:16:45:3574 debug: Finding data of 'DocumentTypeEntity' by id: 1 
+2024-05-14 23:16:45:4555 debug: Finding data of 'BloodTypeEntity' by id: 3 
+2024-05-14 23:16:45:4685 http: [2024-05-15T04:16:45.467Z] ::1 "POST /api/v1/employee HTTP/1.1" 404 50 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {"documentTypeId":"1","documentNumber":"3224163234","name":"sdfsdfdsf","firstLastName":"sdfdfsd","secondLastName":"rtoiioi","email":"cxvcvc@gmail.com","cellPhone":"3235657787","phone":"","departmentCode":"2","municipalityCode":"83","district":"2","address":"sdf 54 - 89","bloodTypeId":"3","dateBirth":"1996-04-30T00:00:00.000Z","nationalityId":"Colombia","departmentBirthCode":"2","municipalityBirthCode":"83","educationLevelId":"4","lastYearStudy":"11","genderId":"Masculino","maritalStatusId":"2","children":"2","ageChildren":"17 y 12","lastCompany":"jkjkjk","monthsWorked":"24","workExperience":"asfkj sdkjfsd jfksdj","workIncapacity":"sdfeiwori eorio"} 111.724 ms
+ 
+2024-05-14 23:18:25:1692 http: [2024-05-15T04:18:25.168Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 80.889 ms
+ 
+2024-05-14 23:18:25:2783 http: [2024-05-15T04:18:25.278Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 948 "-" "node" {} 19.092 ms
+ 

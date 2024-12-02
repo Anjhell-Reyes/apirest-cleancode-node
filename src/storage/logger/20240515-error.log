@@ -1,0 +1,28 @@
+2024-05-15 11:19:05:7297 error: no existe la relación «document_type» QueryFailedError: no existe la relación «document_type»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getRawAndEntities (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1669:29)
+    at SelectQueryBuilder.getOne (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1696:25)
+2024-05-15 11:24:26:8769 error: no existe la relación «document_type» QueryFailedError: no existe la relación «document_type»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getRawAndEntities (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1669:29)
+    at SelectQueryBuilder.getOne (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1696:25)
+2024-05-15 11:32:50:5465 error: el valor nulo en la columna «municipality_id» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «municipality_id» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:434:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:197:21)
+2024-05-15 14:39:15:99310 error: el valor nulo en la columna «municipality_id» de la relación «employee_master» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «municipality_id» de la relación «employee_master» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:434:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:197:21)

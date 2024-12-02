@@ -1,0 +1,1021 @@
+2024-10-10 18:31:03:9499 info: Database connected successfully! 
+2024-10-10 18:31:04:3824 debug: EmployeeService:constructor 
+2024-10-10 18:33:05:6276 http: [2024-10-10T23:33:05.626Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 267.367 ms
+ 
+2024-10-10 18:33:06:8058 http: [2024-10-10T23:33:06.805Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 119.448 ms
+ 
+2024-10-10 18:33:07:5215 http: [2024-10-10T23:33:07.521Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 70.441 ms
+ 
+2024-10-10 18:33:09:9159 http: [2024-10-10T23:33:09.915Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 43.265 ms
+ 
+2024-10-10 18:34:29:9019 http: [2024-10-10T23:34:29.901Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 224.528 ms
+ 
+2024-10-10 18:34:42:3994 http: [2024-10-10T23:34:42.399Z] ::1 "GET /api/v1/employee?page=2&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 218.100 ms
+ 
+2024-10-10 18:34:45:3544 http: [2024-10-10T23:34:45.353Z] ::1 "GET /api/v1/employee?page=3&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 84.012 ms
+ 
+2024-10-10 18:34:48:3824 http: [2024-10-10T23:34:48.382Z] ::1 "GET /api/v1/employee?page=9&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 62.701 ms
+ 
+2024-10-10 18:34:55:6887 http: [2024-10-10T23:34:55.688Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 85.430 ms
+ 
+2024-10-10 18:34:56:1502 http: [2024-10-10T23:34:56.150Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 96.577 ms
+ 
+2024-10-10 18:35:01:4054 http: [2024-10-10T23:35:01.405Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A986&filter.documentNumber=%24sw%3A986&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 90.796 ms
+ 
+2024-10-10 18:37:12:4344 http: [2024-10-10T23:37:12.434Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 313.094 ms
+ 
+2024-10-10 18:37:12:7037 http: [2024-10-10T23:37:12.703Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 101.464 ms
+ 
+2024-10-10 18:37:13:2723 http: [2024-10-10T23:37:13.272Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 67.248 ms
+ 
+2024-10-10 18:37:16:7207 http: [2024-10-10T23:37:16.720Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 65.029 ms
+ 
+2024-10-10 18:37:17:4304 http: [2024-10-10T23:37:17.430Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 63.264 ms
+ 
+2024-10-10 18:37:24:0921 http: [2024-10-10T23:37:24.092Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 87.465 ms
+ 
+2024-10-10 18:37:27:0240 http: [2024-10-10T23:37:27.024Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83&filter.documentNumber=%24sw%3A83&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 82.116 ms
+ 
+2024-10-10 18:37:28:0741 http: [2024-10-10T23:37:28.073Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836&filter.documentNumber=%24sw%3A836&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 77.212 ms
+ 
+2024-10-10 18:37:28:6216 http: [2024-10-10T23:37:28.621Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8364&filter.documentNumber=%24sw%3A8364&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 78.772 ms
+ 
+2024-10-10 18:37:35:4144 http: [2024-10-10T23:37:35.414Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836&filter.documentNumber=%24sw%3A836&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 82.116 ms
+ 
+2024-10-10 18:37:36:8929 http: [2024-10-10T23:37:36.891Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83&filter.documentNumber=%24sw%3A83&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 83.647 ms
+ 
+2024-10-10 18:37:39:6456 http: [2024-10-10T23:37:39.645Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 56.483 ms
+ 
+2024-10-10 18:37:41:0701 http: [2024-10-10T23:37:41.070Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 54.716 ms
+ 
+2024-10-10 18:38:26:9029 http: [2024-10-10T23:38:26.902Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 205.469 ms
+ 
+2024-10-10 18:38:28:7658 http: [2024-10-10T23:38:28.765Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83&filter.documentNumber=%24sw%3A83&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 71.776 ms
+ 
+2024-10-10 18:38:29:8799 http: [2024-10-10T23:38:29.879Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836&filter.documentNumber=%24sw%3A836&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 69.005 ms
+ 
+2024-10-10 18:38:31:4875 http: [2024-10-10T23:38:31.487Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8364&filter.documentNumber=%24sw%3A8364&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 63.460 ms
+ 
+2024-10-10 18:38:32:5425 http: [2024-10-10T23:38:32.542Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836&filter.documentNumber=%24sw%3A836&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 77.294 ms
+ 
+2024-10-10 18:38:32:6887 http: [2024-10-10T23:38:32.688Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83&filter.documentNumber=%24sw%3A83&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 63.936 ms
+ 
+2024-10-10 18:38:33:1411 http: [2024-10-10T23:38:33.141Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 91.788 ms
+ 
+2024-10-10 18:38:33:6867 http: [2024-10-10T23:38:33.686Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 52.377 ms
+ 
+2024-10-10 18:38:37:0260 http: [2024-10-10T23:38:37.026Z] ::1 "GET /api/v1/employee?page=9&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 45.694 ms
+ 
+2024-10-10 18:38:41:2653 http: [2024-10-10T23:38:41.264Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 75.819 ms
+ 
+2024-10-10 18:38:43:2162 http: [2024-10-10T23:38:43.216Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83&filter.documentNumber=%24sw%3A83&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 77.351 ms
+ 
+2024-10-10 18:38:44:1712 http: [2024-10-10T23:38:44.171Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836&filter.documentNumber=%24sw%3A836&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 61.943 ms
+ 
+2024-10-10 18:38:44:2573 http: [2024-10-10T23:38:44.257Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8364&filter.documentNumber=%24sw%3A8364&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 59.347 ms
+ 
+2024-10-10 18:38:46:3574 http: [2024-10-10T23:38:46.357Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836&filter.documentNumber=%24sw%3A836&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 59.039 ms
+ 
+2024-10-10 18:38:57:0601 http: [2024-10-10T23:38:57.060Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83&filter.documentNumber=%24sw%3A83&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 214.003 ms
+ 
+2024-10-10 18:38:57:6787 http: [2024-10-10T23:38:57.678Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 55.255 ms
+ 
+2024-10-10 18:38:58:7257 http: [2024-10-10T23:38:58.725Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 46.879 ms
+ 
+2024-10-10 18:39:03:1411 http: [2024-10-10T23:39:03.141Z] ::1 "GET /api/v1/employee?page=9&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 39.602 ms
+ 
+2024-10-10 18:39:07:2663 http: [2024-10-10T23:39:07.266Z] ::1 "GET /api/v1/employee?page=8&limit=100&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 68.359 ms
+ 
+2024-10-10 18:39:17:6286 http: [2024-10-10T23:39:17.627Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 154.243 ms
+ 
+2024-10-10 18:39:18:0861 http: [2024-10-10T23:39:18.086Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83&filter.documentNumber=%24sw%3A83&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 67.535 ms
+ 
+2024-10-10 18:39:18:7638 http: [2024-10-10T23:39:18.763Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836&filter.documentNumber=%24sw%3A836&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 57.677 ms
+ 
+2024-10-10 18:39:19:1692 http: [2024-10-10T23:39:19.169Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8364&filter.documentNumber=%24sw%3A8364&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 69.976 ms
+ 
+2024-10-10 18:39:20:7107 http: [2024-10-10T23:39:20.710Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836&filter.documentNumber=%24sw%3A836&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 67.460 ms
+ 
+2024-10-10 18:39:24:1431 http: [2024-10-10T23:39:24.143Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83&filter.documentNumber=%24sw%3A83&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 78.073 ms
+ 
+2024-10-10 18:39:26:0080 http: [2024-10-10T23:39:26.008Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 53.893 ms
+ 
+2024-10-10 18:39:26:6757 http: [2024-10-10T23:39:26.675Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 54.636 ms
+ 
+2024-10-10 18:39:42:6366 http: [2024-10-10T23:39:42.636Z] ::1 "GET /api/v1/employee?page=9&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 212.779 ms
+ 
+2024-10-10 18:39:44:0190 http: [2024-10-10T23:39:44.019Z] ::1 "GET /api/v1/employee?page=8&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 103.018 ms
+ 
+2024-10-10 18:40:07:0460 http: [2024-10-10T23:40:07.046Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 173.290 ms
+ 
+2024-10-10 18:40:07:5646 http: [2024-10-10T23:40:07.564Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83&filter.documentNumber=%24sw%3A83&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 95.336 ms
+ 
+2024-10-10 18:40:08:6677 http: [2024-10-10T23:40:08.667Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836&filter.documentNumber=%24sw%3A836&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 72.505 ms
+ 
+2024-10-10 18:40:10:7197 http: [2024-10-10T23:40:10.719Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83&filter.documentNumber=%24sw%3A83&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 97.727 ms
+ 
+2024-10-10 18:40:13:5055 http: [2024-10-10T23:40:13.505Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 78.598 ms
+ 
+2024-10-10 18:40:14:2533 http: [2024-10-10T23:40:14.253Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 64.781 ms
+ 
+2024-10-10 18:40:32:6647 http: [2024-10-10T23:40:32.664Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy=namesSurnames%3Aasc HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 152.633 ms
+ 
+2024-10-10 18:40:35:1291 http: [2024-10-10T23:40:35.129Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy=namesSurnames%3Adesc HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 85.513 ms
+ 
+2024-10-10 18:42:07:3724 http: [2024-10-10T23:42:07.372Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy=namesSurnames%3Adesc HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 186.492 ms
+ 
+2024-10-10 18:42:09:9399 http: [2024-10-10T23:42:09.938Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy=namesSurnames%3Adesc HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 73.489 ms
+ 
+2024-10-10 18:42:15:3143 http: [2024-10-10T23:42:15.314Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy=namesSurnames%3Adesc HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 69.147 ms
+ 
+2024-10-10 18:42:16:95810 http: [2024-10-10T23:42:16.958Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy=namesSurnames%3Adesc HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 54.321 ms
+ 
+2024-10-10 18:42:42:0480 error: el operador no existe: integer ~~* unknown QueryFailedError: el operador no existe: integer ~~* unknown
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1873:36)
+    at paginate (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\nestjs-paginate\src\paginate.ts:353:32)
+2024-10-10 18:42:42:0541 http: [2024-10-10T23:42:42.054Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.id=%24sw%3A4&filter.namesSurnames=%24sw%3A4&filter.documentNumber=%24sw%3A4&sortBy=namesSurnames%3Adesc HTTP/1.1" 500 32 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 285.579 ms
+ 
+2024-10-10 18:43:03:4915 http: [2024-10-10T23:43:03.491Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 509.586 ms
+ 
+2024-10-10 18:43:04:3473 http: [2024-10-10T23:43:04.347Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 91.987 ms
+ 
+2024-10-10 18:43:07:5626 http: [2024-10-10T23:43:07.561Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.392 ms
+ 
+2024-10-10 18:43:15:1451 error: el operador no existe: integer ~~* unknown QueryFailedError: el operador no existe: integer ~~* unknown
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3805:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:3551:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\SelectQueryBuilder.ts:1873:36)
+    at paginate (C:\Users\ejecutivo\Desktop\mina_project\BackMina\node_modules\nestjs-paginate\src\paginate.ts:353:32)
+2024-10-10 18:43:15:1532 http: [2024-10-10T23:43:15.153Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.id=%24sw%3A8&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 500 32 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 87.897 ms
+ 
+2024-10-10 18:43:52:1962 http: [2024-10-10T23:43:52.196Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 146.954 ms
+ 
+2024-10-10 18:43:52:9299 http: [2024-10-10T23:43:52.929Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 46.302 ms
+ 
+2024-10-10 18:43:55:4565 http: [2024-10-10T23:43:55.456Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 45.018 ms
+ 
+2024-10-10 18:44:03:1471 http: [2024-10-10T23:44:03.147Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A4&filter.documentNumber=%24sw%3A4&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 42.063 ms
+ 
+2024-10-10 18:44:09:3734 http: [2024-10-10T23:44:09.373Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 36.385 ms
+ 
+2024-10-10 18:44:12:0370 http: [2024-10-10T23:44:12.037Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.563 ms
+ 
+2024-10-10 18:44:12:2042 http: [2024-10-10T23:44:12.204Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 33.814 ms
+ 
+2024-10-10 18:44:30:9269 http: [2024-10-10T23:44:30.926Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AA&filter.documentNumber=%24sw%3AA&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 166.518 ms
+ 
+2024-10-10 18:44:31:0430 http: [2024-10-10T23:44:31.043Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AAN&filter.documentNumber=%24sw%3AAN&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 37.296 ms
+ 
+2024-10-10 18:44:31:8959 http: [2024-10-10T23:44:31.895Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AANE&filter.documentNumber=%24sw%3AANE&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 38.885 ms
+ 
+2024-10-10 18:44:32:6316 http: [2024-10-10T23:44:32.631Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AAN&filter.documentNumber=%24sw%3AAN&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 39.526 ms
+ 
+2024-10-10 18:44:33:1642 http: [2024-10-10T23:44:33.164Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AAND&filter.documentNumber=%24sw%3AAND&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.630 ms
+ 
+2024-10-10 18:44:33:3223 http: [2024-10-10T23:44:33.322Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AANDE&filter.documentNumber=%24sw%3AANDE&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.583 ms
+ 
+2024-10-10 18:44:33:5846 http: [2024-10-10T23:44:33.584Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AANDER&filter.documentNumber=%24sw%3AANDER&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.088 ms
+ 
+2024-10-10 18:44:36:0480 http: [2024-10-10T23:44:36.047Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AANDERS&filter.documentNumber=%24sw%3AANDERS&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 31.476 ms
+ 
+2024-10-10 18:44:36:1962 http: [2024-10-10T23:44:36.196Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AANDERSO&filter.documentNumber=%24sw%3AANDERSO&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 35.294 ms
+ 
+2024-10-10 18:44:36:8889 http: [2024-10-10T23:44:36.887Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AANDERSON&filter.documentNumber=%24sw%3AANDERSON&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 27.591 ms
+ 
+2024-10-10 18:44:37:7938 http: [2024-10-10T23:44:37.792Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AANDERSO&filter.documentNumber=%24sw%3AANDERSO&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.329 ms
+ 
+2024-10-10 18:44:37:9289 http: [2024-10-10T23:44:37.928Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AANDERS&filter.documentNumber=%24sw%3AANDERS&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 31.462 ms
+ 
+2024-10-10 18:44:38:0631 http: [2024-10-10T23:44:38.063Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AANDER&filter.documentNumber=%24sw%3AANDER&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.174 ms
+ 
+2024-10-10 18:44:38:2182 http: [2024-10-10T23:44:38.218Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AANDE&filter.documentNumber=%24sw%3AANDE&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 35.258 ms
+ 
+2024-10-10 18:44:38:4474 http: [2024-10-10T23:44:38.446Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AAND&filter.documentNumber=%24sw%3AAND&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 33.222 ms
+ 
+2024-10-10 18:44:38:5656 http: [2024-10-10T23:44:38.564Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AAN&filter.documentNumber=%24sw%3AAN&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.706 ms
+ 
+2024-10-10 18:44:38:7077 http: [2024-10-10T23:44:38.706Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AA&filter.documentNumber=%24sw%3AA&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 31.292 ms
+ 
+2024-10-10 18:44:39:1221 http: [2024-10-10T23:44:39.122Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 30.386 ms
+ 
+2024-10-10 18:44:40:1552 http: [2024-10-10T23:44:40.155Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AA&filter.documentNumber=%24sw%3AA&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 28.759 ms
+ 
+2024-10-10 18:44:40:3584 http: [2024-10-10T23:44:40.358Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AAN&filter.documentNumber=%24sw%3AAN&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 25.862 ms
+ 
+2024-10-10 18:44:40:8679 http: [2024-10-10T23:44:40.867Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AANE&filter.documentNumber=%24sw%3AANE&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.537 ms
+ 
+2024-10-10 18:44:42:3544 http: [2024-10-10T23:44:42.354Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AAN&filter.documentNumber=%24sw%3AAN&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.563 ms
+ 
+2024-10-10 18:44:43:9369 http: [2024-10-10T23:44:43.936Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AAND&filter.documentNumber=%24sw%3AAND&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 42.139 ms
+ 
+2024-10-10 18:44:49:6456 http: [2024-10-10T23:44:49.645Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AAN&filter.documentNumber=%24sw%3AAN&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 35.545 ms
+ 
+2024-10-10 18:44:49:95210 http: [2024-10-10T23:44:49.952Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AA&filter.documentNumber=%24sw%3AA&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 55.646 ms
+ 
+2024-10-10 18:44:51:0050 http: [2024-10-10T23:44:51.005Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.670 ms
+ 
+2024-10-10 18:45:50:1972 http: [2024-10-10T23:45:50.197Z] ::1 "GET /api/v1/employee/export/excel HTTP/1.1" 200 150167 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 1292.940 ms
+ 
+2024-10-10 18:57:20:2663 http: [2024-10-10T23:57:20.266Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 209.126 ms
+ 
+2024-10-10 18:57:21:3984 http: [2024-10-10T23:57:21.398Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 68.996 ms
+ 
+2024-10-10 18:57:21:96310 http: [2024-10-10T23:57:21.962Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 58.808 ms
+ 
+2024-10-10 18:57:24:2452 http: [2024-10-10T23:57:24.245Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 33.044 ms
+ 
+2024-10-10 18:57:56:0851 http: [2024-10-10T23:57:56.084Z] ::1 "GET /api/v1/employee/export/excel HTTP/1.1" 200 150167 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 1835.528 ms
+ 
+2024-10-10 19:00:58:4264 http: [2024-10-11T00:00:58.426Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workingTypeId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 197.869 ms
+ 
+2024-10-10 19:01:06:6997 http: [2024-10-11T00:01:06.699Z] ::1 "GET /api/v1/employee?page=2&limit=10&filter.workingTypeId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 71.133 ms
+ 
+2024-10-10 19:01:13:8148 http: [2024-10-11T00:01:13.814Z] ::1 "GET /api/v1/employee?page=3&limit=10&filter.workingTypeId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 46.314 ms
+ 
+2024-10-10 19:01:30:6456 http: [2024-10-11T00:01:30.645Z] ::1 "GET /api/v1/employee?page=4&limit=10&filter.workingTypeId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 163.999 ms
+ 
+2024-10-10 19:01:44:4474 http: [2024-10-11T00:01:44.447Z] ::1 "GET /api/v1/employee?page=5&limit=10&filter.workingTypeId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 160.225 ms
+ 
+2024-10-10 19:02:00:1802 http: [2024-10-11T00:02:00.180Z] ::1 "GET /api/v1/employee?page=83&limit=10&filter.workingTypeId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 132.834 ms
+ 
+2024-10-10 19:02:05:4665 http: [2024-10-11T00:02:05.466Z] ::1 "GET /api/v1/employee?page=82&limit=10&filter.workingTypeId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 48.166 ms
+ 
+2024-10-10 19:02:24:6166 http: [2024-10-11T00:02:24.616Z] ::1 "GET /api/v1/employee?page=82&limit=10&filter.workingTypeId=%24eq%3A1&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 162.895 ms
+ 
+2024-10-10 19:02:24:6837 http: [2024-10-11T00:02:24.683Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 38.286 ms
+ 
+2024-10-10 19:02:28:5185 http: [2024-10-11T00:02:28.518Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workingTypeId=%24eq%3A2&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 38.268 ms
+ 
+2024-10-10 19:02:34:2292 http: [2024-10-11T00:02:34.229Z] ::1 "GET /api/v1/employee?page=2&limit=10&filter.workingTypeId=%24eq%3A2&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 37.997 ms
+ 
+2024-10-10 19:02:43:99410 http: [2024-10-11T00:02:43.994Z] ::1 "GET /api/v1/employee?page=3&limit=10&filter.workingTypeId=%24eq%3A2&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 40.914 ms
+ 
+2024-10-10 19:02:47:1451 http: [2024-10-11T00:02:47.145Z] ::1 "GET /api/v1/employee?page=2&limit=10&filter.workingTypeId=%24eq%3A2&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 38.577 ms
+ 
+2024-10-10 19:03:11:1502 http: [2024-10-11T00:03:11.150Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workingTypeId=%24eq%3A2&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 135.488 ms
+ 
+2024-10-10 19:27:19:0531 http: [2024-10-11T00:27:19.053Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workingTypeId=%24eq%3A2&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 135.296 ms
+ 
+2024-10-10 19:27:51:4625 http: [2024-10-11T00:27:51.462Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.workingTypeId=%24eq%3A2&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 133.718 ms
+ 
+2024-10-10 19:28:38:0741 http: [2024-10-11T00:28:38.073Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 253.649 ms
+ 
+2024-10-10 19:29:13:0791 http: [2024-10-11T00:29:13.079Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 132.962 ms
+ 
+2024-10-10 19:29:13:8058 http: [2024-10-11T00:29:13.805Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 30.069 ms
+ 
+2024-10-10 19:29:29:7337 http: [2024-10-11T00:29:29.733Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 148.127 ms
+ 
+2024-10-10 19:29:43:6326 http: [2024-10-11T00:29:43.632Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 157.248 ms
+ 
+2024-10-10 19:29:58:9439 http: [2024-10-11T00:29:58.943Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 173.759 ms
+ 
+2024-10-10 19:30:01:5606 http: [2024-10-11T00:30:01.560Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 34.554 ms
+ 
+2024-10-10 19:32:36:3193 http: [2024-10-11T00:32:36.319Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 477.078 ms
+ 
+2024-10-10 19:34:08:7057 http: [2024-10-11T00:34:08.705Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 151.772 ms
+ 
+2024-10-10 19:34:10:1702 http: [2024-10-11T00:34:10.170Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.242 ms
+ 
+2024-10-10 19:51:48:3223 http: [2024-10-11T00:51:48.322Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 205.710 ms
+ 
+2024-10-10 19:55:24:4965 http: [2024-10-11T00:55:24.496Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 147.878 ms
+ 
+2024-10-10 19:58:30:96710 http: [2024-10-11T00:58:30.967Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 137.517 ms
+ 
+2024-10-10 19:58:32:2412 http: [2024-10-11T00:58:32.241Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 41.835 ms
+ 
+2024-10-10 19:58:32:7608 http: [2024-10-11T00:58:32.759Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 41.608 ms
+ 
+2024-10-10 19:58:33:3544 http: [2024-10-11T00:58:33.354Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 47.892 ms
+ 
+2024-10-10 19:58:35:7197 http: [2024-10-11T00:58:35.719Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 25.372 ms
+ 
+2024-10-10 19:59:39:8388 http: [2024-10-11T00:59:39.838Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 199.252 ms
+ 
+2024-10-10 19:59:49:6987 http: [2024-10-11T00:59:49.698Z] ::1 "GET /api/v1/employee?page=2&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 75.714 ms
+ 
+2024-10-10 19:59:52:0831 http: [2024-10-11T00:59:52.083Z] ::1 "GET /api/v1/employee?page=3&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 72.611 ms
+ 
+2024-10-10 20:00:10:1281 http: [2024-10-11T01:00:10.128Z] ::1 "GET /api/v1/employee?page=3&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 689.824 ms
+ 
+2024-10-10 20:00:20:99610 http: [2024-10-11T01:00:20.996Z] ::1 "GET /api/v1/employee?page=9&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 193.988 ms
+ 
+2024-10-10 20:00:32:1762 http: [2024-10-11T01:00:32.176Z] ::1 "GET /api/v1/employee?page=8&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 161.094 ms
+ 
+2024-10-10 20:00:53:7778 http: [2024-10-11T01:00:53.777Z] ::1 "GET /api/v1/employee?page=8&limit=100&filter.workingTypeId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 232.400 ms
+ 
+2024-10-10 20:01:00:5455 http: [2024-10-11T01:01:00.545Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.workingTypeId=%24eq%3A1&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 85.604 ms
+ 
+2024-10-10 20:01:03:3754 http: [2024-10-11T01:01:03.374Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.workingTypeId=%24eq%3A1&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 76.441 ms
+ 
+2024-10-10 20:01:03:9189 http: [2024-10-11T01:01:03.918Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 58.119 ms
+ 
+2024-10-10 20:02:46:95510 http: [2024-10-11T01:02:46.954Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 210.127 ms
+ 
+2024-10-10 20:03:00:99310 http: [2024-10-11T01:03:00.993Z] ::1 "GET /api/v1/employee?page=2&limit=100&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 233.235 ms
+ 
+2024-10-10 20:03:47:0511 http: [2024-10-11T01:03:47.051Z] ::1 "GET /api/v1/employee?page=2&limit=100&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 169.976 ms
+ 
+2024-10-10 20:03:47:5275 http: [2024-10-11T01:03:47.527Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 94.188 ms
+ 
+2024-10-10 20:04:06:4434 http: [2024-10-11T01:04:06.443Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.isActive=%24eq%3Afalse&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 241.821 ms
+ 
+2024-10-10 20:04:18:7267 http: [2024-10-11T01:04:18.725Z] ::1 "GET /api/v1/employee?page=2&limit=100&filter.isActive=%24eq%3Afalse&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 163.454 ms
+ 
+2024-10-10 20:04:46:0571 http: [2024-10-11T01:04:46.056Z] ::1 "GET /api/v1/employee?page=7&limit=100&filter.isActive=%24eq%3Afalse&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 173.003 ms
+ 
+2024-10-10 20:04:55:3153 http: [2024-10-11T01:04:55.315Z] ::1 "GET /api/v1/employee?page=7&limit=100&filter.isActive=%24eq%3Afalse&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 48.819 ms
+ 
+2024-10-10 20:04:55:6096 http: [2024-10-11T01:04:55.609Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 83.007 ms
+ 
+2024-10-10 20:05:09:0490 http: [2024-10-11T01:05:09.049Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 243.016 ms
+ 
+2024-10-10 20:05:15:3463 http: [2024-10-11T01:05:15.346Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 61.270 ms
+ 
+2024-10-10 20:05:15:8849 http: [2024-10-11T01:05:15.884Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 77.957 ms
+ 
+2024-10-10 20:05:28:1732 http: [2024-10-11T01:05:28.173Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 155.889 ms
+ 
+2024-10-10 20:05:30:2833 http: [2024-10-11T01:05:30.283Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 66.732 ms
+ 
+2024-10-10 20:05:37:1662 http: [2024-10-11T01:05:37.166Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 57.245 ms
+ 
+2024-10-10 20:05:37:6406 http: [2024-10-11T01:05:37.640Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 61.453 ms
+ 
+2024-10-10 20:05:48:5616 http: [2024-10-11T01:05:48.561Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 206.741 ms
+ 
+2024-10-10 20:05:49:5676 http: [2024-10-11T01:05:49.567Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83&filter.documentNumber=%24sw%3A83&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 63.019 ms
+ 
+2024-10-10 20:05:50:0931 http: [2024-10-11T01:05:50.093Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836&filter.documentNumber=%24sw%3A836&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 56.846 ms
+ 
+2024-10-10 20:05:50:6486 http: [2024-10-11T01:05:50.648Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8364&filter.documentNumber=%24sw%3A8364&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 54.822 ms
+ 
+2024-10-10 20:05:56:1371 http: [2024-10-11T01:05:56.137Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83647&filter.documentNumber=%24sw%3A83647&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 132.200 ms
+ 
+2024-10-10 20:05:57:0460 http: [2024-10-11T01:05:57.046Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836473&filter.documentNumber=%24sw%3A836473&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 55.452 ms
+ 
+2024-10-10 20:05:57:5005 http: [2024-10-11T01:05:57.500Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8364732&filter.documentNumber=%24sw%3A8364732&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 49.269 ms
+ 
+2024-10-10 20:06:28:4875 http: [2024-10-11T01:06:28.486Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836473&filter.documentNumber=%24sw%3A836473&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 150.107 ms
+ 
+2024-10-10 20:06:28:9469 http: [2024-10-11T01:06:28.946Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83647&filter.documentNumber=%24sw%3A83647&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 65.801 ms
+ 
+2024-10-10 20:06:29:4915 http: [2024-10-11T01:06:29.490Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8364&filter.documentNumber=%24sw%3A8364&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 61.289 ms
+ 
+2024-10-10 20:06:29:95510 http: [2024-10-11T01:06:29.955Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A836&filter.documentNumber=%24sw%3A836&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 44.900 ms
+ 
+2024-10-10 20:06:30:4685 http: [2024-10-11T01:06:30.468Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A83&filter.documentNumber=%24sw%3A83&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 68.927 ms
+ 
+2024-10-10 20:06:32:1451 http: [2024-10-11T01:06:32.145Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 59.490 ms
+ 
+2024-10-10 20:06:33:0150 http: [2024-10-11T01:06:33.014Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 61.840 ms
+ 
+2024-10-10 20:06:34:4735 http: [2024-10-11T01:06:34.473Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 66.810 ms
+ 
+2024-10-10 20:06:34:99410 http: [2024-10-11T01:06:34.994Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 58.492 ms
+ 
+2024-10-10 20:06:53:5195 http: [2024-10-11T01:06:53.519Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AA&filter.documentNumber=%24sw%3AA&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 255.199 ms
+ 
+2024-10-10 20:06:53:9359 http: [2024-10-11T01:06:53.935Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AAN&filter.documentNumber=%24sw%3AAN&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 59.360 ms
+ 
+2024-10-10 20:06:54:3924 http: [2024-10-11T01:06:54.392Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AAND&filter.documentNumber=%24sw%3AAND&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 58.490 ms
+ 
+2024-10-10 20:06:54:8709 http: [2024-10-11T01:06:54.869Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDE&filter.documentNumber=%24sw%3AANDE&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 49.856 ms
+ 
+2024-10-10 20:06:55:3403 http: [2024-10-11T01:06:55.340Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDER&filter.documentNumber=%24sw%3AANDER&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 51.006 ms
+ 
+2024-10-10 20:06:55:8068 http: [2024-10-11T01:06:55.806Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERS&filter.documentNumber=%24sw%3AANDERS&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 47.442 ms
+ 
+2024-10-10 20:06:56:2693 http: [2024-10-11T01:06:56.269Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSO&filter.documentNumber=%24sw%3AANDERSO&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 47.536 ms
+ 
+2024-10-10 20:06:56:7097 http: [2024-10-11T01:06:56.709Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON&filter.documentNumber=%24sw%3AANDERSON&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 50.044 ms
+ 
+2024-10-10 20:06:58:3373 http: [2024-10-11T01:06:58.337Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20&filter.documentNumber=%24sw%3AANDERSON%20&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 60.880 ms
+ 
+2024-10-10 20:06:59:2092 http: [2024-10-11T01:06:59.209Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20E&filter.documentNumber=%24sw%3AANDERSON%20E&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 49.953 ms
+ 
+2024-10-10 20:06:59:6717 http: [2024-10-11T01:06:59.671Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20EN&filter.documentNumber=%24sw%3AANDERSON%20EN&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 49.415 ms
+ 
+2024-10-10 20:07:00:1692 http: [2024-10-11T01:07:00.168Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20ENR&filter.documentNumber=%24sw%3AANDERSON%20ENR&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 97.877 ms
+ 
+2024-10-10 20:07:00:6537 http: [2024-10-11T01:07:00.652Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20ENRI&filter.documentNumber=%24sw%3AANDERSON%20ENRI&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 57.062 ms
+ 
+2024-10-10 20:07:01:1291 http: [2024-10-11T01:07:01.129Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20ENRIQ&filter.documentNumber=%24sw%3AANDERSON%20ENRIQ&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 50.936 ms
+ 
+2024-10-10 20:07:01:6416 http: [2024-10-11T01:07:01.641Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20ENRIQU&filter.documentNumber=%24sw%3AANDERSON%20ENRIQU&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 60.797 ms
+ 
+2024-10-10 20:07:02:1041 http: [2024-10-11T01:07:02.104Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20ENRIQUE&filter.documentNumber=%24sw%3AANDERSON%20ENRIQUE&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 58.968 ms
+ 
+2024-10-10 20:07:19:2833 http: [2024-10-11T01:07:19.283Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20ENRIQU&filter.documentNumber=%24sw%3AANDERSON%20ENRIQU&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 141.058 ms
+ 
+2024-10-10 20:07:19:7427 http: [2024-10-11T01:07:19.741Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20ENRIQ&filter.documentNumber=%24sw%3AANDERSON%20ENRIQ&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 55.495 ms
+ 
+2024-10-10 20:07:20:2563 http: [2024-10-11T01:07:20.256Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20ENRI&filter.documentNumber=%24sw%3AANDERSON%20ENRI&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 63.281 ms
+ 
+2024-10-10 20:07:20:7157 http: [2024-10-11T01:07:20.715Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20ENR&filter.documentNumber=%24sw%3AANDERSON%20ENR&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 48.045 ms
+ 
+2024-10-10 20:07:21:1732 http: [2024-10-11T01:07:21.173Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20EN&filter.documentNumber=%24sw%3AANDERSON%20EN&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 52.136 ms
+ 
+2024-10-10 20:07:21:6376 http: [2024-10-11T01:07:21.637Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20E&filter.documentNumber=%24sw%3AANDERSON%20E&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 58.178 ms
+ 
+2024-10-10 20:07:22:1181 http: [2024-10-11T01:07:22.118Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON%20&filter.documentNumber=%24sw%3AANDERSON%20&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 69.709 ms
+ 
+2024-10-10 20:07:22:6016 http: [2024-10-11T01:07:22.601Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSON&filter.documentNumber=%24sw%3AANDERSON&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 45.680 ms
+ 
+2024-10-10 20:07:23:0511 http: [2024-10-11T01:07:23.051Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERSO&filter.documentNumber=%24sw%3AANDERSO&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 53.572 ms
+ 
+2024-10-10 20:07:23:5506 http: [2024-10-11T01:07:23.550Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDERS&filter.documentNumber=%24sw%3AANDERS&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 48.313 ms
+ 
+2024-10-10 20:07:24:0460 http: [2024-10-11T01:07:24.046Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDER&filter.documentNumber=%24sw%3AANDER&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 54.000 ms
+ 
+2024-10-10 20:07:24:4925 http: [2024-10-11T01:07:24.492Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AANDE&filter.documentNumber=%24sw%3AANDE&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 58.047 ms
+ 
+2024-10-10 20:07:24:96610 http: [2024-10-11T01:07:24.965Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AAND&filter.documentNumber=%24sw%3AAND&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 58.466 ms
+ 
+2024-10-10 20:07:25:4625 http: [2024-10-11T01:07:25.462Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AAN&filter.documentNumber=%24sw%3AAN&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 51.168 ms
+ 
+2024-10-10 20:07:25:96910 http: [2024-10-11T01:07:25.969Z] ::1 "GET /api/v1/employee?page=1&limit=100&filter.namesSurnames=%24sw%3AA&filter.documentNumber=%24sw%3AA&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 48.634 ms
+ 
+2024-10-10 20:07:26:4334 http: [2024-10-11T01:07:26.433Z] ::1 "GET /api/v1/employee?page=1&limit=100&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 52.186 ms
+ 
+2024-10-10 20:11:27:7638 http: [2024-10-11T01:11:27.762Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 128.022 ms
+ 
+2024-10-10 20:11:28:4905 http: [2024-10-11T01:11:28.490Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 33.729 ms
+ 
+2024-10-10 20:11:29:0711 http: [2024-10-11T01:11:29.071Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 39.545 ms
+ 
+2024-10-10 20:11:31:2843 http: [2024-10-11T01:11:31.284Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 28.667 ms
+ 
+2024-10-10 20:11:46:5906 http: [2024-10-11T01:11:46.590Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 141.046 ms
+ 
+2024-10-10 20:11:46:6567 http: [2024-10-11T01:11:46.656Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 26.921 ms
+ 
+2024-10-10 20:11:54:0110 http: [2024-10-11T01:11:54.011Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 33.098 ms
+ 
+2024-10-10 20:12:07:6847 http: [2024-10-11T01:12:07.683Z] ::1 "GET /api/v1/employee/export/excel?filter.isActive=%24eq%3Atrue HTTP/1.1" 200 150166 "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 1525.696 ms
+ 
+2024-10-10 20:12:52:2312 http: [2024-10-11T01:12:52.230Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.isActive=%24eq%3Atrue&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 195.685 ms
+ 
+2024-10-10 20:12:52:4164 http: [2024-10-11T01:12:52.416Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 191.592 ms
+ 
+2024-10-10 20:18:26:3053 http: [2024-10-11T01:18:26.304Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 153.687 ms
+ 
+2024-10-10 20:18:46:5886 http: [2024-10-11T01:18:46.588Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 177.040 ms
+ 
+2024-10-10 20:18:47:4144 http: [2024-10-11T01:18:47.414Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 31.336 ms
+ 
+2024-10-10 20:20:43:7508 http: [2024-10-11T01:20:43.750Z] ::1 "GET /api/v1/employee?page=83&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 166.963 ms
+ 
+2024-10-10 20:20:48:0480 http: [2024-10-11T01:20:48.048Z] ::1 "GET /api/v1/employee?page=82&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 47.343 ms
+ 
+2024-10-10 20:20:50:4254 http: [2024-10-11T01:20:50.425Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 43.742 ms
+ 
+2024-10-10 20:20:52:0350 http: [2024-10-11T01:20:52.035Z] ::1 "GET /api/v1/employee?page=2&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 38.203 ms
+ 
+2024-10-10 20:20:54:3303 http: [2024-10-11T01:20:54.330Z] ::1 "GET /api/v1/employee?page=3&limit=10&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 41.948 ms
+ 
+2024-10-10 20:20:56:8959 http: [2024-10-11T01:20:56.894Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 41.849 ms
+ 
+2024-10-10 20:20:59:2182 http: [2024-10-11T01:20:59.217Z] ::1 "GET /api/v1/employee?page=83&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 42.870 ms
+ 
+2024-10-10 20:21:01:0120 http: [2024-10-11T01:21:01.012Z] ::1 "GET /api/v1/employee?page=82&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 41.211 ms
+ 
+2024-10-10 20:21:02:8238 http: [2024-10-11T01:21:02.823Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 35.119 ms
+ 
+2024-10-10 21:35:30:0250 http: [2024-10-11T02:35:30.025Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.positionId=%24eq%3A5&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 107.286 ms
+ 
+2024-10-10 21:35:37:9399 http: [2024-10-11T02:35:37.939Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.positionId=%24eq%3A4&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 26.363 ms
+ 
+2024-10-10 21:35:55:0310 http: [2024-10-11T02:35:55.030Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.positionId=%24eq%3A61&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 101.860 ms
+ 
+2024-10-10 21:36:09:0501 http: [2024-10-11T02:36:09.050Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.positionId=%24eq%3A3&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 93.344 ms
+ 
+2024-10-10 21:36:11:8128 http: [2024-10-11T02:36:11.812Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.positionId=%24eq%3A3&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 24.252 ms
+ 
+2024-10-10 21:36:11:8879 http: [2024-10-11T02:36:11.887Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 25.554 ms
+ 
+2024-10-10 21:36:20:8619 http: [2024-10-11T02:36:20.861Z] ::1 "GET /api/v1/employee?page=2&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.950 ms
+ 
+2024-10-10 21:36:27:3904 http: [2024-10-11T02:36:27.390Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.949 ms
+ 
+2024-10-10 21:36:32:0911 http: [2024-10-11T02:36:32.091Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.240 ms
+ 
+2024-10-10 21:36:41:6747 http: [2024-10-11T02:36:41.674Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.positionId=%24eq%3A4&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.358 ms
+ 
+2024-10-10 21:36:46:8789 http: [2024-10-11T02:36:46.878Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.positionId=%24eq%3A2&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 49.303 ms
+ 
+2024-10-10 21:36:49:98210 http: [2024-10-11T02:36:49.982Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.positionId=%24eq%3A9&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.826 ms
+ 
+2024-10-10 21:37:03:98110 http: [2024-10-11T02:37:03.981Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.positionId=%24eq%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 116.287 ms
+ 
+2024-10-10 21:37:04:1091 http: [2024-10-11T02:37:04.109Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 145.456 ms
+ 
+2024-10-10 21:37:15:3914 http: [2024-10-11T02:37:15.391Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 93.081 ms
+ 
+2024-10-10 21:37:16:2663 http: [2024-10-11T02:37:16.266Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.092 ms
+ 
+2024-10-10 21:37:18:2292 http: [2024-10-11T02:37:18.228Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A986&filter.documentNumber=%24sw%3A986&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.915 ms
+ 
+2024-10-10 21:37:18:7848 http: [2024-10-11T02:37:18.783Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9864&filter.documentNumber=%24sw%3A9864&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 38.444 ms
+ 
+2024-10-10 21:37:19:1752 http: [2024-10-11T02:37:19.175Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98645&filter.documentNumber=%24sw%3A98645&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.287 ms
+ 
+2024-10-10 21:37:20:8919 http: [2024-10-11T02:37:20.891Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A986457&filter.documentNumber=%24sw%3A986457&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.662 ms
+ 
+2024-10-10 21:37:21:4805 http: [2024-10-11T02:37:21.479Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9864572&filter.documentNumber=%24sw%3A9864572&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 15.510 ms
+ 
+2024-10-10 21:37:22:4294 http: [2024-10-11T02:37:22.429Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98645726&filter.documentNumber=%24sw%3A98645726&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 36.226 ms
+ 
+2024-10-10 21:39:16:1732 debug: Finding data of 'EmployeeEntity' by id: 821 
+2024-10-10 21:39:16:4004 http: [2024-10-11T02:39:16.400Z] ::1 "GET /api/v1/employee/821 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 228.022 ms
+ 
+2024-10-10 21:39:27:4775 http: [2024-10-11T02:39:27.477Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 90.558 ms
+ 
+2024-10-10 21:39:27:7487 http: [2024-10-11T02:39:27.748Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.727 ms
+ 
+2024-10-10 21:39:34:1712 http: [2024-10-11T02:39:34.170Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 24.329 ms
+ 
+2024-10-10 21:39:34:4545 http: [2024-10-11T02:39:34.454Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 25.611 ms
+ 
+2024-10-10 21:45:56:6887 http: [2024-10-11T02:45:56.688Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 167.451 ms
+ 
+2024-10-10 21:45:59:7027 http: [2024-10-11T02:45:59.702Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.084 ms
+ 
+2024-10-10 21:47:17:8579 http: [2024-10-11T02:47:17.857Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 88.025 ms
+ 
+2024-10-10 21:47:18:2693 http: [2024-10-11T02:47:18.269Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 25.580 ms
+ 
+2024-10-10 21:47:19:7998 http: [2024-10-11T02:47:19.799Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.104 ms
+ 
+2024-10-10 21:47:29:98910 http: [2024-10-11T02:47:29.989Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 94.692 ms
+ 
+2024-10-10 21:47:30:0370 http: [2024-10-11T02:47:30.037Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 27.090 ms
+ 
+2024-10-10 21:47:32:2873 http: [2024-10-11T02:47:32.287Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 26.765 ms
+ 
+2024-10-10 21:47:32:3844 http: [2024-10-11T02:47:32.384Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.342 ms
+ 
+2024-10-10 21:47:35:2482 http: [2024-10-11T02:47:35.247Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.479 ms
+ 
+2024-10-10 21:47:35:4064 http: [2024-10-11T02:47:35.406Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98645726&filter.documentNumber=%24sw%3A98645726&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 37.772 ms
+ 
+2024-10-10 21:47:41:5085 http: [2024-10-11T02:47:41.508Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98645726&filter.documentNumber=%24sw%3A98645726&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 24.103 ms
+ 
+2024-10-10 21:47:41:6106 http: [2024-10-11T02:47:41.610Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9864572&filter.documentNumber=%24sw%3A9864572&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 25.370 ms
+ 
+2024-10-10 21:47:41:7057 http: [2024-10-11T02:47:41.705Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9864572&filter.documentNumber=%24sw%3A9864572&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.956 ms
+ 
+2024-10-10 21:47:41:7948 http: [2024-10-11T02:47:41.793Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A986457&filter.documentNumber=%24sw%3A986457&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.957 ms
+ 
+2024-10-10 21:47:41:8829 http: [2024-10-11T02:47:41.882Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A986457&filter.documentNumber=%24sw%3A986457&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.795 ms
+ 
+2024-10-10 21:47:41:97310 http: [2024-10-11T02:47:41.973Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98645&filter.documentNumber=%24sw%3A98645&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.106 ms
+ 
+2024-10-10 21:47:42:0671 http: [2024-10-11T02:47:42.067Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98645&filter.documentNumber=%24sw%3A98645&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.483 ms
+ 
+2024-10-10 21:47:42:1522 http: [2024-10-11T02:47:42.152Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9864&filter.documentNumber=%24sw%3A9864&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.221 ms
+ 
+2024-10-10 21:47:42:1912 http: [2024-10-11T02:47:42.191Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9864&filter.documentNumber=%24sw%3A9864&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.054 ms
+ 
+2024-10-10 21:47:42:2813 http: [2024-10-11T02:47:42.281Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A986&filter.documentNumber=%24sw%3A986&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 34.240 ms
+ 
+2024-10-10 21:47:42:3814 http: [2024-10-11T02:47:42.380Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A986&filter.documentNumber=%24sw%3A986&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.316 ms
+ 
+2024-10-10 21:47:42:4585 http: [2024-10-11T02:47:42.458Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.058 ms
+ 
+2024-10-10 21:47:42:4905 http: [2024-10-11T02:47:42.490Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.812 ms
+ 
+2024-10-10 21:47:42:5506 http: [2024-10-11T02:47:42.550Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 15.434 ms
+ 
+2024-10-10 21:47:42:6366 http: [2024-10-11T02:47:42.636Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.034 ms
+ 
+2024-10-10 21:47:42:7207 http: [2024-10-11T02:47:42.720Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.571 ms
+ 
+2024-10-10 21:50:29:6066 http: [2024-10-11T02:50:29.605Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 97.080 ms
+ 
+2024-10-10 21:50:30:0420 http: [2024-10-11T02:50:30.042Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 22.525 ms
+ 
+2024-10-10 21:50:30:3063 http: [2024-10-11T02:50:30.305Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 19.145 ms
+ 
+2024-10-10 21:50:31:6637 http: [2024-10-11T02:50:31.663Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.358 ms
+ 
+2024-10-10 21:50:36:7618 http: [2024-10-11T02:50:36.761Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.857 ms
+ 
+2024-10-10 21:50:36:8679 http: [2024-10-11T02:50:36.867Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.829 ms
+ 
+2024-10-10 21:50:38:7477 http: [2024-10-11T02:50:38.747Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.013 ms
+ 
+2024-10-10 21:50:38:8348 http: [2024-10-11T02:50:38.833Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A88&filter.documentNumber=%24sw%3A88&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.870 ms
+ 
+2024-10-10 21:50:41:0380 http: [2024-10-11T02:50:41.038Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A88&filter.documentNumber=%24sw%3A88&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.439 ms
+ 
+2024-10-10 21:50:41:1341 http: [2024-10-11T02:50:41.134Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.332 ms
+ 
+2024-10-10 21:50:41:6256 http: [2024-10-11T02:50:41.625Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A8&filter.documentNumber=%24sw%3A8&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.570 ms
+ 
+2024-10-10 21:50:41:7197 http: [2024-10-11T02:50:41.719Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 14.728 ms
+ 
+2024-10-10 21:50:59:2613 http: [2024-10-11T02:50:59.261Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 93.018 ms
+ 
+2024-10-10 21:50:59:3113 http: [2024-10-11T02:50:59.311Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.438 ms
+ 
+2024-10-10 21:50:59:4885 http: [2024-10-11T02:50:59.488Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.403 ms
+ 
+2024-10-10 21:50:59:5826 http: [2024-10-11T02:50:59.581Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.799 ms
+ 
+2024-10-10 21:51:01:2432 http: [2024-10-11T02:51:01.243Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.373 ms
+ 
+2024-10-10 21:51:01:3373 http: [2024-10-11T02:51:01.337Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980&filter.documentNumber=%24sw%3A980&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 25.201 ms
+ 
+2024-10-10 21:51:01:5475 http: [2024-10-11T02:51:01.547Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980&filter.documentNumber=%24sw%3A980&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.509 ms
+ 
+2024-10-10 21:51:01:6517 http: [2024-10-11T02:51:01.651Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800&filter.documentNumber=%24sw%3A9800&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.959 ms
+ 
+2024-10-10 21:51:03:99210 http: [2024-10-11T02:51:03.992Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800&filter.documentNumber=%24sw%3A9800&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.279 ms
+ 
+2024-10-10 21:51:04:0631 http: [2024-10-11T02:51:04.063Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000&filter.documentNumber=%24sw%3A98000&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.208 ms
+ 
+2024-10-10 21:51:04:8188 http: [2024-10-11T02:51:04.818Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000&filter.documentNumber=%24sw%3A98000&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.859 ms
+ 
+2024-10-10 21:51:04:8969 http: [2024-10-11T02:51:04.896Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980001&filter.documentNumber=%24sw%3A980001&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.988 ms
+ 
+2024-10-10 21:51:04:97810 http: [2024-10-11T02:51:04.978Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980001&filter.documentNumber=%24sw%3A980001&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.549 ms
+ 
+2024-10-10 21:51:05:0621 http: [2024-10-11T02:51:05.062Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.704 ms
+ 
+2024-10-10 21:51:05:95910 http: [2024-10-11T02:51:05.959Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.555 ms
+ 
+2024-10-10 21:51:06:0881 http: [2024-10-11T02:51:06.088Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000115&filter.documentNumber=%24sw%3A98000115&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 30.938 ms
+ 
+2024-10-10 21:51:11:3554 http: [2024-10-11T02:51:11.355Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000115&filter.documentNumber=%24sw%3A98000115&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.916 ms
+ 
+2024-10-10 21:51:11:4414 http: [2024-10-11T02:51:11.441Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.354 ms
+ 
+2024-10-10 21:51:11:8669 http: [2024-10-11T02:51:11.866Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.723 ms
+ 
+2024-10-10 21:51:11:9429 http: [2024-10-11T02:51:11.942Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980001&filter.documentNumber=%24sw%3A980001&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.130 ms
+ 
+2024-10-10 21:51:11:97310 http: [2024-10-11T02:51:11.973Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980001&filter.documentNumber=%24sw%3A980001&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.378 ms
+ 
+2024-10-10 21:51:12:0410 http: [2024-10-11T02:51:12.041Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000&filter.documentNumber=%24sw%3A98000&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.175 ms
+ 
+2024-10-10 21:51:12:0761 http: [2024-10-11T02:51:12.076Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000&filter.documentNumber=%24sw%3A98000&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.457 ms
+ 
+2024-10-10 21:51:12:1682 http: [2024-10-11T02:51:12.168Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800&filter.documentNumber=%24sw%3A9800&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.099 ms
+ 
+2024-10-10 21:51:12:2002 http: [2024-10-11T02:51:12.200Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800&filter.documentNumber=%24sw%3A9800&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.390 ms
+ 
+2024-10-10 21:51:12:2663 http: [2024-10-11T02:51:12.266Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980&filter.documentNumber=%24sw%3A980&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 15.402 ms
+ 
+2024-10-10 21:51:12:3023 http: [2024-10-11T02:51:12.302Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980&filter.documentNumber=%24sw%3A980&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.450 ms
+ 
+2024-10-10 21:51:12:3704 http: [2024-10-11T02:51:12.370Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.650 ms
+ 
+2024-10-10 21:51:12:4014 http: [2024-10-11T02:51:12.401Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.445 ms
+ 
+2024-10-10 21:51:12:4755 http: [2024-10-11T02:51:12.475Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.943 ms
+ 
+2024-10-10 21:51:12:5065 http: [2024-10-11T02:51:12.506Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.835 ms
+ 
+2024-10-10 21:51:12:5766 http: [2024-10-11T02:51:12.576Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.531 ms
+ 
+2024-10-10 21:57:29:2242 http: [2024-10-11T02:57:29.223Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 177.771 ms
+ 
+2024-10-10 22:01:41:3473 http: [2024-10-11T03:01:41.347Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 82.579 ms
+ 
+2024-10-10 22:01:41:7678 http: [2024-10-11T03:01:41.767Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 24.033 ms
+ 
+2024-10-10 22:01:43:3804 http: [2024-10-11T03:01:43.380Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.734 ms
+ 
+2024-10-10 22:01:49:97710 http: [2024-10-11T03:01:49.977Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A0&filter.documentNumber=%24sw%3A0&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.391 ms
+ 
+2024-10-10 22:01:51:4454 http: [2024-10-11T03:01:51.444Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.497 ms
+ 
+2024-10-10 22:01:52:0761 http: [2024-10-11T03:01:52.076Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 28.399 ms
+ 
+2024-10-10 22:01:52:3694 http: [2024-10-11T03:01:52.369Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 25.461 ms
+ 
+2024-10-10 22:01:55:2743 http: [2024-10-11T03:01:55.274Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980&filter.documentNumber=%24sw%3A980&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 25.968 ms
+ 
+2024-10-10 22:01:55:4985 http: [2024-10-11T03:01:55.498Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800&filter.documentNumber=%24sw%3A9800&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.763 ms
+ 
+2024-10-10 22:01:56:0581 http: [2024-10-11T03:01:56.058Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000&filter.documentNumber=%24sw%3A98000&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.109 ms
+ 
+2024-10-10 22:01:58:5135 http: [2024-10-11T03:01:58.513Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980001&filter.documentNumber=%24sw%3A980001&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.235 ms
+ 
+2024-10-10 22:01:58:6787 http: [2024-10-11T03:01:58.678Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.699 ms
+ 
+2024-10-10 22:01:59:3323 http: [2024-10-11T03:01:59.332Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000114&filter.documentNumber=%24sw%3A98000114&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 15.845 ms
+ 
+2024-10-10 22:02:00:2733 http: [2024-10-11T03:02:00.273Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.782 ms
+ 
+2024-10-10 22:02:00:8058 http: [2024-10-11T03:02:00.805Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000115&filter.documentNumber=%24sw%3A98000115&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.632 ms
+ 
+2024-10-10 22:02:05:5676 http: [2024-10-11T03:02:05.567Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.309 ms
+ 
+2024-10-10 22:02:06:0190 http: [2024-10-11T03:02:06.018Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980001&filter.documentNumber=%24sw%3A980001&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.331 ms
+ 
+2024-10-10 22:02:06:1071 http: [2024-10-11T03:02:06.107Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000&filter.documentNumber=%24sw%3A98000&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.604 ms
+ 
+2024-10-10 22:02:06:1942 http: [2024-10-11T03:02:06.194Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800&filter.documentNumber=%24sw%3A9800&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.882 ms
+ 
+2024-10-10 22:02:06:2833 http: [2024-10-11T03:02:06.283Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980&filter.documentNumber=%24sw%3A980&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.936 ms
+ 
+2024-10-10 22:02:06:3664 http: [2024-10-11T03:02:06.366Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.948 ms
+ 
+2024-10-10 22:02:06:4635 http: [2024-10-11T03:02:06.463Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.046 ms
+ 
+2024-10-10 22:02:06:5465 http: [2024-10-11T03:02:06.546Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.099 ms
+ 
+2024-10-10 22:02:08:1872 http: [2024-10-11T03:02:08.187Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.759 ms
+ 
+2024-10-10 22:02:08:4204 http: [2024-10-11T03:02:08.420Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.876 ms
+ 
+2024-10-10 22:02:12:4855 http: [2024-10-11T03:02:12.485Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980&filter.documentNumber=%24sw%3A980&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.242 ms
+ 
+2024-10-10 22:02:12:7778 http: [2024-10-11T03:02:12.777Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800&filter.documentNumber=%24sw%3A9800&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.704 ms
+ 
+2024-10-10 22:02:13:1471 http: [2024-10-11T03:02:13.146Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000&filter.documentNumber=%24sw%3A98000&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.583 ms
+ 
+2024-10-10 22:02:15:0310 http: [2024-10-11T03:02:15.031Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980001&filter.documentNumber=%24sw%3A980001&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.250 ms
+ 
+2024-10-10 22:02:15:1241 http: [2024-10-11T03:02:15.124Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.072 ms
+ 
+2024-10-10 22:02:16:1411 http: [2024-10-11T03:02:16.141Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000115&filter.documentNumber=%24sw%3A98000115&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.641 ms
+ 
+2024-10-10 22:34:22:2352 info: Database connected successfully! 
+2024-10-10 22:34:22:7247 debug: EmployeeService:constructor 
+2024-10-10 22:34:42:7978 info: Database connected successfully! 
+2024-10-10 22:34:43:0260 debug: EmployeeService:constructor 
+2024-10-10 22:37:35:1111 info: Database connected successfully! 
+2024-10-10 22:37:35:3373 debug: EmployeeService:constructor 
+2024-10-10 22:37:51:0160 info: Database connected successfully! 
+2024-10-10 22:37:51:2693 debug: EmployeeService:constructor 
+2024-10-10 22:38:00:2573 info: Database connected successfully! 
+2024-10-10 22:38:00:5215 debug: EmployeeService:constructor 
+2024-10-10 22:40:12:0270 http: [2024-10-11T03:40:12.027Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 127.809 ms
+ 
+2024-10-10 22:40:12:3624 http: [2024-10-11T03:40:12.362Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 54.917 ms
+ 
+2024-10-10 22:40:14:0150 http: [2024-10-11T03:40:14.015Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 37.897 ms
+ 
+2024-10-10 22:40:20:5846 http: [2024-10-11T03:40:20.584Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A0&filter.documentNumber=%24sw%3A0&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.949 ms
+ 
+2024-10-10 22:40:22:7728 http: [2024-10-11T03:40:22.772Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 25.094 ms
+ 
+2024-10-10 22:40:24:2432 http: [2024-10-11T03:40:24.243Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.070 ms
+ 
+2024-10-10 22:40:24:8869 http: [2024-10-11T03:40:24.886Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.958 ms
+ 
+2024-10-10 22:40:28:3023 http: [2024-10-11T03:40:28.301Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980&filter.documentNumber=%24sw%3A980&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 31.014 ms
+ 
+2024-10-10 22:40:28:6426 http: [2024-10-11T03:40:28.641Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800&filter.documentNumber=%24sw%3A9800&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 24.914 ms
+ 
+2024-10-10 22:40:29:4214 http: [2024-10-11T03:40:29.421Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000&filter.documentNumber=%24sw%3A98000&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.914 ms
+ 
+2024-10-10 22:40:31:2883 http: [2024-10-11T03:40:31.288Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980001&filter.documentNumber=%24sw%3A980001&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.653 ms
+ 
+2024-10-10 22:40:31:5075 http: [2024-10-11T03:40:31.507Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.870 ms
+ 
+2024-10-10 22:40:31:7367 http: [2024-10-11T03:40:31.736Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000115&filter.documentNumber=%24sw%3A98000115&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.736 ms
+ 
+2024-10-10 22:41:01:9369 http: [2024-10-11T03:41:01.936Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 116.035 ms
+ 
+2024-10-10 22:41:02:0260 http: [2024-10-11T03:41:02.026Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980001&filter.documentNumber=%24sw%3A980001&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.050 ms
+ 
+2024-10-10 22:41:02:4875 http: [2024-10-11T03:41:02.487Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000&filter.documentNumber=%24sw%3A98000&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 36.196 ms
+ 
+2024-10-10 22:41:02:6687 http: [2024-10-11T03:41:02.667Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800&filter.documentNumber=%24sw%3A9800&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.862 ms
+ 
+2024-10-10 22:41:02:8899 http: [2024-10-11T03:41:02.889Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980&filter.documentNumber=%24sw%3A980&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.780 ms
+ 
+2024-10-10 22:41:03:0180 http: [2024-10-11T03:41:03.018Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 47.110 ms
+ 
+2024-10-10 22:41:03:1712 http: [2024-10-11T03:41:03.171Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.125 ms
+ 
+2024-10-10 22:41:03:3904 http: [2024-10-11T03:41:03.390Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.348 ms
+ 
+2024-10-10 22:41:12:9109 http: [2024-10-11T03:41:12.910Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AE&filter.documentNumber=%24sw%3AE&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.126 ms
+ 
+2024-10-10 22:41:13:2322 http: [2024-10-11T03:41:13.232Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AED&filter.documentNumber=%24sw%3AED&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.312 ms
+ 
+2024-10-10 22:41:13:6917 http: [2024-10-11T03:41:13.691Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDG&filter.documentNumber=%24sw%3AEDG&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.387 ms
+ 
+2024-10-10 22:41:13:8789 http: [2024-10-11T03:41:13.878Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGA&filter.documentNumber=%24sw%3AEDGA&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.624 ms
+ 
+2024-10-10 22:41:14:0701 http: [2024-10-11T03:41:14.070Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR&filter.documentNumber=%24sw%3AEDGAR&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.814 ms
+ 
+2024-10-10 22:41:16:8949 http: [2024-10-11T03:41:16.894Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20&filter.documentNumber=%24sw%3AEDGAR%20&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.985 ms
+ 
+2024-10-10 22:41:17:0480 http: [2024-10-11T03:41:17.048Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20A&filter.documentNumber=%24sw%3AEDGAR%20A&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.671 ms
+ 
+2024-10-10 22:41:17:2332 http: [2024-10-11T03:41:17.232Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20AL&filter.documentNumber=%24sw%3AEDGAR%20AL&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.298 ms
+ 
+2024-10-10 22:41:18:2152 http: [2024-10-11T03:41:18.215Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALF&filter.documentNumber=%24sw%3AEDGAR%20ALF&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.995 ms
+ 
+2024-10-10 22:41:18:3734 http: [2024-10-11T03:41:18.373Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFO&filter.documentNumber=%24sw%3AEDGAR%20ALFO&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.055 ms
+ 
+2024-10-10 22:41:18:5495 http: [2024-10-11T03:41:18.549Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFON&filter.documentNumber=%24sw%3AEDGAR%20ALFON&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.984 ms
+ 
+2024-10-10 22:41:18:6517 http: [2024-10-11T03:41:18.651Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONS&filter.documentNumber=%24sw%3AEDGAR%20ALFONS&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.590 ms
+ 
+2024-10-10 22:41:18:7928 http: [2024-10-11T03:41:18.792Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 16.573 ms
+ 
+2024-10-10 22:42:35:9139 http: [2024-10-11T03:42:35.913Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 218.602 ms
+ 
+2024-10-10 22:42:36:0771 http: [2024-10-11T03:42:36.077Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20S&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20S&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.656 ms
+ 
+2024-10-10 22:42:36:2593 http: [2024-10-11T03:42:36.259Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SA&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SA&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.289 ms
+ 
+2024-10-10 22:42:36:5325 http: [2024-10-11T03:42:36.532Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SAN&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SAN&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.727 ms
+ 
+2024-10-10 22:42:37:0521 http: [2024-10-11T03:42:37.051Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANT&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANT&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.211 ms
+ 
+2024-10-10 22:42:37:1612 http: [2024-10-11T03:42:37.161Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTA&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTA&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 26.210 ms
+ 
+2024-10-10 22:42:38:0250 http: [2024-10-11T03:42:38.025Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTAD&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTAD&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.818 ms
+ 
+2024-10-10 22:42:38:96710 http: [2024-10-11T03:42:38.967Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTA&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTA&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.915 ms
+ 
+2024-10-10 22:42:39:2943 http: [2024-10-11T03:42:39.294Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTAN&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTAN&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.705 ms
+ 
+2024-10-10 22:42:39:6036 http: [2024-10-11T03:42:39.603Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTAND&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTAND&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 33.586 ms
+ 
+2024-10-10 22:42:39:8308 http: [2024-10-11T03:42:39.830Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDE&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDE&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.273 ms
+ 
+2024-10-10 22:42:39:98910 http: [2024-10-11T03:42:39.988Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.218 ms
+ 
+2024-10-10 22:42:40:3333 http: [2024-10-11T03:42:40.333Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.845 ms
+ 
+2024-10-10 22:42:40:6286 http: [2024-10-11T03:42:40.628Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20G&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20G&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 31.120 ms
+ 
+2024-10-10 22:42:40:8929 http: [2024-10-11T03:42:40.892Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GA&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GA&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.901 ms
+ 
+2024-10-10 22:42:41:3884 http: [2024-10-11T03:42:41.388Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GAR&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GAR&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.280 ms
+ 
+2024-10-10 22:42:41:6897 http: [2024-10-11T03:42:41.689Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GARC&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GARC&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.851 ms
+ 
+2024-10-10 22:42:41:8549 http: [2024-10-11T03:42:41.854Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GARCI&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GARCI&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 33.204 ms
+ 
+2024-10-10 22:42:42:0140 http: [2024-10-11T03:42:42.014Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GARCIA&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GARCIA&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.767 ms
+ 
+2024-10-10 22:43:36:6847 info: Database connected successfully! 
+2024-10-10 22:43:36:9179 debug: EmployeeService:constructor 
+2024-10-10 22:46:34:2883 http: [2024-10-11T03:46:34.287Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 213.069 ms
+ 
+2024-10-10 22:46:35:0671 http: [2024-10-11T03:46:35.067Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 64.686 ms
+ 
+2024-10-10 22:46:35:4164 http: [2024-10-11T03:46:35.415Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 43.934 ms
+ 
+2024-10-10 22:46:37:3393 http: [2024-10-11T03:46:37.339Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 38.854 ms
+ 
+2024-10-10 22:46:43:7938 http: [2024-10-11T03:46:43.792Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000115&filter.documentNumber=%24sw%3A98000115&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 30.696 ms
+ 
+2024-10-10 22:46:48:2242 http: [2024-10-11T03:46:48.223Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 33.244 ms
+ 
+2024-10-10 22:46:48:3363 http: [2024-10-11T03:46:48.336Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980001&filter.documentNumber=%24sw%3A980001&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 28.719 ms
+ 
+2024-10-10 22:46:48:8799 http: [2024-10-11T03:46:48.879Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000&filter.documentNumber=%24sw%3A98000&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.543 ms
+ 
+2024-10-10 22:46:48:97510 http: [2024-10-11T03:46:48.974Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800&filter.documentNumber=%24sw%3A9800&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.496 ms
+ 
+2024-10-10 22:46:49:0721 http: [2024-10-11T03:46:49.072Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980&filter.documentNumber=%24sw%3A980&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 24.171 ms
+ 
+2024-10-10 22:46:49:2653 http: [2024-10-11T03:46:49.265Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 50.602 ms
+ 
+2024-10-10 22:46:49:3343 http: [2024-10-11T03:46:49.334Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 26.575 ms
+ 
+2024-10-10 22:46:49:4434 http: [2024-10-11T03:46:49.443Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 27.689 ms
+ 
+2024-10-10 22:46:50:9499 http: [2024-10-11T03:46:50.949Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 26.020 ms
+ 
+2024-10-10 22:46:51:2482 http: [2024-10-11T03:46:51.248Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.946 ms
+ 
+2024-10-10 22:46:56:4094 http: [2024-10-11T03:46:56.409Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.039 ms
+ 
+2024-10-10 22:46:56:6837 http: [2024-10-11T03:46:56.682Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.815 ms
+ 
+2024-10-10 22:47:00:2472 http: [2024-10-11T03:47:00.247Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GARCIA&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GARCIA&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 29.018 ms
+ 
+2024-10-10 22:47:04:3714 http: [2024-10-11T03:47:04.371Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GARCI&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GARCI&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 31.767 ms
+ 
+2024-10-10 22:47:04:9219 http: [2024-10-11T03:47:04.921Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GARC&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GARC&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 25.455 ms
+ 
+2024-10-10 22:47:05:0120 http: [2024-10-11T03:47:05.011Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GAR&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GAR&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 24.079 ms
+ 
+2024-10-10 22:47:05:0991 http: [2024-10-11T03:47:05.099Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GA&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20GA&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.573 ms
+ 
+2024-10-10 22:47:05:1842 http: [2024-10-11T03:47:05.184Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20G&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20G&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.495 ms
+ 
+2024-10-10 22:47:05:2713 http: [2024-10-11T03:47:05.271Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER%20&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.553 ms
+ 
+2024-10-10 22:47:05:3614 http: [2024-10-11T03:47:05.361Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDER&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDER&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.781 ms
+ 
+2024-10-10 22:47:05:4464 http: [2024-10-11T03:47:05.446Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTANDE&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTANDE&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.686 ms
+ 
+2024-10-10 22:47:05:5335 http: [2024-10-11T03:47:05.533Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTAND&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTAND&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.323 ms
+ 
+2024-10-10 22:47:05:6166 http: [2024-10-11T03:47:05.616Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTAN&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTAN&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.087 ms
+ 
+2024-10-10 22:47:05:7017 http: [2024-10-11T03:47:05.701Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANTA&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANTA&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.407 ms
+ 
+2024-10-10 22:47:05:7868 http: [2024-10-11T03:47:05.786Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SANT&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SANT&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.992 ms
+ 
+2024-10-10 22:47:05:8699 http: [2024-10-11T03:47:05.869Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SAN&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SAN&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.404 ms
+ 
+2024-10-10 22:47:05:95310 http: [2024-10-11T03:47:05.952Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20SA&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20SA&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.143 ms
+ 
+2024-10-10 22:47:06:0420 http: [2024-10-11T03:47:06.042Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20S&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20S&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 24.530 ms
+ 
+2024-10-10 22:47:06:1151 http: [2024-10-11T03:47:06.115Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO%20&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO%20&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 18.171 ms
+ 
+2024-10-10 22:47:06:2032 http: [2024-10-11T03:47:06.202Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONSO&filter.documentNumber=%24sw%3AEDGAR%20ALFONSO&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.924 ms
+ 
+2024-10-10 22:47:06:2953 http: [2024-10-11T03:47:06.295Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFONS&filter.documentNumber=%24sw%3AEDGAR%20ALFONS&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.501 ms
+ 
+2024-10-10 22:47:06:4194 http: [2024-10-11T03:47:06.419Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFON&filter.documentNumber=%24sw%3AEDGAR%20ALFON&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.612 ms
+ 
+2024-10-10 22:47:06:5075 http: [2024-10-11T03:47:06.507Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALFO&filter.documentNumber=%24sw%3AEDGAR%20ALFO&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.721 ms
+ 
+2024-10-10 22:47:06:5906 http: [2024-10-11T03:47:06.590Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20ALF&filter.documentNumber=%24sw%3AEDGAR%20ALF&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.831 ms
+ 
+2024-10-10 22:47:06:6767 http: [2024-10-11T03:47:06.676Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20AL&filter.documentNumber=%24sw%3AEDGAR%20AL&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.493 ms
+ 
+2024-10-10 22:47:06:7638 http: [2024-10-11T03:47:06.763Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20A&filter.documentNumber=%24sw%3AEDGAR%20A&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 22.259 ms
+ 
+2024-10-10 22:47:06:8498 http: [2024-10-11T03:47:06.848Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR%20&filter.documentNumber=%24sw%3AEDGAR%20&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 21.005 ms
+ 
+2024-10-10 22:47:06:9299 http: [2024-10-11T03:47:06.929Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGAR&filter.documentNumber=%24sw%3AEDGAR&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 17.687 ms
+ 
+2024-10-10 22:47:07:0120 http: [2024-10-11T03:47:07.012Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDGA&filter.documentNumber=%24sw%3AEDGA&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 20.384 ms
+ 
+2024-10-10 22:47:07:1021 http: [2024-10-11T03:47:07.101Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AEDG&filter.documentNumber=%24sw%3AEDG&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.646 ms
+ 
+2024-10-10 22:47:07:2052 http: [2024-10-11T03:47:07.205Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AED&filter.documentNumber=%24sw%3AED&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.656 ms
+ 
+2024-10-10 22:47:07:2993 http: [2024-10-11T03:47:07.299Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3AE&filter.documentNumber=%24sw%3AE&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 19.977 ms
+ 
+2024-10-10 22:47:07:3964 http: [2024-10-11T03:47:07.396Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 24.774 ms
+ 
+2024-10-10 22:48:21:3203 http: [2024-10-11T03:48:21.320Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A0&filter.documentNumber=%24sw%3A0&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 87.421 ms
+ 
+2024-10-10 22:48:22:7217 http: [2024-10-11T03:48:22.721Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 44.658 ms
+ 
+2024-10-10 22:48:24:1171 http: [2024-10-11T03:48:24.117Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 31.514 ms
+ 
+2024-10-10 22:48:24:5826 http: [2024-10-11T03:48:24.582Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 32.565 ms
+ 
+2024-10-10 22:49:00:0691 http: [2024-10-11T03:49:00.068Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980&filter.documentNumber=%24sw%3A980&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 172.677 ms
+ 
+2024-10-10 22:49:02:0591 http: [2024-10-11T03:49:02.059Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800&filter.documentNumber=%24sw%3A9800&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 23.578 ms
+ 
+2024-10-10 22:49:04:3123 http: [2024-10-11T03:49:04.311Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000&filter.documentNumber=%24sw%3A98000&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 27.808 ms
+ 
+2024-10-10 22:49:07:0721 http: [2024-10-11T03:49:07.072Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A980001&filter.documentNumber=%24sw%3A980001&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 42.517 ms
+ 
+2024-10-10 22:49:07:3413 http: [2024-10-11T03:49:07.341Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 36.266 ms
+ 
+2024-10-10 23:02:21:7187 info: Database connected successfully! 
+2024-10-10 23:02:21:95010 debug: EmployeeService:constructor 
+2024-10-10 23:02:33:9259 info: Database connected successfully! 
+2024-10-10 23:02:34:1612 debug: EmployeeService:constructor 
+2024-10-10 23:02:47:0230 info: Database connected successfully! 
+2024-10-10 23:02:47:3443 debug: EmployeeService:constructor 
+2024-10-10 23:03:10:0591 info: Database connected successfully! 
+2024-10-10 23:03:10:3133 debug: EmployeeService:constructor 
+2024-10-10 23:03:22:0501 info: Database connected successfully! 
+2024-10-10 23:03:22:2853 debug: EmployeeService:constructor 
+2024-10-10 23:03:34:5215 info: Database connected successfully! 
+2024-10-10 23:03:34:7538 debug: EmployeeService:constructor 
+2024-10-10 23:03:49:5876 info: Database connected successfully! 
+2024-10-10 23:03:49:97110 debug: EmployeeService:constructor 
+2024-10-10 23:05:28:3393 http: [2024-10-11T04:05:28.339Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 561.398 ms
+ 
+2024-10-10 23:05:30:8488 http: [2024-10-11T04:05:30.848Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 52.134 ms
+ 
+2024-10-10 23:05:32:98610 http: [2024-10-11T04:05:32.986Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9800011&filter.documentNumber=%24sw%3A9800011&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 37.641 ms
+ 
+2024-10-10 23:07:08:6707 http: [2024-10-11T04:07:08.669Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 98.442 ms
+ 
+2024-10-10 23:07:09:0360 http: [2024-10-11T04:07:09.036Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 34.214 ms
+ 
+2024-10-10 23:07:11:4074 http: [2024-10-11T04:07:11.407Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 28.568 ms
+ 
+2024-10-10 23:07:19:2913 http: [2024-10-11T04:07:19.290Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A0&filter.documentNumber=%24sw%3A0&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 57.119 ms
+ 
+2024-10-10 23:07:21:2292 http: [2024-10-11T04:07:21.229Z] ::1 "GET /api/v1/employee?page=1&limit=10&sortBy= HTTP/1.1" 304 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 30.098 ms
+ 
+2024-10-10 23:07:22:9299 http: [2024-10-11T04:07:22.929Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A9&filter.documentNumber=%24sw%3A9&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 33.435 ms
+ 
+2024-10-10 23:07:23:4284 http: [2024-10-11T04:07:23.428Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98&filter.documentNumber=%24sw%3A98&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 56.787 ms
+ 
+2024-10-10 23:07:27:2142 http: [2024-10-11T04:07:27.214Z] ::1 "GET /api/v1/employee?page=1&limit=10&filter.namesSurnames=%24sw%3A98000115&filter.documentNumber=%24sw%3A98000115&sortBy= HTTP/1.1" 200 - "http://localhost:3000/employee" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {} 27.619 ms
+ 

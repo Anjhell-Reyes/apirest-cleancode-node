@@ -1,0 +1,5 @@
+2023-11-07 11:39:57:8428 info: Database connected successfully! 
+2023-11-07 11:40:00:6517 debug: ResolutionService:constructor 
+2023-11-07 11:40:00:6527 debug: ResolutionController:constructor 
+2023-11-07 11:41:08:1331 http: [2023-11-07T16:41:08.132Z] ::ffff:127.0.0.1 "GET /api/v1/migrateTableResolutions?limitRecords=0 HTTP/1.1" 404 23 "-" "insomnia/2023.5.8" {} 6.997 ms
+ 

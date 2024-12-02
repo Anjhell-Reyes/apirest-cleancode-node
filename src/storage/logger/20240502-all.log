@@ -1,0 +1,33 @@
+2024-05-02 09:30:07:96310 info: Database connected successfully! 
+2024-05-02 09:30:08:3634 debug: ZoneService:constructor 
+2024-05-02 09:30:48:1131 http: [2024-05-02T14:30:48.112Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 11.223 ms
+ 
+2024-05-02 09:30:48:1622 http: [2024-05-02T14:30:48.162Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 1.784 ms
+ 
+2024-05-02 09:30:48:1892 http: [2024-05-02T14:30:48.189Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 25.916 ms
+ 
+2024-05-02 09:30:48:2302 http: [2024-05-02T14:30:48.230Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 30.762 ms
+ 
+2024-05-02 09:30:48:2953 http: [2024-05-02T14:30:48.295Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 31.250 ms
+ 
+2024-05-02 09:30:48:4845 http: [2024-05-02T14:30:48.484Z] ::ffff:127.0.0.1 "GET /swagger/favicon-16x16.png HTTP/1.1" 200 665 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 2.112 ms
+ 
+2024-05-02 09:33:59:6206 http: [2024-05-02T14:33:59.620Z] ::ffff:127.0.0.1 "GET /api/v1/zone HTTP/1.1" 200 277 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 92.149 ms
+ 
+2024-05-02 18:19:22:1121 info: Database connected successfully! 
+2024-05-02 18:19:22:6016 debug: RoleService:constructor 
+2024-05-02 18:19:22:6316 debug: ZoneService:constructor 
+2024-05-02 18:20:38:6316 http: [2024-05-02T23:20:38.630Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 9.397 ms
+ 
+2024-05-02 18:20:38:7337 http: [2024-05-02T23:20:38.733Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 30.629 ms
+ 
+2024-05-02 18:20:38:7387 http: [2024-05-02T23:20:38.738Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 25.877 ms
+ 
+2024-05-02 18:20:38:7457 http: [2024-05-02T23:20:38.745Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 30.475 ms
+ 
+2024-05-02 18:20:38:7538 http: [2024-05-02T23:20:38.753Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 6.394 ms
+ 
+2024-05-02 18:20:39:1912 http: [2024-05-02T23:20:39.190Z] ::ffff:127.0.0.1 "GET /swagger/favicon-16x16.png HTTP/1.1" - - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} - ms
+ 
+2024-05-02 18:20:52:1431 http: [2024-05-02T23:20:52.142Z] ::ffff:127.0.0.1 "GET /api/v1/role HTTP/1.1" 200 175 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 175.929 ms
+ 

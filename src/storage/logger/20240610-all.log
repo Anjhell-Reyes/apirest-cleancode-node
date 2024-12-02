@@ -1,0 +1,48 @@
+2024-06-10 23:01:35:0120 info: Database connected successfully! 
+2024-06-10 23:01:35:3674 debug: EmployeeService:constructor 
+2024-06-10 23:04:26:6597 http: [2024-06-11T04:04:26.658Z] ::1 "GET /swagger/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 9.274 ms
+ 
+2024-06-10 23:04:26:7037 http: [2024-06-11T04:04:26.703Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3501/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 1.953 ms
+ 
+2024-06-10 23:04:26:7207 http: [2024-06-11T04:04:26.720Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 200 - "http://localhost:3501/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 24.104 ms
+ 
+2024-06-10 23:04:26:7427 http: [2024-06-11T04:04:26.742Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "http://localhost:3501/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 16.921 ms
+ 
+2024-06-10 23:04:26:8178 http: [2024-06-11T04:04:26.817Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 - "http://localhost:3501/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 28.094 ms
+ 
+2024-06-10 23:04:27:4785 http: [2024-06-11T04:04:27.477Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 200 628 "http://localhost:3501/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 2.869 ms
+ 
+2024-06-10 23:04:35:5345 http: [2024-06-11T04:04:35.534Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "http://localhost:3501/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 128.617 ms
+ 
+2024-06-10 23:35:31:5926 info: Database connected successfully! 
+2024-06-10 23:35:31:9279 debug: EmployeeService:constructor 
+2024-06-10 23:35:34:4404 http: [2024-06-11T04:35:34.439Z] ::1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 6.663 ms
+ 
+2024-06-10 23:35:34:4655 http: [2024-06-11T04:35:34.465Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 2.936 ms
+ 
+2024-06-10 23:35:34:4825 http: [2024-06-11T04:35:34.481Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 1.355 ms
+ 
+2024-06-10 23:35:34:5005 http: [2024-06-11T04:35:34.500Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 3.182 ms
+ 
+2024-06-10 23:35:34:5225 http: [2024-06-11T04:35:34.522Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 6.032 ms
+ 
+2024-06-10 23:35:41:5726 http: [2024-06-11T04:35:41.572Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 88.244 ms
+ 
+2024-06-10 23:36:38:6186 http: [2024-06-11T04:36:38.618Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 202.335 ms
+ 
+2024-06-10 23:36:38:7668 http: [2024-06-11T04:36:38.765Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 345.725 ms
+ 
+2024-06-10 23:38:14:8779 http: [2024-06-11T04:38:14.877Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 96.393 ms
+ 
+2024-06-10 23:38:15:1542 http: [2024-06-11T04:38:15.154Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 32.664 ms
+ 
+2024-06-10 23:48:42:5636 http: [2024-06-11T04:48:42.563Z] ::1 "GET /api/v1/employee HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {} 134.560 ms
+ 
+2024-06-11 00:12:57:7157 http: [2024-06-11T05:12:57.715Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 131.976 ms
+ 
+2024-06-11 00:12:57:7177 http: [2024-06-11T05:12:57.717Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 148.640 ms
+ 
+2024-06-11 00:19:28:5165 http: [2024-06-11T05:19:28.516Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 118.838 ms
+ 
+2024-06-11 00:33:03:6977 http: [2024-06-11T05:33:03.697Z] ::1 "GET /api/v1/employee HTTP/1.1" 200 - "-" "node" {} 129.427 ms
+ 

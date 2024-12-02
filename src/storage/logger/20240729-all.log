@@ -1,0 +1,164 @@
+2024-07-29 09:02:46:7037 info: Database connected successfully! 
+2024-07-29 09:02:47:1552 debug: Registering route for /api/v1 from v1\authRouter 
+2024-07-29 09:02:47:1572 debug: Registering route for /api/v1 from v1\employeeRouter 
+2024-07-29 09:02:47:2462 debug: EmployeeService:constructor 
+2024-07-29 09:02:47:2503 debug: Registering route for /api/v1 from v1\healthRouter 
+2024-07-29 09:02:47:2973 debug: Registering route for /api/v1 from v1\logRouter 
+2024-07-29 09:02:47:3193 debug: LogService:constructor 
+2024-07-29 09:02:47:3223 debug: Registering route for /api/v1 from v1\userRouter 
+2024-07-29 09:02:47:3804 debug: UserService:constructor 
+2024-07-29 09:27:49:3594 info: Database connected successfully! 
+2024-07-29 09:27:49:7487 debug: Registering route for /api/v1 from v1\authRouter 
+2024-07-29 09:27:49:7508 debug: Registering route for /api/v1 from v1\employeeRouter 
+2024-07-29 09:27:49:8328 debug: EmployeeService:constructor 
+2024-07-29 09:27:49:8358 debug: Registering route for /api/v1 from v1\healthRouter 
+2024-07-29 09:27:49:8859 debug: Registering route for /api/v1 from v1\logRouter 
+2024-07-29 09:27:49:9059 debug: LogService:constructor 
+2024-07-29 09:27:49:9079 debug: Registering route for /api/v1 from v1\userRouter 
+2024-07-29 09:27:49:9399 debug: UserService:constructor 
+2024-07-29 09:28:44:2352 http: [2024-07-29T14:28:44.234Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 13.943 ms
+ 
+2024-07-29 09:28:44:2402 http: [2024-07-29T14:28:44.240Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 13.964 ms
+ 
+2024-07-29 09:28:44:2803 http: [2024-07-29T14:28:44.280Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 16.849 ms
+ 
+2024-07-29 09:28:44:3093 http: [2024-07-29T14:28:44.308Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 14.016 ms
+ 
+2024-07-29 09:28:47:7027 http: [2024-07-29T14:28:47.701Z] ::1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 12.414 ms
+ 
+2024-07-29 09:28:47:8008 http: [2024-07-29T14:28:47.800Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 0.849 ms
+ 
+2024-07-29 09:28:47:8078 http: [2024-07-29T14:28:47.807Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 10.925 ms
+ 
+2024-07-29 09:28:47:8118 http: [2024-07-29T14:28:47.811Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 15.903 ms
+ 
+2024-07-29 09:28:47:8158 http: [2024-07-29T14:28:47.815Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 17.656 ms
+ 
+2024-07-29 09:28:48:4274 http: [2024-07-29T14:28:48.427Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 1.994 ms
+ 
+2024-07-29 09:28:58:6476 http: [2024-07-29T14:28:58.646Z] ::1 "GET /api/v1/employee HTTP/1.1" 401 12 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" {} 2.676 ms
+ 
+2024-07-29 09:29:44:3053 debug: Creating data of 'UserEntity' 
+2024-07-29 09:29:44:8408 error: no existe la columna «deleted_at» en la relación «user» QueryFailedError: no existe la columna «deleted_at» en la relación «user»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-07-29 09:29:44:8529 http: [2024-07-29T14:29:44.852Z] ::ffff:127.0.0.1 "POST /api/v1/users/register HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"userName":"wcastro","email":"castrogilwilson@gmail.com","password":"$2a$10$Xr6vtNk5bFdiIPDX/F2oIumXEap7uH/H85t68dIwe.RQpyGRqoMVO"} 779.847 ms
+ 
+2024-07-29 09:35:22:6476 debug: Creating data of 'UserEntity' 
+2024-07-29 09:35:22:98810 error: el valor nulo en la columna «auth0_id» de la relación «user» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «auth0_id» de la relación «user» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-07-29 09:35:22:99510 http: [2024-07-29T14:35:22.995Z] ::ffff:127.0.0.1 "POST /api/v1/users/register HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"userName":"wcastro","email":"castrogilwilson@gmail.com","password":"$2a$10$sFgtiAHxkbaICwj4G.vGf.i3ZTLvuvUnzcKG/FfthQjHXVdU3o6E2"} 530.340 ms
+ 
+2024-07-29 09:38:35:8919 debug: Creating data of 'UserEntity' 
+2024-07-29 09:38:36:2132 error: el valor nulo en la columna «auth0_id» de la relación «user» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «auth0_id» de la relación «user» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-07-29 09:38:36:2222 http: [2024-07-29T14:38:36.222Z] ::ffff:127.0.0.1 "POST /api/v1/users/register HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"userName":"wcastro","email":"castrogilwilson@gmail.com","password":"$2a$10$tEJ3Bj/VuQJLzQ3akKoFZurDW70X7nhMtvWNQzIxfr1fB3enIo7ZW","auth0Id":"1"} 605.796 ms
+ 
+2024-07-29 09:39:27:7047 debug: Creating data of 'UserEntity' 
+2024-07-29 09:39:28:0170 error: el valor nulo en la columna «auth0_id» de la relación «user» viola la restricción de no nulo QueryFailedError: el valor nulo en la columna «auth0_id» de la relación «user» viola la restricción de no nulo
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\driver\postgres\PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:435:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\persistence\EntityPersistExecutor.ts:182:21)
+2024-07-29 09:39:28:0240 http: [2024-07-29T14:39:28.024Z] ::ffff:127.0.0.1 "POST /api/v1/users/register HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"userName":"wcastro","email":"castrogilwilson@gmail.com","password":"$2a$10$qQ5SRfxlZonvIYbrQznBDe7gnhnQpS40SA.jDKeXB14.ofNdYxhYW","auth0Id":"2"} 515.228 ms
+ 
+2024-07-29 09:41:56:0180 debug: Creating data of 'UserEntity' 
+2024-07-29 09:41:56:3313 http: [2024-07-29T14:41:56.331Z] ::ffff:127.0.0.1 "POST /api/v1/users/register HTTP/1.1" 201 217 "-" "insomnia/2023.5.8" {"userName":"wcastro","email":"castrogilwilson@gmail.com","password":"$2a$10$Qe2bRM.zOdiuciIojAnpwe7y/qtrc0SxXmYtIK7LMV0hVRkJ8iy.G"} 497.234 ms
+ 
+2024-07-29 09:55:41:1902 error: Invalid credentials Error: Invalid credentials
+    at UserService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:40:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:17:58)
+2024-07-29 09:55:41:1972 http: [2024-07-29T14:55:41.197Z] ::ffff:127.0.0.1 "POST /api/v1/users/login HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"12345"} 355.836 ms
+ 
+2024-07-29 09:57:30:0881 error: Invalid credentials Error: Invalid credentials
+    at UserService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:40:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:17:58)
+2024-07-29 09:57:30:0921 http: [2024-07-29T14:57:30.092Z] ::ffff:127.0.0.1 "POST /api/v1/users/login HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"$2a$10$SYIXrli6jQ9/U2CJjfOqNuMtlvlV8iri0cGGUkZADagK0SlbSgy0i"} 354.118 ms
+ 
+2024-07-29 10:43:08:3183 info: Database connected successfully! 
+2024-07-29 10:43:08:6156 debug: Registering route for /api/v1 from v1\authRouter 
+2024-07-29 10:43:08:6186 debug: Registering route for /api/v1 from v1\employeeRouter 
+2024-07-29 10:43:08:6897 debug: EmployeeService:constructor 
+2024-07-29 10:43:08:6927 debug: Registering route for /api/v1 from v1\healthRouter 
+2024-07-29 10:43:08:7447 debug: Registering route for /api/v1 from v1\logRouter 
+2024-07-29 10:43:08:7628 debug: LogService:constructor 
+2024-07-29 10:43:08:7658 debug: Registering route for /api/v1 from v1\userRouter 
+2024-07-29 10:43:08:7928 debug: UserService:constructor 
+2024-07-29 10:43:50:1682 error: Invalid credentials Error: Invalid credentials
+    at UserService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:40:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:17:58)
+2024-07-29 10:43:50:1892 http: [2024-07-29T15:43:50.188Z] ::ffff:127.0.0.1 "POST /api/v1/users/login HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"12345"} 337.573 ms
+ 
+2024-07-29 14:18:48:3493 info: Database connected successfully! 
+2024-07-29 14:18:48:7668 debug: Registering route for /api/v1 from v1\authRouter 
+2024-07-29 14:18:48:7688 debug: Registering route for /api/v1 from v1\employeeRouter 
+2024-07-29 14:18:48:8368 debug: EmployeeService:constructor 
+2024-07-29 14:18:48:8398 debug: Registering route for /api/v1 from v1\healthRouter 
+2024-07-29 14:18:48:8879 debug: Registering route for /api/v1 from v1\logRouter 
+2024-07-29 14:18:48:9079 debug: LogService:constructor 
+2024-07-29 14:18:48:9099 debug: Registering route for /api/v1 from v1\userRouter 
+2024-07-29 14:18:48:9399 debug: UserService:constructor 
+2024-07-29 14:21:10:6597 error: Invalid credentials Error: Invalid credentials
+    at UserService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:40:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:17:58)
+2024-07-29 14:21:10:6917 http: [2024-07-29T19:21:10.690Z] ::ffff:127.0.0.1 "POST /api/v1/users/login HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"12345"} 484.309 ms
+ 
+2024-07-29 15:03:06:2422 info: Database connected successfully! 
+2024-07-29 15:03:06:5485 debug: Registering route for /api/v1 from v1\authRouter 
+2024-07-29 15:03:06:5506 debug: Registering route for /api/v1 from v1\employeeRouter 
+2024-07-29 15:03:06:6677 debug: EmployeeService:constructor 
+2024-07-29 15:03:06:6847 debug: Registering route for /api/v1 from v1\healthRouter 
+2024-07-29 15:03:06:7768 debug: Registering route for /api/v1 from v1\logRouter 
+2024-07-29 15:03:06:8308 debug: LogService:constructor 
+2024-07-29 15:03:06:8338 debug: Registering route for /api/v1 from v1\userRouter 
+2024-07-29 15:03:06:8639 debug: UserService:constructor 
+2024-07-29 15:03:48:7237 error: Invalid credentials Error: Invalid credentials
+    at UserService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:40:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:17:58)
+2024-07-29 15:03:48:7437 http: [2024-07-29T20:03:48.742Z] ::ffff:127.0.0.1 "POST /api/v1/users/login HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"12345"} 334.683 ms
+ 
+2024-07-29 15:04:31:2663 error: Invalid credentials Error: Invalid credentials
+    at UserService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:40:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:17:58)
+2024-07-29 15:04:31:2733 http: [2024-07-29T20:04:31.273Z] ::ffff:127.0.0.1 "POST /api/v1/users/login HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"12345"} 280.497 ms
+ 
+2024-07-29 15:49:34:4194 info: Database connected successfully! 
+2024-07-29 15:49:34:8428 debug: Registering route for /api/v1 from v1\authRouter 
+2024-07-29 15:49:34:8448 debug: Registering route for /api/v1 from v1\employeeRouter 
+2024-07-29 15:49:34:9369 debug: EmployeeService:constructor 
+2024-07-29 15:49:34:9399 debug: Registering route for /api/v1 from v1\healthRouter 
+2024-07-29 15:49:35:0000 debug: Registering route for /api/v1 from v1\logRouter 
+2024-07-29 15:49:35:0250 debug: LogService:constructor 
+2024-07-29 15:49:35:0270 debug: Registering route for /api/v1 from v1\userRouter 
+2024-07-29 15:49:35:0981 debug: UserService:constructor 
+2024-07-29 15:52:41:5716 debug: Attempting to login user with email: castrogilwilson@gmail.com 
+2024-07-29 15:52:41:7437 debug: Comparing passwords: provided: 12345, stored: $2a$10$SYIXrli6jQ9/U2CJjfOqNuMtlvlV8iri0cGGUkZADagK0SlbSgy0i 
+2024-07-29 15:52:41:97710 error: Invalid password 
+2024-07-29 15:52:41:98010 error: Invalid credentials Error: Invalid credentials
+    at UserService.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:46:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\services\userService.ts:17:58)
+2024-07-29 15:52:42:0080 http: [2024-07-29T20:52:42.007Z] ::ffff:127.0.0.1 "POST /api/v1/users/login HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"email":"castrogilwilson@gmail.com","password":"12345"} 433.964 ms
+ 

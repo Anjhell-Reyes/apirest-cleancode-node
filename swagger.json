@@ -1,0 +1,571 @@
+{
+	"openapi": "3.0.0",
+	"components": {
+		"examples": {},
+		"headers": {},
+		"parameters": {},
+		"requestBodies": {},
+		"responses": {},
+		"schemas": {
+			"Identity": {
+				"anyOf": [
+					{
+						"type": "string"
+					},
+					{
+						"type": "number",
+						"format": "double"
+					}
+				]
+			},
+			"TaskDto": {
+				"properties": {
+					"title": {
+						"type": "string"
+					},
+					"description": {
+						"type": "string"
+					},
+					"completed": {
+						"type": "boolean"
+					},
+					"startDate": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"endDate": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"createdAt": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"updatedAt": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"id": {
+						"$ref": "#/components/schemas/Identity"
+					}
+				},
+				"type": "object",
+				"additionalProperties": false
+			},
+			"PaginationMetaContract": {
+				"properties": {
+					"itemsPerPage": {
+						"type": "number",
+						"format": "double"
+					},
+					"totalItems": {
+						"type": "number",
+						"format": "double"
+					},
+					"currentPage": {
+						"type": "number",
+						"format": "double"
+					},
+					"totalPages": {
+						"type": "number",
+						"format": "double"
+					},
+					"sortBy": {
+						"items": {
+							"items": {
+								"type": "string"
+							},
+							"type": "array"
+						},
+						"type": "array"
+					},
+					"filter": {
+						"properties": {},
+						"additionalProperties": {
+							"anyOf": [
+								{
+									"type": "string"
+								},
+								{
+									"items": {
+										"type": "string"
+									},
+									"type": "array"
+								}
+							]
+						},
+						"type": "object"
+					}
+				},
+				"required": [
+					"itemsPerPage",
+					"totalItems",
+					"currentPage",
+					"totalPages"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
+			"PaginationLinkContract": {
+				"properties": {
+					"first": {
+						"type": "string"
+					},
+					"previous": {
+						"type": "string"
+					},
+					"current": {
+						"type": "string"
+					},
+					"next": {
+						"type": "string"
+					},
+					"last": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"current"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
+			"PaginationResultModel_TaskDto-Array_": {
+				"properties": {
+					"meta": {
+						"$ref": "#/components/schemas/PaginationMetaContract"
+					},
+					"links": {
+						"$ref": "#/components/schemas/PaginationLinkContract"
+					},
+					"data": {
+						"items": {
+							"$ref": "#/components/schemas/TaskDto"
+						},
+						"type": "array"
+					}
+				},
+				"required": [
+					"data"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
+			"DefaultErrorResponse": {
+				"properties": {
+					"errors": {
+						"items": {},
+						"type": "array"
+					}
+				},
+				"required": [
+					"errors"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
+			"DefaultResponse": {
+				"properties": {
+					"message": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"message"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
+			"TaskRequestDto": {
+				"properties": {
+					"title": {
+						"type": "string"
+					},
+					"description": {
+						"type": "string"
+					},
+					"completed": {
+						"type": "boolean"
+					},
+					"startDate": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"endDate": {
+						"type": "string",
+						"format": "date-time"
+					}
+				},
+				"type": "object",
+				"additionalProperties": false
+			}
+		},
+		"securitySchemes": {
+			"jwt": {
+				"type": "apiKey",
+				"name": "Authorization",
+				"in": "header"
+			}
+		}
+	},
+	"info": {
+		"title": "api_express_typescript_boilerplate",
+		"version": "1.0.0",
+		"description": "This is a boilerplate for an API with Express and Node.js",
+		"license": {
+			"name": "ISC"
+		},
+		"contact": {
+			"name": "c.wilcas@gmail.com"
+		}
+	},
+	"paths": {
+		"/api/v1/tasks": {
+			"get": {
+				"operationId": "ListPaginated",
+				"responses": {
+					"200": {
+						"description": "OK",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/PaginationResultModel_TaskDto-Array_"
+								}
+							}
+						}
+					},
+					"400": {
+						"description": "BAD REQUEST",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/DefaultErrorResponse"
+								},
+								"examples": {
+									"Example 1": {}
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "NOT FOUND",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/DefaultResponse"
+								},
+								"examples": {
+									"Example 1": {}
+								}
+							}
+						}
+					}
+				},
+				"description": "Retorna todas las novedades de los trabajadores de la empresa",
+				"summary": "Retorna todas las novedades de los datos de todos los trabajadores de la empresa",
+				"tags": [
+					"Tasks"
+				],
+				"security": [],
+				"parameters": []
+			},
+			"post": {
+				"operationId": "CreateNew",
+				"responses": {
+					"201": {
+						"description": "CREATED",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/TaskDto"
+								}
+							}
+						}
+					},
+					"400": {
+						"description": "BAD REQUEST",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/DefaultErrorResponse"
+								},
+								"examples": {
+									"Example 1": {}
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "NOT FOUND",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/DefaultResponse"
+								},
+								"examples": {
+									"Example 1": {}
+								}
+							}
+						}
+					}
+				},
+				"description": "Crea una novedad de un trabajador de la empresa",
+				"summary": "Crea una novedad de un trabajador",
+				"tags": [
+					"Tasks"
+				],
+				"security": [],
+				"parameters": [],
+				"requestBody": {
+					"required": true,
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/TaskRequestDto"
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/v1/tasks/{id}": {
+			"get": {
+				"operationId": "FindOne",
+				"responses": {
+					"200": {
+						"description": "OK",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/TaskDto"
+								}
+							}
+						}
+					},
+					"400": {
+						"description": "BAD REQUEST",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/DefaultErrorResponse"
+								},
+								"examples": {
+									"Example 1": {}
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "NOT FOUND",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/DefaultResponse"
+								},
+								"examples": {
+									"Example 1": {}
+								}
+							}
+						}
+					}
+				},
+				"description": "Retorna una novedad del trabajador de la empresa",
+				"summary": "Retorna una novedad de un trabajador de la empresa",
+				"tags": [
+					"Tasks"
+				],
+				"security": [],
+				"parameters": [
+					{
+						"description": "Identificador de la novedad del trabajador",
+						"in": "path",
+						"name": "id",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/Identity"
+						}
+					}
+				]
+			},
+			"put": {
+				"operationId": "UpdateOne",
+				"responses": {
+					"200": {
+						"description": "OK",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/TaskDto"
+								}
+							}
+						}
+					},
+					"400": {
+						"description": "BAD REQUEST",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/DefaultErrorResponse"
+								},
+								"examples": {
+									"Example 1": {}
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "NOT FOUND",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/DefaultResponse"
+								},
+								"examples": {
+									"Example 1": {}
+								}
+							}
+						}
+					}
+				},
+				"description": "Actualiza una novedad de un trabajador de la empresa",
+				"summary": "Actualiza una novedad de un trabajador",
+				"tags": [
+					"Tasks"
+				],
+				"security": [],
+				"parameters": [
+					{
+						"description": "Identificador la novedad",
+						"in": "path",
+						"name": "id",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/Identity"
+						}
+					}
+				],
+				"requestBody": {
+					"required": true,
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/TaskRequestDto"
+							}
+						}
+					}
+				}
+			},
+			"delete": {
+				"operationId": "DeleteOne",
+				"responses": {
+					"200": {
+						"description": "OK",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/TaskDto"
+								}
+							}
+						}
+					},
+					"400": {
+						"description": "BAD REQUEST",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/DefaultErrorResponse"
+								},
+								"examples": {
+									"Example 1": {}
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "NOT FOUND",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/DefaultResponse"
+								},
+								"examples": {
+									"Example 1": {}
+								}
+							}
+						}
+					}
+				},
+				"description": "Elimina una novedad de un trabajador de la empresa",
+				"summary": "Elimina una novedad de un trabajador",
+				"tags": [
+					"Tasks"
+				],
+				"security": [],
+				"parameters": [
+					{
+						"description": "Identificador de la novedad",
+						"in": "path",
+						"name": "id",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/Identity"
+						}
+					}
+				]
+			}
+		},
+		"/api/v1/health": {
+			"get": {
+				"operationId": "HealthCheck",
+				"responses": {
+					"200": {
+						"description": "OK",
+						"headers": {
+							"DefaultResponse": {
+								"schema": {
+									"$ref": "#/components/schemas/DefaultResponse"
+								}
+							}
+						}
+					}
+				},
+				"description": "Comprueba que el servicio está funcionando correctamente.",
+				"summary": "Comprueba el funcionamiento del servicio.",
+				"tags": [
+					"Health: Este controlador administra el estado de saludo del servicio de empleados."
+				],
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/api/v1/ping": {
+			"get": {
+				"operationId": "Ping",
+				"responses": {
+					"200": {
+						"description": "OK",
+						"headers": {
+							"DefaultResponse": {
+								"schema": {
+									"$ref": "#/components/schemas/DefaultResponse"
+								}
+							}
+						}
+					}
+				},
+				"description": "Permite realizar una prueba de ping en el servicio y verificar su disponibilidad.",
+				"summary": "Realiza una prueba de ping en el servicio.",
+				"tags": [
+					"Health: Este controlador administra el estado de saludo del servicio de empleados."
+				],
+				"security": [],
+				"parameters": []
+			}
+		}
+	},
+	"servers": [
+		{
+			"url": "/"
+		}
+	]
+}

@@ -1,0 +1,80 @@
+2024-11-26 19:17:51:9009 info: Database connected successfully! 
+2024-11-26 19:17:52:4945 debug: ResponsableService:constructor 
+2024-11-26 19:17:52:5295 debug: TaskService:constructor 
+2024-11-26 19:23:58:0921 debug: Creating data of 'ResponsableEntity' 
+2024-11-26 19:23:58:1061 error: No metadata for "ResponsableEntity" was found. EntityMetadataNotFoundError: No metadata for "ResponsableEntity" was found.
+    at DataSource.getMetadata (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:450:30)
+    at Repository.get metadata [as metadata] (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\repository\Repository.ts:53:40)
+    at Repository.create (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\repository\Repository.ts:130:18)
+    at DefaultCrudRepository.<anonymous> (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\infrastructure\persistence\repositories\DefaultCrudRepository.ts:23:31)
+    at Generator.next (<anonymous>)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\infrastructure\persistence\repositories\DefaultCrudRepository.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\infrastructure\persistence\repositories\DefaultCrudRepository.ts:4:12)
+    at DefaultCrudRepository.create (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\infrastructure\persistence\repositories\DefaultCrudRepository.ts:24:16)
+    at ResponsableRepository.<anonymous> (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\infrastructure\persistence\repositories\responsableRepository.ts:21:49)
+2024-11-26 19:23:58:2733 http: [2024-11-27T00:23:58.269Z] ::1 "POST /api/v1/responsables HTTP/1.1" 500 32 "-" "PostmanRuntime/7.42.0" {"title":"Revision","description":"Revisar todos los proyectos","completed":false,"startDate":"2024-11-24","endDate":"2024-11-29"} 169.835 ms
+ 
+2024-11-26 19:25:01:1672 debug: Creating data of 'ResponsableEntity' 
+2024-11-26 19:25:01:1712 error: No metadata for "ResponsableEntity" was found. EntityMetadataNotFoundError: No metadata for "ResponsableEntity" was found.
+    at DataSource.getMetadata (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\data-source\DataSource.ts:450:30)
+    at Repository.get metadata [as metadata] (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\repository\Repository.ts:53:40)
+    at Repository.create (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\repository\Repository.ts:130:18)
+    at DefaultCrudRepository.<anonymous> (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\infrastructure\persistence\repositories\DefaultCrudRepository.ts:23:31)
+    at Generator.next (<anonymous>)
+    at C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\infrastructure\persistence\repositories\DefaultCrudRepository.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\infrastructure\persistence\repositories\DefaultCrudRepository.ts:4:12)
+    at DefaultCrudRepository.create (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\infrastructure\persistence\repositories\DefaultCrudRepository.ts:24:16)
+    at ResponsableRepository.<anonymous> (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\infrastructure\persistence\repositories\responsableRepository.ts:21:49)
+2024-11-26 19:25:01:1882 http: [2024-11-27T00:25:01.188Z] ::1 "POST /api/v1/responsables HTTP/1.1" 500 32 "-" "PostmanRuntime/7.42.0" {"nombre":"Juan Pérez","email":"juan.perez@example.com","cargo":"Responsable de Ventas","telefono":"3158996799"} 20.414 ms
+ 
+2024-11-26 19:27:54:8519 info: Database connected successfully! 
+2024-11-26 19:27:55:9269 debug: ResponsableService:constructor 
+2024-11-26 19:27:55:9429 debug: TaskService:constructor 
+2024-11-26 19:28:03:7518 debug: Creating data of 'ResponsableEntity' 
+2024-11-26 19:28:03:8298 http: [2024-11-27T00:28:03.828Z] ::1 "POST /api/v1/responsables HTTP/1.1" 201 87 "-" "PostmanRuntime/7.42.0" {"nombre":"Juan Pérez","email":"juan.perez@example.com","cargo":"Responsable de Ventas","telefono":"3158996799"} 73.266 ms
+ 
+2024-11-26 19:28:28:96010 debug: Creating data of 'ResponsableEntity' 
+2024-11-26 19:28:28:98410 http: [2024-11-27T00:28:28.984Z] ::1 "POST /api/v1/responsables HTTP/1.1" 201 121 "-" "PostmanRuntime/7.42.0" {"nombre":"Juan Pérez","correo":"juan.perez@example.com","cargo":"Responsable de Ventas","telefono":"3158996799"} 23.285 ms
+ 
+2024-11-26 19:41:16:7347 info: Database connected successfully! 
+2024-11-26 19:41:17:8198 debug: ResponsableService:constructor 
+2024-11-26 19:41:17:8308 debug: TaskService:constructor 
+2024-11-26 19:47:37:7858 info: Database connected successfully! 
+2024-11-26 19:47:38:0591 debug: ResponsableService:constructor 
+2024-11-26 19:47:38:0711 debug: TaskService:constructor 
+2024-11-26 19:49:00:4324 debug: Creating data of 'ResponsableEntity' 
+2024-11-26 19:49:00:4745 error: Cannot add or update a child row: a foreign key constraint fails (`cop16_api`.`responsables`, CONSTRAINT `responsables_ibfk_1` FOREIGN KEY (`id_task`) REFERENCES `tasks` (`id`)) QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`cop16_api`.`responsables`, CONSTRAINT `responsables_ibfk_1` FOREIGN KEY (`id_task`) REFERENCES `tasks` (`id`))
+    at Query.onResult (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (C:\Users\Anjhell Reyes\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (C:\Users\Anjhell Reyes\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Anjhell Reyes\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Anjhell Reyes\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Anjhell Reyes\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+2024-11-26 19:49:00:5706 http: [2024-11-27T00:49:00.570Z] ::1 "POST /api/v1/responsables HTTP/1.1" 500 32 "-" "PostmanRuntime/7.42.0" {"nombre":"Juan Pérez","correo":"juan.perez@example.com","cargo":"Responsable de Ventas","telefono":"3158996799","taskId":0} 133.857 ms
+ 
+2024-11-26 19:50:04:0380 debug: Creating data of 'ResponsableEntity' 
+2024-11-26 19:50:04:0581 http: [2024-11-27T00:50:04.058Z] ::1 "POST /api/v1/responsables HTTP/1.1" 201 132 "-" "PostmanRuntime/7.42.0" {"nombre":"Juan Pérez","correo":"juan.perez@example.com","cargo":"Responsable de Ventas","telefono":"3158996799","taskId":1} 21.786 ms
+ 
+2024-11-26 19:50:40:0901 debug: Creating data of 'ResponsableEntity' 
+2024-11-26 19:50:40:1191 error: Cannot add or update a child row: a foreign key constraint fails (`cop16_api`.`responsables`, CONSTRAINT `responsables_ibfk_1` FOREIGN KEY (`id_task`) REFERENCES `tasks` (`id`)) QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`cop16_api`.`responsables`, CONSTRAINT `responsables_ibfk_1` FOREIGN KEY (`id_task`) REFERENCES `tasks` (`id`))
+    at Query.onResult (C:\Users\Anjhell Reyes\Documents\Node Js\Clase_11\arquitectura_limpia\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (C:\Users\Anjhell Reyes\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (C:\Users\Anjhell Reyes\node_modules\mysql2\lib\connection.js:481:34)
+    at PacketParser.onPacket (C:\Users\Anjhell Reyes\node_modules\mysql2\lib\connection.js:97:12)
+    at PacketParser.executeStart (C:\Users\Anjhell Reyes\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\Anjhell Reyes\node_modules\mysql2\lib\connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+2024-11-26 19:50:40:1271 http: [2024-11-27T00:50:40.127Z] ::1 "POST /api/v1/responsables HTTP/1.1" 500 32 "-" "PostmanRuntime/7.42.0" {"nombre":"Juan Pérez","correo":"juan.perez@example.com","cargo":"Responsable de Ventas","telefono":"3158996799","taskId":2} 38.823 ms
+ 
+2024-11-26 19:51:01:3634 debug: Creating data of 'ResponsableEntity' 
+2024-11-26 19:51:01:3754 http: [2024-11-27T00:51:01.375Z] ::1 "POST /api/v1/responsables HTTP/1.1" 201 132 "-" "PostmanRuntime/7.42.0" {"nombre":"Juan Pérez","correo":"juan.perez@example.com","cargo":"Responsable de Ventas","telefono":"3158996799","taskId":1} 12.916 ms
+ 

@@ -1,0 +1,130 @@
+2024-03-26 13:27:49:1091 info: Database connected successfully! 
+2024-03-26 13:27:50:9049 error: No matching bindings found for serviceIdentifier: Symbol(Logger) Error: No matching bindings found for serviceIdentifier: Symbol(Logger)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:113:15)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:91:3)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:160:22)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:194:9
+    at Array.forEach (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:193:20
+    at Array.forEach (<anonymous>)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:164:18)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:194:9
+    at Array.forEach (<anonymous>)
+2024-03-26 13:28:52:3123 info: Database connected successfully! 
+2024-03-26 13:28:53:8699 error: No matching bindings found for serviceIdentifier: Symbol(Logger) Error: No matching bindings found for serviceIdentifier: Symbol(Logger)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:113:15)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:91:3)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:160:22)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:194:9
+    at Array.forEach (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:193:20
+    at Array.forEach (<anonymous>)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:164:18)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:194:9
+    at Array.forEach (<anonymous>)
+2024-03-26 13:43:06:6637 info: Database connected successfully! 
+2024-03-26 13:43:08:2643 error: No matching bindings found for serviceIdentifier: Symbol(Logger) Error: No matching bindings found for serviceIdentifier: Symbol(Logger)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:113:15)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:91:3)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:160:22)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:194:9
+    at Array.forEach (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:193:20
+    at Array.forEach (<anonymous>)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:164:18)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:194:9
+    at Array.forEach (<anonymous>)
+2024-03-26 17:05:56:7968 info: Database connected successfully! 
+2024-03-26 17:05:57:2382 debug: ZoneService:constructor 
+2024-03-26 17:06:39:6446 info: Database connected successfully! 
+2024-03-26 17:06:40:0851 debug: ZoneService:constructor 
+2024-03-26 17:07:02:8939 http: [2024-03-26T22:07:02.892Z] ::1 "GET /swagger HTTP/1.1" 301 181 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 12.521 ms
+ 
+2024-03-26 17:07:02:9179 http: [2024-03-26T22:07:02.917Z] ::1 "GET /swagger/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 12.716 ms
+ 
+2024-03-26 17:07:03:0350 http: [2024-03-26T22:07:03.035Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 1.619 ms
+ 
+2024-03-26 17:07:03:0551 http: [2024-03-26T22:07:03.055Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 25.689 ms
+ 
+2024-03-26 17:07:03:0831 http: [2024-03-26T22:07:03.083Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 20.229 ms
+ 
+2024-03-26 17:07:03:1792 http: [2024-03-26T22:07:03.179Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 20.933 ms
+ 
+2024-03-26 17:07:03:9479 http: [2024-03-26T22:07:03.947Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 200 628 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 2.263 ms
+ 
+2024-03-26 17:27:38:5716 info: Database connected successfully! 
+2024-03-26 17:27:38:9379 debug: ZoneService:constructor 
+2024-03-26 17:29:03:5485 info: Database connected successfully! 
+2024-03-26 17:29:03:8999 debug: ZoneService:constructor 
+2024-03-26 17:29:09:2793 http: [2024-03-26T22:29:09.278Z] ::1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 9.702 ms
+ 
+2024-03-26 17:29:09:3023 http: [2024-03-26T22:29:09.302Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 3.838 ms
+ 
+2024-03-26 17:29:09:3143 http: [2024-03-26T22:29:09.314Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 4.088 ms
+ 
+2024-03-26 17:29:09:3353 http: [2024-03-26T22:29:09.335Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 5.890 ms
+ 
+2024-03-26 17:29:09:3483 http: [2024-03-26T22:29:09.348Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 6.571 ms
+ 
+2024-03-26 17:29:09:8098 http: [2024-03-26T22:29:09.808Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 1.296 ms
+ 
+2024-03-26 17:29:12:1011 http: [2024-03-26T22:29:12.101Z] ::1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 1.146 ms
+ 
+2024-03-26 17:29:12:1311 http: [2024-03-26T22:29:12.130Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 1.523 ms
+ 
+2024-03-26 17:29:12:1461 http: [2024-03-26T22:29:12.146Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 1.396 ms
+ 
+2024-03-26 17:29:12:1512 http: [2024-03-26T22:29:12.151Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 12.678 ms
+ 
+2024-03-26 17:29:12:1552 http: [2024-03-26T22:29:12.155Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 13.064 ms
+ 
+2024-03-26 17:29:12:4294 http: [2024-03-26T22:29:12.429Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 1.034 ms
+ 
+2024-03-26 17:29:27:3293 error: no existe la columna __root.id QueryFailedError: no existe la columna __root.id
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-03-26 17:29:27:4755 http: [2024-03-26T22:29:27.474Z] ::1 "GET /api/v1/zone HTTP/1.1" 500 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 321.746 ms
+ 
+2024-03-26 17:36:27:3393 info: Database connected successfully! 
+2024-03-26 17:36:27:7017 debug: ZoneService:constructor 
+2024-03-26 17:36:45:3524 http: [2024-03-26T22:36:45.351Z] ::1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 10.114 ms
+ 
+2024-03-26 17:36:45:3944 http: [2024-03-26T22:36:45.394Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 8.788 ms
+ 
+2024-03-26 17:36:45:4134 http: [2024-03-26T22:36:45.413Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 9.053 ms
+ 
+2024-03-26 17:36:45:4194 http: [2024-03-26T22:36:45.419Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 12.222 ms
+ 
+2024-03-26 17:36:45:4264 http: [2024-03-26T22:36:45.426Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 3.713 ms
+ 
+2024-03-26 17:36:45:97510 http: [2024-03-26T22:36:45.975Z] ::1 "GET /swagger/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 1.422 ms
+ 
+2024-03-26 17:36:50:4945 error: no existe la columna __root.created_at QueryFailedError: no existe la columna __root.created_at
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-03-26 17:36:50:5926 http: [2024-03-26T22:36:50.592Z] ::1 "GET /api/v1/zone HTTP/1.1" 500 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 228.007 ms
+ 
+2024-03-26 17:39:52:8949 error: no existe la columna __root.name QueryFailedError: no existe la columna __root.name
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-03-26 17:39:52:9049 http: [2024-03-26T22:39:52.903Z] ::1 "GET /api/v1/zone HTTP/1.1" 500 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 141.660 ms
+ 
+2024-03-26 17:40:28:8689 info: Database connected successfully! 
+2024-03-26 17:40:29:2823 debug: ZoneService:constructor 
+2024-03-26 17:40:41:6046 http: [2024-03-26T22:40:41.603Z] ::1 "GET /api/v1/zone HTTP/1.1" 200 277 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 132.659 ms
+ 
+2024-03-26 17:41:55:5215 debug: Finding data of 'ZoneEntity' by id: 1 
+2024-03-26 17:41:55:6627 http: [2024-03-26T22:41:55.662Z] ::1 "GET /api/v1/zone/1 HTTP/1.1" 200 102 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" {} 142.589 ms
+ 

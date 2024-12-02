@@ -1,0 +1,54 @@
+2024-03-26 13:27:50:9049 error: No matching bindings found for serviceIdentifier: Symbol(Logger) Error: No matching bindings found for serviceIdentifier: Symbol(Logger)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:113:15)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:91:3)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:160:22)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:194:9
+    at Array.forEach (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:193:20
+    at Array.forEach (<anonymous>)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:164:18)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:194:9
+    at Array.forEach (<anonymous>)
+2024-03-26 13:28:53:8699 error: No matching bindings found for serviceIdentifier: Symbol(Logger) Error: No matching bindings found for serviceIdentifier: Symbol(Logger)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:113:15)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:91:3)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:160:22)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:194:9
+    at Array.forEach (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:193:20
+    at Array.forEach (<anonymous>)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:164:18)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:194:9
+    at Array.forEach (<anonymous>)
+2024-03-26 13:43:08:2643 error: No matching bindings found for serviceIdentifier: Symbol(Logger) Error: No matching bindings found for serviceIdentifier: Symbol(Logger)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:113:15)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:91:3)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:160:22)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:194:9
+    at Array.forEach (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:193:20
+    at Array.forEach (<anonymous>)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:164:18)
+    at C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\inversify\src\planning\planner.ts:194:9
+    at Array.forEach (<anonymous>)
+2024-03-26 17:29:27:3293 error: no existe la columna __root.id QueryFailedError: no existe la columna __root.id
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-03-26 17:36:50:4945 error: no existe la columna __root.created_at QueryFailedError: no existe la columna __root.created_at
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-03-26 17:39:52:8949 error: no existe la columna __root.name QueryFailedError: no existe la columna __root.name
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)

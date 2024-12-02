@@ -1,0 +1,22 @@
+2024-11-24 22:26:09:4084 error: Ambiguous match found for serviceIdentifier: Symbol(TaskRepository) Error: Ambiguous match found for serviceIdentifier: Symbol(TaskRepository)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:92:23)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:68:5)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:109:26)
+    at C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:133:17
+    at Array.forEach (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:132:26
+    at Array.forEach (<anonymous>)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:112:20)
+    at C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:133:17
+    at Array.forEach (<anonymous>)
+2024-11-24 22:27:02:8208 error: Ambiguous match found for serviceIdentifier: Symbol(TaskRepository) Error: Ambiguous match found for serviceIdentifier: Symbol(TaskRepository)
+    at _validateActiveBindingCount (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:92:23)
+    at _getActiveBindings (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:68:5)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:109:26)
+    at C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:133:17
+    at Array.forEach (<anonymous>)
+    at C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:132:26
+    at Array.forEach (<anonymous>)
+    at _createSubRequests (C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:112:20)
+    at C:\Users\ejecutivo\Desktop\nodejs_avanzado\arquitectura_limpia\node_modules\inversify\lib\planning\planner.js:133:17
+    at Array.forEach (<anonymous>)

@@ -1,0 +1,10 @@
+2024-08-29 21:49:39:2442 info: Database connected successfully! 
+2024-08-29 21:49:40:3313 debug: EmployeeService:constructor 
+2024-08-29 21:52:47:9379 http: [2024-08-30T02:52:47.936Z] ::1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 6.153 ms
+ 
+2024-08-29 21:52:47:9459 http: [2024-08-30T02:52:47.945Z] ::1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 37.201 ms
+ 
+2024-08-29 21:52:47:95110 http: [2024-08-30T02:52:47.951Z] ::1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 33.049 ms
+ 
+2024-08-29 21:52:48:0370 http: [2024-08-30T02:52:48.036Z] ::1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" {} 47.516 ms
+ 

@@ -1,0 +1,25 @@
+{
+  "entryFile": "src/index.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/**/*Controller.ts"],
+  "spec": {
+    "outputDirectory": "./",
+    "securityDefinitions": {
+      "jwt": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header"
+      }
+    },
+    "security": [
+      {
+        "jwt": []
+      }
+    ],
+    "specVersion": 3
+  },
+  "ignore": ["**/node_modules/**"],
+  "routes": {
+    "routesDir": "build"
+  }
+}

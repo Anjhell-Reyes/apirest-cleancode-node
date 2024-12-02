@@ -1,0 +1,28 @@
+2024-05-05 10:41:47:0791 error: no existe la columna __root.centro QueryFailedError: no existe la columna __root.centro
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-05-05 20:55:23:0010 error: no existe la columna __root.created_at QueryFailedError: no existe la columna __root.created_at
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-05-05 20:57:03:2222 error: no existe la columna __root.user QueryFailedError: no existe la columna __root.user
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-05-05 20:59:05:4845 error: no existe la columna __root.program QueryFailedError: no existe la columna __root.program
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)

@@ -1,0 +1,129 @@
+2024-05-03 09:47:13:95110 info: Database connected successfully! 
+2024-05-03 09:47:14:3413 debug: RegionalService:constructor 
+2024-05-03 09:47:14:3644 debug: RoleService:constructor 
+2024-05-03 09:47:14:3944 debug: ZoneService:constructor 
+2024-05-03 09:47:39:4855 http: [2024-05-03T14:47:39.485Z] ::ffff:127.0.0.1 "GET /swagger/favicon-16x16.png HTTP/1.1" - - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} - ms
+ 
+2024-05-03 09:47:53:2703 http: [2024-05-03T14:47:53.269Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 4.997 ms
+ 
+2024-05-03 09:47:53:3183 http: [2024-05-03T14:47:53.318Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 10.090 ms
+ 
+2024-05-03 09:47:53:3233 http: [2024-05-03T14:47:53.323Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 12.833 ms
+ 
+2024-05-03 09:47:53:3263 http: [2024-05-03T14:47:53.325Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 10.786 ms
+ 
+2024-05-03 09:47:53:3333 http: [2024-05-03T14:47:53.332Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 2.634 ms
+ 
+2024-05-03 09:47:53:5125 http: [2024-05-03T14:47:53.511Z] ::ffff:127.0.0.1 "GET /swagger/favicon-16x16.png HTTP/1.1" - - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} - ms
+ 
+2024-05-03 10:44:04:95810 info: Database connected successfully! 
+2024-05-03 10:44:05:2212 debug: RegionalService:constructor 
+2024-05-03 10:44:05:2252 debug: RoleService:constructor 
+2024-05-03 10:44:05:2292 debug: ZoneService:constructor 
+2024-05-03 10:44:12:8148 info: Database connected successfully! 
+2024-05-03 10:44:13:0511 debug: RegionalService:constructor 
+2024-05-03 10:44:13:0551 debug: RoleService:constructor 
+2024-05-03 10:44:13:0611 debug: ZoneService:constructor 
+2024-05-03 11:02:18:5015 info: Database connected successfully! 
+2024-05-03 11:02:18:8138 debug: RegionalService:constructor 
+2024-05-03 11:02:18:8438 debug: RoleService:constructor 
+2024-05-03 11:02:18:8699 debug: ZoneService:constructor 
+2024-05-03 11:02:29:5646 http: [2024-05-03T16:02:29.563Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 9.852 ms
+ 
+2024-05-03 11:02:29:6056 http: [2024-05-03T16:02:29.605Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 6.122 ms
+ 
+2024-05-03 11:02:29:6106 http: [2024-05-03T16:02:29.609Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 9.927 ms
+ 
+2024-05-03 11:02:29:6256 http: [2024-05-03T16:02:29.625Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 11.613 ms
+ 
+2024-05-03 11:02:29:6316 http: [2024-05-03T16:02:29.631Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 6.755 ms
+ 
+2024-05-03 11:02:29:7427 http: [2024-05-03T16:02:29.742Z] ::ffff:127.0.0.1 "GET /swagger/favicon-16x16.png HTTP/1.1" - - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} - ms
+ 
+2024-05-03 11:02:32:2122 http: [2024-05-03T16:02:32.212Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 0.929 ms
+ 
+2024-05-03 11:02:32:2513 http: [2024-05-03T16:02:32.251Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 4.454 ms
+ 
+2024-05-03 11:02:32:2573 http: [2024-05-03T16:02:32.257Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 8.249 ms
+ 
+2024-05-03 11:02:32:2633 http: [2024-05-03T16:02:32.263Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 12.541 ms
+ 
+2024-05-03 11:02:32:2693 http: [2024-05-03T16:02:32.269Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 0.891 ms
+ 
+2024-05-03 11:05:40:0931 debug: Creating data of 'RegionalEntity' 
+2024-05-03 11:05:40:3313 error: llave duplicada viola restricción de unicidad «regional_pkey» QueryFailedError: llave duplicada viola restricción de unicidad «regional_pkey»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\SubjectExecutor.ts:434:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\EntityPersistExecutor.ts:197:21)
+2024-05-03 11:05:40:4214 http: [2024-05-03T16:05:40.420Z] ::ffff:127.0.0.1 "POST /api/v1/regional HTTP/1.1" 500 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {"name":"Choco","zoneCodigo":1} 328.219 ms
+ 
+2024-05-03 11:06:30:1331 debug: Creating data of 'RegionalEntity' 
+2024-05-03 11:06:30:2262 error: llave duplicada viola restricción de unicidad «regional_pkey» QueryFailedError: llave duplicada viola restricción de unicidad «regional_pkey»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\SubjectExecutor.ts:434:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\EntityPersistExecutor.ts:197:21)
+2024-05-03 11:06:30:2312 http: [2024-05-03T16:06:30.231Z] ::ffff:127.0.0.1 "POST /api/v1/regional HTTP/1.1" 500 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {"name":"Choco","zoneCodigo":"1"} 96.515 ms
+ 
+2024-05-03 13:26:20:5856 info: Database connected successfully! 
+2024-05-03 13:26:21:1241 debug: RegionalService:constructor 
+2024-05-03 13:26:21:1632 debug: RoleService:constructor 
+2024-05-03 13:26:21:1932 debug: ZoneService:constructor 
+2024-05-03 13:26:45:4655 http: [2024-05-03T18:26:45.464Z] ::ffff:127.0.0.1 "GET /swagger/favicon-16x16.png HTTP/1.1" - - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} - ms
+ 
+2024-05-03 13:27:23:1782 debug: Creating data of 'RegionalEntity' 
+2024-05-03 13:27:23:4374 error: inserción o actualización en la tabla «regional» viola la llave foránea «regional_ibfk_1» QueryFailedError: inserción o actualización en la tabla «regional» viola la llave foránea «regional_ibfk_1»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\SubjectExecutor.ts:434:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\EntityPersistExecutor.ts:197:21)
+2024-05-03 13:27:23:5746 http: [2024-05-03T18:27:23.573Z] ::ffff:127.0.0.1 "POST /api/v1/regional HTTP/1.1" 500 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {"name":"Choco","zoneCodigo":"3"} 395.086 ms
+ 
+2024-05-03 13:28:15:5315 debug: Creating data of 'RegionalEntity' 
+2024-05-03 13:28:15:6727 http: [2024-05-03T18:28:15.671Z] ::ffff:127.0.0.1 "POST /api/v1/regional HTTP/1.1" 201 116 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {"name":"Choco","zoneCodigo":1} 136.776 ms
+ 
+2024-05-03 13:28:59:3243 http: [2024-05-03T18:28:59.324Z] ::ffff:127.0.0.1 "GET /api/v1/regional HTTP/1.1" 200 536 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 147.954 ms
+ 
+2024-05-03 13:30:48:9329 debug: Creating data of 'RegionalEntity' 
+2024-05-03 13:30:49:0711 error: inserción o actualización en la tabla «regional» viola la llave foránea «regional_ibfk_1» QueryFailedError: inserción o actualización en la tabla «regional» viola la llave foránea «regional_ibfk_1»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\SubjectExecutor.ts:434:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\EntityPersistExecutor.ts:197:21)
+2024-05-03 13:30:49:0781 http: [2024-05-03T18:30:49.078Z] ::ffff:127.0.0.1 "POST /api/v1/regional HTTP/1.1" 500 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {"name":"Atlantico","zoneCodigo":4} 145.273 ms
+ 
+2024-05-03 13:41:55:8729 http: [2024-05-03T18:41:55.872Z] ::ffff:127.0.0.1 "GET /api/v1/regional HTTP/1.1" 200 536 "-" "insomnia/2023.5.8" {} 113.405 ms
+ 
+2024-05-03 13:43:26:95010 debug: Creating data of 'RegionalEntity' 
+2024-05-03 13:43:27:0811 error: inserción o actualización en la tabla «regional» viola la llave foránea «regional_ibfk_1» QueryFailedError: inserción o actualización en la tabla «regional» viola la llave foránea «regional_ibfk_1»
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InsertQueryBuilder.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\InsertQueryBuilder.ts:163:33)
+    at SubjectExecutor.executeInsertOperations (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\SubjectExecutor.ts:434:42)
+    at SubjectExecutor.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\SubjectExecutor.ts:137:9)
+    at EntityPersistExecutor.execute (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\persistence\EntityPersistExecutor.ts:197:21)
+2024-05-03 13:43:27:0901 http: [2024-05-03T18:43:27.090Z] ::ffff:127.0.0.1 "POST /api/v1/regional HTTP/1.1" 500 32 "-" "insomnia/2023.5.8" {"name":"Atlantico","zoneCodigo":4} 139.457 ms
+ 
+2024-05-03 14:27:24:9499 info: Database connected successfully! 
+2024-05-03 14:27:25:3504 debug: RegionalService:constructor 
+2024-05-03 14:27:25:3764 debug: RoleService:constructor 
+2024-05-03 14:27:25:4635 debug: ZoneService:constructor 
+2024-05-03 14:27:33:1742 debug: Attempting to create regional with zone ID: 4 
+2024-05-03 14:27:33:1792 debug: Finding data of 'ZoneEntity' by id: 4 
+2024-05-03 14:27:33:2312 http: [2024-05-03T19:27:33.230Z] ::ffff:127.0.0.1 "POST /api/v1/regional HTTP/1.1" 404 50 "-" "insomnia/2023.5.8" {"name":"Atlantico","zoneCodigo":4} 51.225 ms
+ 
+2024-05-03 14:33:22:1642 http: [2024-05-03T19:33:22.164Z] ::ffff:127.0.0.1 "GET /api/v1/regional HTTP/1.1" 200 536 "-" "insomnia/2023.5.8" {} 118.284 ms
+ 
+2024-05-03 14:33:28:6326 debug: Attempting to create regional with zone ID: 4 
+2024-05-03 14:33:28:6346 debug: Finding data of 'ZoneEntity' by id: 4 
+2024-05-03 14:33:28:6567 http: [2024-05-03T19:33:28.656Z] ::ffff:127.0.0.1 "POST /api/v1/regional HTTP/1.1" 404 50 "-" "insomnia/2023.5.8" {"name":"Atlantico","zoneCodigo":4} 23.129 ms
+ 

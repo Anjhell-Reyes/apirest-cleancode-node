@@ -1,0 +1,257 @@
+2024-05-05 09:28:57:2052 info: Database connected successfully! 
+2024-05-05 09:28:57:6797 debug: CenterService:constructor 
+2024-05-05 09:28:57:7678 debug: RegionalService:constructor 
+2024-05-05 09:28:57:7948 debug: RoleService:constructor 
+2024-05-05 09:28:57:8248 debug: ZoneService:constructor 
+2024-05-05 09:31:25:4905 http: [2024-05-05T14:31:25.489Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 16.311 ms
+ 
+2024-05-05 09:31:25:5596 http: [2024-05-05T14:31:25.558Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 21.777 ms
+ 
+2024-05-05 09:31:25:5706 http: [2024-05-05T14:31:25.570Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 31.731 ms
+ 
+2024-05-05 09:31:25:5766 http: [2024-05-05T14:31:25.575Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 4.426 ms
+ 
+2024-05-05 09:31:25:6046 http: [2024-05-05T14:31:25.604Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 62.054 ms
+ 
+2024-05-05 09:31:25:9269 http: [2024-05-05T14:31:25.926Z] ::ffff:127.0.0.1 "GET /swagger/favicon-16x16.png HTTP/1.1" - - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} - ms
+ 
+2024-05-05 09:31:36:8278 http: [2024-05-05T14:31:36.827Z] ::ffff:127.0.0.1 "GET /api/v1/center HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 171.801 ms
+ 
+2024-05-05 10:36:08:3303 info: Database connected successfully! 
+2024-05-05 10:36:08:6987 debug: CadenaService:constructor 
+2024-05-05 10:36:08:7217 debug: CenterService:constructor 
+2024-05-05 10:36:08:8088 debug: RegionalService:constructor 
+2024-05-05 10:36:08:8438 debug: RoleService:constructor 
+2024-05-05 10:36:08:8649 debug: ZoneService:constructor 
+2024-05-05 10:36:29:8448 http: [2024-05-05T15:36:29.842Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 14.200 ms
+ 
+2024-05-05 10:36:29:9319 http: [2024-05-05T15:36:29.931Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 12.473 ms
+ 
+2024-05-05 10:36:29:9379 http: [2024-05-05T15:36:29.937Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 14.364 ms
+ 
+2024-05-05 10:36:29:9429 http: [2024-05-05T15:36:29.942Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 16.814 ms
+ 
+2024-05-05 10:36:29:97910 http: [2024-05-05T15:36:29.978Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 5.859 ms
+ 
+2024-05-05 10:36:44:5976 http: [2024-05-05T15:36:44.597Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 3.337 ms
+ 
+2024-05-05 10:36:44:6587 http: [2024-05-05T15:36:44.658Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 2.157 ms
+ 
+2024-05-05 10:36:44:7037 http: [2024-05-05T15:36:44.703Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 19.473 ms
+ 
+2024-05-05 10:36:44:7307 http: [2024-05-05T15:36:44.729Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 32.839 ms
+ 
+2024-05-05 10:36:44:97510 http: [2024-05-05T15:36:44.975Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 18.178 ms
+ 
+2024-05-05 10:41:34:1552 info: Database connected successfully! 
+2024-05-05 10:41:34:4645 debug: CadenaService:constructor 
+2024-05-05 10:41:34:4845 debug: CenterService:constructor 
+2024-05-05 10:41:34:5556 debug: RegionalService:constructor 
+2024-05-05 10:41:34:6086 debug: RoleService:constructor 
+2024-05-05 10:41:34:7057 debug: ZoneService:constructor 
+2024-05-05 10:41:41:8138 http: [2024-05-05T15:41:41.812Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 11.962 ms
+ 
+2024-05-05 10:41:41:8789 http: [2024-05-05T15:41:41.878Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 19.169 ms
+ 
+2024-05-05 10:41:41:8929 http: [2024-05-05T15:41:41.891Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 25.953 ms
+ 
+2024-05-05 10:41:41:9099 http: [2024-05-05T15:41:41.909Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 9.621 ms
+ 
+2024-05-05 10:41:41:9199 http: [2024-05-05T15:41:41.919Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 6.802 ms
+ 
+2024-05-05 10:41:47:0791 error: no existe la columna __root.centro QueryFailedError: no existe la columna __root.centro
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-05-05 10:41:47:2593 http: [2024-05-05T15:41:47.258Z] ::ffff:127.0.0.1 "GET /api/v1/cadena HTTP/1.1" 500 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 362.484 ms
+ 
+2024-05-05 10:44:40:8198 info: Database connected successfully! 
+2024-05-05 10:44:41:1532 debug: CadenaService:constructor 
+2024-05-05 10:44:41:1582 debug: CenterService:constructor 
+2024-05-05 10:44:41:1702 debug: RegionalService:constructor 
+2024-05-05 10:44:41:1772 debug: RoleService:constructor 
+2024-05-05 10:44:41:1832 debug: ZoneService:constructor 
+2024-05-05 10:44:50:3093 http: [2024-05-05T15:44:50.307Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 8.238 ms
+ 
+2024-05-05 10:44:50:3614 http: [2024-05-05T15:44:50.361Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 2.288 ms
+ 
+2024-05-05 10:44:50:3684 http: [2024-05-05T15:44:50.368Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 17.748 ms
+ 
+2024-05-05 10:44:50:3804 http: [2024-05-05T15:44:50.380Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 23.520 ms
+ 
+2024-05-05 10:44:50:3944 http: [2024-05-05T15:44:50.393Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 2.951 ms
+ 
+2024-05-05 10:44:55:8198 http: [2024-05-05T15:44:55.819Z] ::ffff:127.0.0.1 "GET /api/v1/cadena HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 178.366 ms
+ 
+2024-05-05 11:46:18:9299 info: Database connected successfully! 
+2024-05-05 11:46:19:2182 debug: AreaService:constructor 
+2024-05-05 11:46:19:2462 debug: CadenaService:constructor 
+2024-05-05 11:46:19:2653 debug: CenterService:constructor 
+2024-05-05 11:46:19:3594 debug: RegionalService:constructor 
+2024-05-05 11:46:19:3834 debug: RoleService:constructor 
+2024-05-05 11:46:19:4134 debug: ZoneService:constructor 
+2024-05-05 11:46:34:98810 http: [2024-05-05T16:46:34.987Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 8.675 ms
+ 
+2024-05-05 11:46:35:0330 http: [2024-05-05T16:46:35.033Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 11.067 ms
+ 
+2024-05-05 11:46:35:0360 http: [2024-05-05T16:46:35.036Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 6.558 ms
+ 
+2024-05-05 11:46:35:0531 http: [2024-05-05T16:46:35.053Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 10.791 ms
+ 
+2024-05-05 11:46:35:0631 http: [2024-05-05T16:46:35.063Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 4.677 ms
+ 
+2024-05-05 11:46:36:8579 http: [2024-05-05T16:46:36.856Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 1.018 ms
+ 
+2024-05-05 11:46:36:9039 http: [2024-05-05T16:46:36.903Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 1.098 ms
+ 
+2024-05-05 11:46:36:9089 http: [2024-05-05T16:46:36.907Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 14.766 ms
+ 
+2024-05-05 11:46:36:9169 http: [2024-05-05T16:46:36.916Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 14.811 ms
+ 
+2024-05-05 11:46:36:9199 http: [2024-05-05T16:46:36.919Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 12.330 ms
+ 
+2024-05-05 11:46:41:9159 http: [2024-05-05T16:46:41.914Z] ::ffff:127.0.0.1 "GET /api/v1/area HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 94.003 ms
+ 
+2024-05-05 12:40:34:1191 info: Database connected successfully! 
+2024-05-05 12:40:34:3654 debug: AreaService:constructor 
+2024-05-05 12:40:34:3944 debug: CadenaService:constructor 
+2024-05-05 12:40:34:4164 debug: CenterService:constructor 
+2024-05-05 12:40:34:4755 debug: RegionalService:constructor 
+2024-05-05 12:40:34:4965 debug: RoleService:constructor 
+2024-05-05 12:40:34:5155 debug: TrainingEnvironmentService:constructor 
+2024-05-05 12:40:34:5335 debug: ZoneService:constructor 
+2024-05-05 12:40:46:3303 http: [2024-05-05T17:40:46.330Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 5.660 ms
+ 
+2024-05-05 12:40:46:3804 http: [2024-05-05T17:40:46.380Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 8.815 ms
+ 
+2024-05-05 12:40:46:3854 http: [2024-05-05T17:40:46.385Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 9.877 ms
+ 
+2024-05-05 12:40:46:3884 http: [2024-05-05T17:40:46.388Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 11.329 ms
+ 
+2024-05-05 12:40:46:4294 http: [2024-05-05T17:40:46.429Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 8.124 ms
+ 
+2024-05-05 12:40:58:0130 http: [2024-05-05T17:40:58.013Z] ::ffff:127.0.0.1 "GET /api/v1/training-environment HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 96.106 ms
+ 
+2024-05-05 20:55:02:8549 info: Database connected successfully! 
+2024-05-05 20:55:03:3564 debug: AreaService:constructor 
+2024-05-05 20:55:03:3784 debug: CadenaService:constructor 
+2024-05-05 20:55:03:4004 debug: CenterService:constructor 
+2024-05-05 20:55:03:4114 debug: FichaService:constructor 
+2024-05-05 20:55:03:5005 debug: ProgramService:constructor 
+2024-05-05 20:55:03:5165 debug: RegionalService:constructor 
+2024-05-05 20:55:03:5385 debug: RoleService:constructor 
+2024-05-05 20:55:03:5586 debug: TrainingEnvironmentService:constructor 
+2024-05-05 20:55:03:5746 debug: UserService:constructor 
+2024-05-05 20:55:03:5906 debug: ZoneService:constructor 
+2024-05-05 20:55:12:6156 http: [2024-05-06T01:55:12.614Z] ::ffff:127.0.0.1 "GET /swagger/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 6.050 ms
+ 
+2024-05-05 20:55:12:6496 http: [2024-05-06T01:55:12.649Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 4.689 ms
+ 
+2024-05-05 20:55:12:6577 http: [2024-05-06T01:55:12.657Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 2.959 ms
+ 
+2024-05-05 20:55:12:6787 http: [2024-05-06T01:55:12.678Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 15.473 ms
+ 
+2024-05-05 20:55:12:6917 http: [2024-05-06T01:55:12.691Z] ::ffff:127.0.0.1 "GET /swagger/swagger-ui-init.js HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 9.078 ms
+ 
+2024-05-05 20:55:23:0010 error: no existe la columna __root.created_at QueryFailedError: no existe la columna __root.created_at
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-05-05 20:55:23:1141 http: [2024-05-06T01:55:23.113Z] ::ffff:127.0.0.1 "GET /api/v1/ficha HTTP/1.1" 500 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 212.617 ms
+ 
+2024-05-05 20:57:03:2222 error: no existe la columna __root.user QueryFailedError: no existe la columna __root.user
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-05-05 20:57:03:2262 http: [2024-05-06T01:57:03.226Z] ::ffff:127.0.0.1 "GET /api/v1/ficha HTTP/1.1" 500 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 91.979 ms
+ 
+2024-05-05 20:58:38:2222 info: Database connected successfully! 
+2024-05-05 20:58:38:4404 debug: AreaService:constructor 
+2024-05-05 20:58:38:4474 debug: CadenaService:constructor 
+2024-05-05 20:58:38:4535 debug: CenterService:constructor 
+2024-05-05 20:58:38:4585 debug: FichaService:constructor 
+2024-05-05 20:58:38:4675 debug: ProgramService:constructor 
+2024-05-05 20:58:38:4715 debug: RegionalService:constructor 
+2024-05-05 20:58:38:4755 debug: RoleService:constructor 
+2024-05-05 20:58:38:4815 debug: TrainingEnvironmentService:constructor 
+2024-05-05 20:58:38:4845 debug: UserService:constructor 
+2024-05-05 20:58:38:4885 debug: ZoneService:constructor 
+2024-05-05 20:58:45:5145 info: Database connected successfully! 
+2024-05-05 20:58:46:0200 debug: AreaService:constructor 
+2024-05-05 20:58:46:0380 debug: CadenaService:constructor 
+2024-05-05 20:58:46:0440 debug: CenterService:constructor 
+2024-05-05 20:58:46:0871 debug: FichaService:constructor 
+2024-05-05 20:58:46:1101 debug: ProgramService:constructor 
+2024-05-05 20:58:46:1191 debug: RegionalService:constructor 
+2024-05-05 20:58:46:1341 debug: RoleService:constructor 
+2024-05-05 20:58:46:1502 debug: TrainingEnvironmentService:constructor 
+2024-05-05 20:58:46:1552 debug: UserService:constructor 
+2024-05-05 20:58:46:1712 debug: ZoneService:constructor 
+2024-05-05 20:58:55:5115 info: Database connected successfully! 
+2024-05-05 20:58:55:7497 debug: AreaService:constructor 
+2024-05-05 20:58:55:7548 debug: CadenaService:constructor 
+2024-05-05 20:58:55:7588 debug: CenterService:constructor 
+2024-05-05 20:58:55:7638 debug: FichaService:constructor 
+2024-05-05 20:58:55:7728 debug: ProgramService:constructor 
+2024-05-05 20:58:55:7768 debug: RegionalService:constructor 
+2024-05-05 20:58:55:7808 debug: RoleService:constructor 
+2024-05-05 20:58:55:7858 debug: TrainingEnvironmentService:constructor 
+2024-05-05 20:58:55:7908 debug: UserService:constructor 
+2024-05-05 20:58:55:7948 debug: ZoneService:constructor 
+2024-05-05 20:59:05:4845 error: no existe la columna __root.program QueryFailedError: no existe la columna __root.program
+    at PostgresQueryRunner.query (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\driver\postgres\PostgresQueryRunner.ts:299:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SelectQueryBuilder.loadRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3782:25)
+    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:3537:26)
+    at SelectQueryBuilder.getManyAndCount (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\src\query-builder\SelectQueryBuilder.ts:1872:36)
+    at paginate (C:\Users\ejecutivo\Desktop\sigti_project\BackProgramming\node_modules\nestjs-paginate\src\paginate.ts:263:32)
+2024-05-05 20:59:05:5806 http: [2024-05-06T01:59:05.580Z] ::ffff:127.0.0.1 "GET /api/v1/ficha HTTP/1.1" 500 32 "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 122.120 ms
+ 
+2024-05-05 20:59:50:1001 info: Database connected successfully! 
+2024-05-05 20:59:50:6116 debug: AreaService:constructor 
+2024-05-05 20:59:50:6196 debug: CadenaService:constructor 
+2024-05-05 20:59:50:6266 debug: CenterService:constructor 
+2024-05-05 20:59:50:6386 debug: FichaService:constructor 
+2024-05-05 20:59:50:6687 debug: ProgramService:constructor 
+2024-05-05 20:59:50:6757 debug: RegionalService:constructor 
+2024-05-05 20:59:50:6797 debug: RoleService:constructor 
+2024-05-05 20:59:50:6847 debug: TrainingEnvironmentService:constructor 
+2024-05-05 20:59:50:6917 debug: UserService:constructor 
+2024-05-05 20:59:50:6957 debug: ZoneService:constructor 
+2024-05-05 20:59:56:2863 info: Database connected successfully! 
+2024-05-05 20:59:56:5325 debug: AreaService:constructor 
+2024-05-05 20:59:56:5365 debug: CadenaService:constructor 
+2024-05-05 20:59:56:5395 debug: CenterService:constructor 
+2024-05-05 20:59:56:5445 debug: FichaService:constructor 
+2024-05-05 20:59:56:5526 debug: ProgramService:constructor 
+2024-05-05 20:59:56:5566 debug: RegionalService:constructor 
+2024-05-05 20:59:56:5606 debug: RoleService:constructor 
+2024-05-05 20:59:56:5666 debug: TrainingEnvironmentService:constructor 
+2024-05-05 20:59:56:5696 debug: UserService:constructor 
+2024-05-05 20:59:56:5726 debug: ZoneService:constructor 
+2024-05-05 21:00:04:4284 info: Database connected successfully! 
+2024-05-05 21:00:04:6717 debug: AreaService:constructor 
+2024-05-05 21:00:04:6777 debug: CadenaService:constructor 
+2024-05-05 21:00:04:6817 debug: CenterService:constructor 
+2024-05-05 21:00:04:6847 debug: FichaService:constructor 
+2024-05-05 21:00:04:6977 debug: ProgramService:constructor 
+2024-05-05 21:00:04:7007 debug: RegionalService:constructor 
+2024-05-05 21:00:04:7047 debug: RoleService:constructor 
+2024-05-05 21:00:04:7087 debug: TrainingEnvironmentService:constructor 
+2024-05-05 21:00:04:7137 debug: UserService:constructor 
+2024-05-05 21:00:04:7167 debug: ZoneService:constructor 
+2024-05-05 21:00:10:0130 http: [2024-05-06T02:00:10.012Z] ::ffff:127.0.0.1 "GET /api/v1/ficha HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 43.203 ms
+ 
+2024-05-05 21:00:30:6276 http: [2024-05-06T02:00:30.627Z] ::ffff:127.0.0.1 "GET /api/v1/program HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 78.255 ms
+ 
+2024-05-05 21:00:46:5526 http: [2024-05-06T02:00:46.552Z] ::ffff:127.0.0.1 "GET /api/v1/user HTTP/1.1" 200 - "http://localhost:3401/swagger/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" {} 87.792 ms
+ 

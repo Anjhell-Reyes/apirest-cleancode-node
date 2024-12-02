@@ -1,0 +1,54 @@
+2024-07-31 20:38:17:2132 info: Database connected successfully! 
+2024-07-31 20:38:17:6637 debug: Registering route for /api/v1 from v1\authRouter 
+2024-07-31 20:38:17:6657 debug: Registering route for /api/v1 from v1\employeeRouter 
+2024-07-31 20:38:17:7317 debug: EmployeeService:constructor 
+2024-07-31 20:38:17:7337 debug: Registering route for /api/v1 from v1\healthRouter 
+2024-07-31 20:38:17:8078 debug: Registering route for /api/v1 from v1\logRouter 
+2024-07-31 20:38:17:8248 debug: LogService:constructor 
+2024-07-31 20:38:17:8498 debug: Registering route for /api/v1 from v1\userRouter 
+2024-07-31 20:38:17:9469 debug: UserService:constructor 
+2024-07-31 21:12:37:3784 info: Database connected successfully! 
+2024-07-31 21:12:37:7608 debug: Registering route for /api/v1 from v1\authRouter 
+2024-07-31 21:12:37:7628 debug: Registering route for /api/v1 from v1\employeeRouter 
+2024-07-31 21:12:37:7728 debug: EmployeeService:constructor 
+2024-07-31 21:12:37:7768 debug: Registering route for /api/v1 from v1\healthRouter 
+2024-07-31 21:12:37:7858 debug: Registering route for /api/v1 from v1\logRouter 
+2024-07-31 21:12:37:7938 debug: LogService:constructor 
+2024-07-31 21:12:37:7968 debug: Registering route for /api/v1 from v1\userRouter 
+2024-07-31 21:12:37:8038 debug: UserService:constructor 
+2024-07-31 21:16:37:1481 info: Database connected successfully! 
+2024-07-31 21:16:37:4985 debug: Registering route for /api/v1 from v1\authRouter 
+2024-07-31 21:16:37:5015 debug: Registering route for /api/v1 from v1\employeeRouter 
+2024-07-31 21:16:37:5105 debug: EmployeeService:constructor 
+2024-07-31 21:16:37:5145 debug: Registering route for /api/v1 from v1\healthRouter 
+2024-07-31 21:16:37:5225 debug: Registering route for /api/v1 from v1\logRouter 
+2024-07-31 21:16:37:5295 debug: LogService:constructor 
+2024-07-31 21:16:37:5315 debug: Registering route for /api/v1 from v1\userRouter 
+2024-07-31 21:16:37:5355 debug: UserService:constructor 
+2024-07-31 21:24:17:0661 info: Database connected successfully! 
+2024-07-31 21:24:17:4134 debug: Registering route for /api/v1 from v1\authRouter 
+2024-07-31 21:24:17:4154 debug: Registering route for /api/v1 from v1\employeeRouter 
+2024-07-31 21:24:17:4244 debug: EmployeeService:constructor 
+2024-07-31 21:24:17:4274 debug: Registering route for /api/v1 from v1\healthRouter 
+2024-07-31 21:24:17:4354 debug: Registering route for /api/v1 from v1\logRouter 
+2024-07-31 21:24:17:4444 debug: LogService:constructor 
+2024-07-31 21:24:17:4464 debug: Registering route for /api/v1 from v1\userRouter 
+2024-07-31 21:24:17:4545 debug: UserService:constructor 
+2024-07-31 21:24:37:6827 info: Database connected successfully! 
+2024-07-31 21:24:38:0040 debug: Registering route for /api/v1 from v1\authRouter 
+2024-07-31 21:24:38:0070 debug: Registering route for /api/v1 from v1\employeeRouter 
+2024-07-31 21:24:38:0170 debug: EmployeeService:constructor 
+2024-07-31 21:24:38:0220 debug: Registering route for /api/v1 from v1\healthRouter 
+2024-07-31 21:24:38:0420 debug: Registering route for /api/v1 from v1\logRouter 
+2024-07-31 21:24:38:0490 debug: LogService:constructor 
+2024-07-31 21:24:38:0541 debug: Registering route for /api/v1 from v1\userRouter 
+2024-07-31 21:24:38:0601 debug: UserService:constructor 
+2024-07-31 21:25:32:9409 info: Database connected successfully! 
+2024-07-31 21:25:33:2513 debug: Registering route for /api/v1 from v1\authRouter 
+2024-07-31 21:25:33:2533 debug: Registering route for /api/v1 from v1\employeeRouter 
+2024-07-31 21:25:33:2613 debug: EmployeeService:constructor 
+2024-07-31 21:25:33:2653 debug: Registering route for /api/v1 from v1\healthRouter 
+2024-07-31 21:25:33:2753 debug: Registering route for /api/v1 from v1\logRouter 
+2024-07-31 21:25:33:2813 debug: LogService:constructor 
+2024-07-31 21:25:33:2843 debug: Registering route for /api/v1 from v1\userRouter 
+2024-07-31 21:25:33:2923 debug: UserService:constructor 

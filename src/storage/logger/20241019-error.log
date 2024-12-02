@@ -1,0 +1,44 @@
+2024-10-19 19:49:49:95710 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:260:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-10-19 19:50:04:1652 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:260:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-10-19 19:50:05:3053 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:260:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-10-19 19:50:06:1812 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:260:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-10-19 20:04:12:7828 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:234:7)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:18:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-19 20:06:23:6476 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:234:7)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:18:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-19 20:19:01:98910 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:239:7)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:18:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-19 20:20:15:8268 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:239:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
+2024-10-19 20:23:35:2112 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:239:7)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:18:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-19 20:48:40:1371 error: res is not a function TypeError: res is not a function
+    at EmployeeController.<anonymous> (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:247:7)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ejecutivo\Desktop\mina_project\BackMina\src\app\controllers\employeeController.ts:17:58)
